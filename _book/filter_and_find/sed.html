@@ -1,0 +1,614 @@
+
+<!DOCTYPE HTML>
+<html lang="" >
+    <head>
+        <meta charset="UTF-8">
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <title>sed · Shell 脚本学习笔记</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="description" content="">
+        <meta name="generator" content="GitBook 3.2.3">
+        <meta name="author" content="Jalan Jiang <jjy@meitu.com>">
+        
+        
+    
+    <link rel="stylesheet" href="../gitbook/style.css">
+
+    
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-disqus/plugin.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-highlight/website.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-search/search.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-fontsettings/website.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-theme-comscore/test.css">
+                
+            
+        
+
+    
+
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+
+        
+    
+    
+    <meta name="HandheldFriendly" content="true"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="../gitbook/images/apple-touch-icon-precomposed-152.png">
+    <link rel="shortcut icon" href="../gitbook/images/favicon.ico" type="image/x-icon">
+
+    
+    <link rel="next" href="awk.html" />
+    
+    
+    <link rel="prev" href="cut.html" />
+    
+
+    </head>
+    <body>
+        
+<div class="book">
+    <div class="book-summary">
+        
+            
+<div id="book-search-input" role="search">
+    <input type="text" placeholder="Type to search" />
+</div>
+
+            
+                <nav role="navigation">
+                
+
+
+<ul class="summary">
+    
+    
+    
+        
+        <li>
+            <a href="http://jalan.space" target="_blank" class="custom-link">我的博客</a>
+        </li>
+    
+    
+
+    
+    <li class="divider"></li>
+    
+
+    
+        
+        
+    
+        <li class="chapter " data-level="1.1" data-path="../">
+            
+                <a href="../">
+            
+                    
+                        <b>1.1.</b>
+                    
+                    简介
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2" data-path="../chapter1/file_and_dir.html">
+            
+                <a href="../chapter1/file_and_dir.html">
+            
+                    
+                        <b>1.2.</b>
+                    
+                    文件目录
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3" >
+            
+                <span>
+            
+                    
+                        <b>1.3.</b>
+                    
+                    过滤查询
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.3.1" data-path="grep.html">
+            
+                <a href="grep.html">
+            
+                    
+                        <b>1.3.1.</b>
+                    
+                    grep
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.2" data-path="cut.html">
+            
+                <a href="cut.html">
+            
+                    
+                        <b>1.3.2.</b>
+                    
+                    cut
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter active" data-level="1.3.3" data-path="sed.html">
+            
+                <a href="sed.html">
+            
+                    
+                        <b>1.3.3.</b>
+                    
+                    sed
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.4" data-path="awk.html">
+            
+                <a href="awk.html">
+            
+                    
+                        <b>1.3.4.</b>
+                    
+                    awk
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.5" data-path="exercise.html">
+            
+                <a href="exercise.html">
+            
+                    
+                        <b>1.3.5.</b>
+                    
+                    小试牛刀
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.3.5.1" data-path="exercise/word_freq.html">
+            
+                <a href="exercise/word_freq.html">
+            
+                    
+                        <b>1.3.5.1.</b>
+                    
+                    统计特定文件中的词频
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4" >
+            
+                <span>
+            
+                    
+                        <b>1.4.</b>
+                    
+                    无网不利
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.4.1" data-path="../internet/ifconfig.html">
+            
+                <a href="../internet/ifconfig.html">
+            
+                    
+                        <b>1.4.1.</b>
+                    
+                    ifconfig
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.2" data-path="../internet/host.html">
+            
+                <a href="../internet/host.html">
+            
+                    
+                        <b>1.4.2.</b>
+                    
+                    host
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.3" data-path="../internet/nslookup.html">
+            
+                <a href="../internet/nslookup.html">
+            
+                    
+                        <b>1.4.3.</b>
+                    
+                    nslookup
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.4" data-path="../internet/route.html">
+            
+                <a href="../internet/route.html">
+            
+                    
+                        <b>1.4.4.</b>
+                    
+                    route
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.5" data-path="../internet/ping.html">
+            
+                <a href="../internet/ping.html">
+            
+                    
+                        <b>1.4.5.</b>
+                    
+                    ping
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+    
+
+    <li class="divider"></li>
+
+    <li>
+        <a href="https://www.gitbook.com" target="blank" class="gitbook-link">
+            Published with GitBook
+        </a>
+    </li>
+</ul>
+
+
+                </nav>
+            
+        
+    </div>
+
+    <div class="book-body">
+        
+            <div class="body-inner">
+                
+                    
+
+<div class="book-header" role="navigation">
+    
+
+    <!-- Title -->
+    <h1>
+        <i class="fa fa-circle-o-notch fa-spin"></i>
+        <a href=".." >sed</a>
+    </h1>
+</div>
+
+
+
+
+                    <div class="page-wrapper" tabindex="-1" role="main">
+                        <div class="page-inner">
+                            
+<div id="book-search-results">
+    <div class="search-noresults">
+    
+                                <section class="normal markdown-section">
+                                
+                                <h1 id="&#x7528;-sed-&#x8FDB;&#x884C;&#x6587;&#x672C;&#x66FF;&#x6362;">&#x7528; sed &#x8FDB;&#x884C;&#x6587;&#x672C;&#x66FF;&#x6362;</h1>
+<pre><code> sed [ -n ] &apos;editing command&apos; [ file ... ]
+ sed [ -n ] -e &apos;editing command&apos; ... [ file ... ]
+ sed [ -n ] -f script-file ... [ file ... ]
+</code></pre><p>&#x57FA;&#x672C;&#x8BED;&#x6CD5;&#xFF1A;</p>
+<pre><code>sed [-nefri] &#x2018;command&#x2019; &#x8F93;&#x5165;&#x6587;&#x672C;
+</code></pre><h2 id="&#x4F7F;&#x7528;&#x573A;&#x666F;">&#x4F7F;&#x7528;&#x573A;&#x666F;</h2>
+<p>&#x6267;&#x884C;&#x6587;&#x672C;&#x66FF;&#x6362;&#x7A0B;&#x5E8F;&#x662F; <code>sed</code>&#x2014;&#x2014;&#x6D41;&#x7F16;&#x8F91;&#x5668;&#xFF08;<code>Stream Editor</code>&#xFF09;&#xFF0C;&#x5B83;&#x4EE5;&#x6279;&#x5904;&#x7406;&#x7684;&#x65B9;&#x5F0F;&#x6765;&#x7F16;&#x8F91;&#x6587;&#x4EF6;&#x3002;</p>
+<p>&#x867D;&#x7136;<code>sed</code>&#x7684;&#x547D;&#x4EE4;&#x5F88;&#x591A;&#xFF0C;&#x80FD;&#x505A;&#x8BB8;&#x591A;&#x590D;&#x6742;&#x7684;&#x5DE5;&#x4F5C;&#xFF0C;&#x4F46;&#x5B83;&#x6700;&#x5E38;&#x7528;&#x7684;&#x8FD8;&#x662F;&#x5904;&#x7406;&#x8F93;&#x5165;&#x6D41;&#x7684;&#x6587;&#x672C;&#x66FF;&#x6362;&#xFF0C;&#x901A;&#x5E38;&#x662F;&#x4F5C;&#x4E3A;&#x7BA1;&#x9053;&#x7684;&#x4E00;&#x90E8;&#x5206;&#x3002;</p>
+<h2 id="&#x9009;&#x9879;&#x4E0E;&#x53C2;&#x6570;">&#x9009;&#x9879;&#x4E0E;&#x53C2;&#x6570;</h2>
+<table>
+<thead>
+<tr>
+<th>&#x9009;&#x9879;&#x53C2;&#x6570;</th>
+<th>&#x8BF4;&#x660E;</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>-n</td>
+<td>&#x4F7F;&#x7528;&#x5B89;&#x9759;&#xFF08;silent&#xFF09;&#x6A21;&#x5F0F;&#x3002;&#x5728;&#x4E00;&#x822C;sed&#x7684;&#x7528;&#x6CD5;&#x4E2D;&#xFF0C;&#x6240;&#x6709;&#x6765;&#x81EA;stdin&#x7684;&#x8D44;&#x6599;&#x4E00;&#x822C;&#x90FD;&#x4F1A;&#x88AB;&#x5217;&#x51FA;&#x5230;&#x5C4F;&#x5E55;&#xFF0C;&#x4F46;&#x5982;&#x679C;&#x52A0;&#x4E0A;-n&#x53C2;&#x6570;&#x540E;&#xFF0C;&#x5219;&#x53EA;&#x6709;&#x7ECF;&#x8FC7;sed&#x7279;&#x6B8A;&#x5904;&#x7406;&#x7684;&#x90A3;&#x4E00;&#x884C;&#xFF08;&#x6216;&#x8005;command&#xFF09;&#x624D;&#x4F1A;&#x88AB;&#x5217;&#x51FA;&#x6765;&#x3002;(&#x5373;&#x53EA;&#x6253;&#x5370;&#x5339;&#x914D;&#x884C;)</td>
+</tr>
+<tr>
+<td>-e</td>
+<td>&#x5141;&#x8BB8;&#x591A;&#x70B9;&#x7F16;&#x8F91;</td>
+</tr>
+<tr>
+<td>-f</td>
+<td>&#x76F4;&#x63A5;&#x5C06;sed&#x7684;&#x52A8;&#x4F5C;&#x5199;&#x5728;&#x4E00;&#x4E2A;&#x6863;&#x6848;&#x5185;&#xFF0C;-f filename &#x5219;&#x53EF;&#x4EE5;&#x6267;&#x884C;filename&#x5185;&#x7684;sed&#x52A8;&#x4F5C;</td>
+</tr>
+<tr>
+<td>-r</td>
+<td>sed &#x7684;&#x52A8;&#x4F5C;&#x652F;&#x63F4;&#x7684;&#x662F;&#x5EF6;&#x4F38;&#x578B;&#x6B63;&#x89C4;&#x8868;&#x793A;&#x6CD5;&#x7684;&#x8BED;&#x6CD5;&#x3002;(&#x9884;&#x8BBE;&#x662F;&#x57FA;&#x7840;&#x6B63;&#x89C4;&#x8868;&#x793A;&#x6CD5;&#x8BED;&#x6CD5;)</td>
+</tr>
+<tr>
+<td>-i</td>
+<td>&#x76F4;&#x63A5;&#x4FEE;&#x6539;&#x8BFB;&#x53D6;&#x7684;&#x6863;&#x6848;&#x5185;&#x5BB9;&#xFF0C;&#x800C;&#x4E0D;&#x662F;&#x7531;&#x5C4F;&#x5E55;&#x8F93;&#x51FA;</td>
+</tr>
+</tbody>
+</table>
+<h2 id="&#x4E3E;&#x4E2A;&#x6817;&#x5B50;">&#x4E3E;&#x4E2A;&#x6817;&#x5B50;</h2>
+<h3 id="&#x66FF;&#x6362;&#x64CD;&#x4F5C;">&#x66FF;&#x6362;&#x64CD;&#x4F5C;</h3>
+<p>&#x5728;<code>sed</code>&#x4E2D;&#x4F7F;&#x7528;<code>s</code>&#x547D;&#x4EE4;&#x8FDB;&#x884C;&#x66FF;&#x6362;&#x64CD;&#x4F5C;&#x3002;</p>
+<h4 id="&#x57FA;&#x672C;&#x7528;&#x6CD5;">&#x57FA;&#x672C;&#x7528;&#x6CD5;</h4>
+<pre><code class="lang-powershell"><span class="hljs-comment"># &#x5220;&#x9664;&#x7B2C;&#x4E00;&#x4E2A;&#x5192;&#x53F7;&#x4E4B;&#x540E;&#x7684;&#x6240;&#x6709;&#x5B57;&#x7B26;&#xFF08;&#x7528;&#x7A7A;&#x767D;&#x7B26;&#x66FF;&#x6362;&#x5192;&#x53F7;&#xFF09;</span>
+<span class="hljs-comment"># &#x6392;&#x5E8F;&#x5217;&#x8868;&#x5E76;&#x5220;&#x9664;&#x91CD;&#x590D;&#x90E8;&#x5206;</span>
+sed <span class="hljs-string">&apos;s/:.*//&apos;</span><span class="hljs-string">&apos; /etc/passwd | sort -u
+</span></code></pre>
+<p>&#x5728;&#x8FD9;&#x91CC;&#xFF0C;<code>/</code>&#x5B57;&#x7B26;&#x626E;&#x6F14;&#x5B9A;&#x754C;&#x7B26;&#xFF08;<code>delimiter</code>&#xFF09;&#x7684;&#x89D2;&#x8272;&#xFF0C;&#x4ECE;&#x800C;&#x5206;&#x9694;&#x6B63;&#x5219;&#x8868;&#x8FBE;&#x5F0F;&#x4E0E;&#x66FF;&#x4EE3;&#x6587;&#x672C;&#xFF08;<code>replacement text</code>&#xFF09;&#xFF0C;&#x4EE5;&#x53CA;&#x53EF;&#x9009;&#x7528;&#x7684;&#x6807;&#x5FD7;&#x3002;</p>
+<p>&#x9664;&#x4E86;&#x659C;&#x6746;&#x4EE5;&#x5916;&#x8FD8;&#x53EF;&#x4EE5;&#x4F7F;&#x7528;&#x5176;&#x4ED6;&#x4EFB;&#x610F;&#x5B57;&#x7B26;&#x4F5C;&#x4E3A;&#x5B9A;&#x754C;&#x7B26;&#x3002;</p>
+<h4 id="&#x5168;&#x5C40;&#x66FF;&#x6362;&#x2014;&#x2014;g">&#x5168;&#x5C40;&#x66FF;&#x6362;&#x2014;&#x2014;/g</h4>
+<p>&#x5728;<code>s</code>&#x547D;&#x4EE4;&#x91CC;&#x4EE5;<code>g</code>&#x7ED3;&#x5C3E;&#x8868;&#x793A;&#x5168;&#x5C40;&#x6027;&#xFF08;<code>global</code>&#xFF09;&#xFF0C;&#x5373;&#x66FF;&#x4EE3;&#x6587;&#x672C;&#x53D6;&#x4EE3;&#x6B63;&#x5219;&#x8868;&#x8FBE;&#x5F0F;&#x4E2D;&#x6BCF;&#x4E00;&#x4E2A;&#x5339;&#x914D;&#x3002;&#x5982;&#x679C;&#x4E0D;&#x8BBE;&#x7F6E;<code>g</code>&#xFF0C;&#x53EA;&#x4F1A;&#x53D6;&#x4EE3;&#x7B2C;&#x4E00;&#x4E2A;&#x5339;&#x914D;&#x3002;</p>
+<pre><code class="lang-powershell"><span class="hljs-comment"># &#x8F93;&#x5165;&#x6837;&#x672C;</span>
+echo Tolstoy reads well. Tolstoy writes well. &gt; example.txt
+<span class="hljs-comment"># &#x6CA1;&#x6709;&#x8BBE;&#x7F6E;g</span>
+sed <span class="hljs-string">&apos;s/Tolstoy/Camus/&apos;</span> &lt; example.txt
+<span class="hljs-comment"># &#x8F93;&#x51FA;&#x6570;&#x636E;&#x4E3A;&#xFF1A;Camus reads well. Tolstoy writes well.</span>
+
+<span class="hljs-comment"># &#x8BBE;&#x7F6E;&#x4E86;g</span>
+sed <span class="hljs-string">&apos;s/Tolstoy/Camus/g&apos;</span> &lt; example.txt
+<span class="hljs-comment"># &#x8F93;&#x51FA;&#x6570;&#x636E;&#xFF1A;Camus reads well. Camus writes well.</span>
+</code></pre>
+<h4 id="&#x6307;&#x5B9A;&#x66FF;&#x4EE3;&#x7B2C;n&#x4E2A;&#x5339;&#x914D;">&#x6307;&#x5B9A;&#x66FF;&#x4EE3;&#x7B2C;n&#x4E2A;&#x5339;&#x914D;</h4>
+<p>&#x5728;&#x7ED3;&#x5C3E;&#x6307;&#x5B9A;&#x6570;&#x5B57;&#xFF0C;&#x6307;&#x793A;&#x7B2C;<code>n</code>&#x4E2A;&#x5339;&#x914D;&#x51FA;&#x73B0;&#x624D;&#x8981;&#x88AB;&#x53D6;&#x4EE3;&#x3002;</p>
+<pre><code class="lang-powershell"><span class="hljs-comment"># &#x4EC5;&#x66FF;&#x4EE3;&#x7B2C;2&#x4E2A;&#x5339;&#x914D;</span>
+sed <span class="hljs-string">&apos;s/Tolstoy/Camus/2&apos;</span> &lt; example.txt
+</code></pre>
+<h4 id="&#x7ED9;&#x4E88;sed&#x591A;&#x4E2A;&#x547D;&#x4EE4;">&#x7ED9;&#x4E88;sed&#x591A;&#x4E2A;&#x547D;&#x4EE4;</h4>
+<p>&#x901A;&#x8FC7;<code>-e</code>&#x7ED9;&#x4E88;<code>sed</code>&#x591A;&#x4E2A;&#x547D;&#x4EE4;&#x3002;&#x6BCF;&#x4E00;&#x4E2A;&#x7F16;&#x8F91;&#x547D;&#x4EE4;&#x90FD;&#x4F7F;&#x7528;&#x4E00;&#x4E2A;<code>-e</code>&#x9009;&#x9879;&#x3002;</p>
+<pre><code class="lang-powershell">sed -e <span class="hljs-string">&apos;s/foo/bar/g&apos;</span> -e <span class="hljs-string">&apos;s/chicken/cowg&apos;</span> myfile.xml &gt; myfile2.xml
+</code></pre>
+<h4 id="&#x5C06;&#x7F16;&#x8BD1;&#x547D;&#x4EE4;&#x653E;&#x5165;&#x811A;&#x672C;">&#x5C06;&#x7F16;&#x8BD1;&#x547D;&#x4EE4;&#x653E;&#x5165;&#x811A;&#x672C;</h4>
+<p>&#x5982;&#x679C;&#x6709;&#x5F88;&#x591A;&#x8981;&#x7F16;&#x8F91;&#x7684;&#x9879;&#x76EE;&#xFF0C;&#x53EF;&#x4EE5;&#x5C06;&#x7F16;&#x8F91;&#x547D;&#x4EE4;&#x5168;&#x653E;&#x8FDB;&#x4E00;&#x4E2A;&#x811A;&#x672C;&#x91CC;&#xFF0C;&#x518D;&#x4F7F;&#x7528;<code>sed</code>&#x642D;&#x914D;<code>-f</code>&#xFF1A;</p>
+<pre><code class="lang-powershell">$ cat fixup.sed
+s/foo/bar/g
+s/chicken/cow/g
+s/draft animal/horse/g
+...
+$ sed -f fixup.sed myfile.xml &gt; myfile2.xml
+</code></pre>
+<h4 id="&#x4ECE;&#x6B64;&#x66FF;&#x6362;&#x6574;&#x4E2A;&#x6587;&#x672C;&#x2014;&#x2014;">&#x4ECE;&#x6B64;&#x66FF;&#x6362;&#x6574;&#x4E2A;&#x6587;&#x672C;&#x2014;&#x2014;&amp;</h4>
+<p>&amp;&#x5728;&#x66FF;&#x4EE3;&#x6587;&#x672C;&#x91CC;&#x8868;&#x793A;&#x7684;&#x610F;&#x601D;&#x662F;&#xFF1A;&#x4ECE;&#x6B64;&#x70B9;&#x5F00;&#x59CB;&#x66FF;&#x4EE3;&#x6210;&#x5339;&#x914D;&#x4E8E;&#x6B63;&#x5219;&#x8868;&#x8FBE;&#x5F0F;&#x70B9;&#x6574;&#x4E2A;&#x6587;&#x672C;&#x3002;</p>
+<pre><code class="lang-powershell">mv atlga.xml atlga.xml.old
+sed <span class="hljs-string">&apos;s/Atlanta/&amp;, the capital of the South/&apos;</span> &lt; atlga.xml.old &gt; atlga.xml
+</code></pre>
+<p>&#x56E0;&#x6B64;&#xFF0C;&#x82E5;&#x8981;&#x5728;&#x66FF;&#x4EE3;&#x6587;&#x672C;&#x4E2D;&#x4F7F;&#x7528;<code>&amp;</code>&#x5B57;&#x7B26;&#x7684;&#x5B57;&#x9762;&#x610F;&#x4E49;&#xFF0C;&#x9700;&#x8981;&#x4F7F;&#x7528;&#x53CD;&#x659C;&#x6746;&#x5BF9;&#x5B83;&#x8FDB;&#x884C;&#x8F6C;&#x4E49;&#xFF1A;</p>
+<pre><code class="lang-powershell">sed <span class="hljs-string">&apos;s/\\/\&amp;bsol;/g&apos;</span>
+</code></pre>
+<h4 id="&#x6253;&#x5370;&#x4E0E;&#x5426;&#x2014;&#x2014;p">&#x6253;&#x5370;&#x4E0E;&#x5426;&#x2014;&#x2014;/p</h4>
+<p><code>-n</code>&#x9009;&#x9879;&#x4FEE;&#x6539;&#x4E86;<code>sed</code>&#x7684;&#x9ED8;&#x8BA4;&#x884C;&#x4E3A;&#x3002;&#x5F53;&#x4F7F;&#x7528;<code>-n</code>&#x9009;&#x9879;&#x65F6;&#xFF0C;<code>sed</code>&#x5C06;&#x4E0D;&#x4F1A;&#x5728;&#x64CD;&#x4F5C;&#x5B8C;&#x6210;&#x540E;&#x6253;&#x5370;&#x6A21;&#x5F0F;&#x7A7A;&#x95F4;&#x7684;&#x6700;&#x540E;&#x5185;&#x5BB9;&#x3002;&#x53CD;&#x4E4B;&#xFF0C;&#x82E5;&#x5728;&#x811A;&#x672C;&#x4E2D;&#x4F7F;&#x7528;<code>p</code>&#xFF0C;&#x5219;&#x4F1A;&#x660E;&#x767D;&#x5730;&#x5C06;&#x6B64;&#x884C;&#x663E;&#x793A;&#x51FA;&#x6765;&#x3002;</p>
+<pre><code class="lang-powershell">sed -n <span class="hljs-string">&apos;/&lt;HTML&gt;/p&apos;</span> *.html  <span class="hljs-comment"># &#x4EC5;&#x663E;&#x793A;&lt;HTML&gt;&#x8FD9;&#x884C;</span>
+</code></pre>
+<hr>
+<h3 id="&#x5220;&#x9664;&#x547D;&#x4EE4;">&#x5220;&#x9664;&#x547D;&#x4EE4;</h3>
+<p>&#x5047;&#x8BBE;&#x6587;&#x4EF6;&#x540D;&#x4E3A;ab.</p>
+<pre><code>sed &apos;1d&apos; ab             #&#x5220;&#x9664;&#x7B2C;&#x4E00;&#x884C;
+sed &apos;$d&apos; ab             #&#x5220;&#x9664;&#x6700;&#x540E;&#x4E00;&#x884C;
+sed &apos;1,2d&apos; ab           #&#x5220;&#x9664;&#x7B2C;&#x4E00;&#x884C;&#x5230;&#x7B2C;&#x4E8C;&#x884C;
+sed &apos;2,$d&apos; ab           #&#x5220;&#x9664;&#x7B2C;&#x4E8C;&#x884C;&#x5230;&#x6700;&#x540E;&#x4E00;&#x884C;
+</code></pre><p>&#x4EE5;&#x4E0A;&#x5220;&#x9664;&#x64CD;&#x4F5C;&#x5373;&#x5220;&#x9664;&#x76F8;&#x5E94;&#x884C;&#x540E;&#xFF0C;&#x5176;&#x4ED6;&#x884C;&#x4FE1;&#x606F;&#x88AB;&#x6253;&#x5370;&#xFF0C;&#x4F46;&#x6E90;&#x6587;&#x4EF6;&#x7684;&#x4FE1;&#x606F;&#x4E0D;&#x53D8;&#x3002;</p>
+<p>&#x5220;&#x9664;&#x540E;&#x5199;&#x5165;&#x53E6;&#x4E00;&#x6587;&#x4EF6;&#xFF1A;</p>
+<pre><code>sed &apos;1d&apos; ab &gt; ab_test
+</code></pre><p>&#x5220;&#x9664;&#x6240;&#x6709;&#x5305;&#x542B;<code>writing</code>&#x7684;&#x884C;&#xFF1A;</p>
+<pre><code>sed &apos;/writing/d&apos; sed_test
+</code></pre><hr>
+<h3 id="&#x6253;&#x5370;&#x547D;&#x4EE4;">&#x6253;&#x5370;&#x547D;&#x4EE4;</h3>
+<p>&#x6253;&#x5370;&#x6240;&#x6709;&#x884C;&#x4EE5;&#x53CA;&#x5339;&#x914D;&#x5230;<code>This</code>&#x7684;&#x884C;&#xFF1A;</p>
+<pre><code>sed &apos;/This/p&apos; sed_test
+</code></pre><p>&#x82E5;&#x9700;&#x53EA;&#x6253;&#x5370;&#x5339;&#x914D;&#x5230;&#x7684;&#x4FE1;&#x606F;&#xFF0C;&#x52A0;&#x5165;<code>-n</code>&#xFF1A;</p>
+<pre><code>sed -n &apos;/This/p&apos; sed_test
+</code></pre><p>&#x6253;&#x5370;&#x51FA;1-2&#x884C;&#xFF1A;</p>
+<pre><code>sed &apos;1,2p&apos; sed_test
+</code></pre><hr>
+<h3 id="&#x7A7A;&#x95F4;&#x6A21;&#x5F0F;">&#x7A7A;&#x95F4;&#x6A21;&#x5F0F;</h3>
+<p><code>sed</code>&#x8BFB;&#x53D6;&#x6BCF;&#x4E2A;&#x6587;&#x4EF6;&#xFF0C;&#x4E00;&#x6B21;&#x8BFB;&#x4E00;&#x884C;&#xFF0C;&#x5C06;&#x8BFB;&#x53D6;&#x7684;&#x884C;&#x653E;&#x5230;&#x5185;&#x5B58;&#x7684;&#x4E00;&#x4E2A;&#x533A;&#x57DF;&#x2014;&#x2014;&#x79F0;&#x4E4B;&#x4E3A;&#x6A21;&#x5F0F;&#x7A7A;&#x95F4;&#xFF08;<code>pattern space</code>&#xFF09;&#x3002;</p>
+<p>&#x8FD9;&#x5C31;&#x50CF;&#x7A0B;&#x5E8F;&#x8BED;&#x8A00;&#x91CC;&#x7684;&#x53D8;&#x91CF;&#x4E00;&#x6837;&#xFF1A;&#x5185;&#x5B58;&#x7684;&#x4E00;&#x4E2A;&#x533A;&#x57DF;&#x5728;&#x7F16;&#x8F91;&#x547D;&#x4EE4;&#x7684;&#x63D0;&#x793A;&#x4E0B;&#x53EF;&#x4EE5;&#x4FEE;&#x6539;&#xFF0C;&#x6240;&#x6709;&#x7F16;&#x8F91;&#x4E0A;&#x7684;&#x64CD;&#x4F5C;&#x90FD;&#x4F1A;&#x5E94;&#x7528;&#x5230;&#x6A21;&#x5F0F;&#x7A7A;&#x95F4;&#x7684;&#x5185;&#x5BB9;&#x3002;</p>
+<p>&#x5F53;&#x6240;&#x6709;&#x64CD;&#x4F5C;&#x5B8C;&#x6210;&#x540E;&#xFF0C;<code>sed</code>&#x4F1A;&#x5C06;&#x6A21;&#x5F0F;&#x7A7A;&#x95F4;&#x7684;&#x6700;&#x540E;&#x5185;&#x5BB9;&#x6253;&#x5370;&#x5230;&#x6807;&#x51C6;&#x8F93;&#x51FA;&#xFF0C;&#x518D;&#x56DE;&#x5230;&#x5F00;&#x59CB;&#x5904;&#xFF0C;&#x8BFB;&#x53D6;&#x53E6;&#x4E00;&#x4E2A;&#x8F93;&#x5165;&#x884C;&#x3002;</p>
+<h2 id="&#x53C2;&#x8003;&#x8D44;&#x6599;">&#x53C2;&#x8003;&#x8D44;&#x6599;</h2>
+<ol>
+<li>&#x300A;<a href="http://blog.csdn.net/wl_fln/article/details/7281986" target="_blank">linux shell&#x4E4B;sed</a>&#x300B;</li>
+<li>&#x300A;<a href="http://www.cnblogs.com/mchina/archive/2012/06/30/2570523.html" target="_blank">&#x6D41;&#x7F16;&#x8F91;&#x5668;sed</a>&#x300B;</li>
+</ol>
+
+                                
+                                </section>
+                            
+    </div>
+    <div class="search-results">
+        <div class="has-results">
+            
+            <h1 class="search-results-title"><span class='search-results-count'></span> results matching "<span class='search-query'></span>"</h1>
+            <ul class="search-results-list"></ul>
+            
+        </div>
+        <div class="no-results">
+            
+            <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
+            
+        </div>
+    </div>
+</div>
+
+                        </div>
+                    </div>
+                
+            </div>
+
+            
+                
+                <a href="cut.html" class="navigation navigation-prev " aria-label="Previous page: cut">
+                    <i class="fa fa-angle-left"></i>
+                </a>
+                
+                
+                <a href="awk.html" class="navigation navigation-next " aria-label="Next page: awk">
+                    <i class="fa fa-angle-right"></i>
+                </a>
+                
+            
+        
+    </div>
+
+    <script>
+        var gitbook = gitbook || [];
+        gitbook.push(function() {
+            gitbook.page.hasChanged({"page":{"title":"sed","level":"1.3.3","depth":2,"next":{"title":"awk","level":"1.3.4","depth":2,"path":"filter_and_find/awk.md","ref":"filter_and_find/awk.md","articles":[]},"previous":{"title":"cut","level":"1.3.2","depth":2,"path":"filter_and_find/cut.md","ref":"filter_and_find/cut.md","articles":[]},"dir":"ltr"},"config":{"plugins":["theme-comscore","disqus","livereload"],"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"pluginsConfig":{"disqus":{"useIdentifier":false,"shortName":"Jalan"},"livereload":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"fontsettings":{"theme":"white","family":"sans","size":2},"fontSettings":{"theme":"sepia","family":"serif","size":4},"highlight":{},"theme-comscore":{},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":true}},"theme":"default","author":"Jalan Jiang <jjy@meitu.com>","pdf":{"pageBreaksBefore":"/","headerTemplate":null,"paperSize":"a4","margin":{"right":62,"left":62,"top":36,"bottom":36},"fontSize":12,"fontFamily":"Arial","footerTemplate":null,"chapterMark":"pagebreak","pageNumbers":false},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"isbn":"","variables":{},"title":"Shell 脚本学习笔记","links":{"sidebar":{"我的博客":"http://jalan.space"},"sharing":{"google":null,"facebook":null,"twitter":null,"weibo":null,"all":null}},"gitbook":"*","description":"","extension":""},"file":{"path":"filter_and_find/sed.md","mtime":"2018-04-21T04:49:07.000Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2018-04-22T06:12:37.638Z"},"basePath":"..","book":{"language":""}});
+        });
+    </script>
+</div>
+
+        
+    <script src="../gitbook/gitbook.js"></script>
+    <script src="../gitbook/theme.js"></script>
+    
+        
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/URI.js/1.16.1/URI.min.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-disqus/plugin.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-livereload/plugin.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-search/search-engine.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-search/search.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-lunr/lunr.min.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-lunr/search-lunr.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-sharing/buttons.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-fontsettings/fontsettings.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-theme-comscore/test.js"></script>
+        
+    
+
+    </body>
+</html>
+
