@@ -1,26 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e80ccebb-5b25-4adf-a936-0063f75af4cc" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_book/gitbook/gitbook-plugin-highlight/ebook.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_book/gitbook/gitbook-plugin-highlight/website.css" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_book/.idea/workspace.xml" afterPath="$PROJECT_DIR$/_book/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_book/chapter1/file_and_dir.html" afterPath="$PROJECT_DIR$/_book/chapter1/file_and_dir.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_book/filter_and_find/awk.html" afterPath="$PROJECT_DIR$/_book/filter_and_find/awk.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_book/filter_and_find/cut.html" afterPath="$PROJECT_DIR$/_book/filter_and_find/cut.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_book/filter_and_find/exercise.html" afterPath="$PROJECT_DIR$/_book/filter_and_find/exercise.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_book/filter_and_find/exercise/word_freq.html" afterPath="$PROJECT_DIR$/_book/filter_and_find/exercise/word_freq.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_book/filter_and_find/grep.html" afterPath="$PROJECT_DIR$/_book/filter_and_find/grep.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_book/filter_and_find/sed.html" afterPath="$PROJECT_DIR$/_book/filter_and_find/sed.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_book/index.html" afterPath="$PROJECT_DIR$/_book/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_book/internet/host.html" afterPath="$PROJECT_DIR$/_book/internet/host.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_book/internet/ifconfig.html" afterPath="$PROJECT_DIR$/_book/internet/ifconfig.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_book/internet/nslookup.html" afterPath="$PROJECT_DIR$/_book/internet/nslookup.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_book/internet/ping.html" afterPath="$PROJECT_DIR$/_book/internet/ping.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_book/internet/route.html" afterPath="$PROJECT_DIR$/_book/internet/route.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_book/search_index.json" afterPath="$PROJECT_DIR$/_book/search_index.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/book.json" afterPath="$PROJECT_DIR$/book.json" />
-    </list>
+    <list default="true" id="e80ccebb-5b25-4adf-a936-0063f75af4cc" name="Default" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -86,22 +67,9 @@
       <file leaf-file-name="book.json" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/book.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="604">
-              <caret line="49" column="22" lean-forward="false" selection-start-line="49" selection-start-column="22" selection-end-line="49" selection-end-column="22" />
+            <state relative-caret-position="572">
+              <caret line="22" column="24" lean-forward="false" selection-start-line="22" selection-start-column="24" selection-end-line="22" selection-end-column="24" />
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ping.md" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/internet/ping.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="773">
-                <caret line="51" column="27" lean-forward="false" selection-start-line="51" selection-start-column="27" selection-end-line="51" selection-end-column="27" />
-                <folding />
-              </first_editor>
-              <second_editor />
             </state>
           </provider>
         </entry>
@@ -160,10 +128,10 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="-1937" />
-    <option name="y" value="23" />
-    <option name="width" value="1915" />
-    <option name="height" value="977" />
+    <option name="x" value="-1920" />
+    <option name="y" value="70" />
+    <option name="width" value="1440" />
+    <option name="height" value="812" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -321,18 +289,18 @@
       <workItem from="1524236726341" duration="55000" />
       <workItem from="1524236803020" duration="13380000" />
       <workItem from="1524325612119" duration="9000" />
-      <workItem from="1524377560591" duration="3940000" />
+      <workItem from="1524377560591" duration="5106000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="18033000" />
+    <option name="totallyTimeSpent" value="19199000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-1937" y="23" width="1915" height="977" extended-state="0" />
+    <frame x="-1920" y="70" width="1440" height="812" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.13994779" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18611111" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -635,17 +603,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/internet/ping.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="773">
-            <caret line="51" column="27" lean-forward="false" selection-start-line="51" selection-start-column="27" selection-end-line="51" selection-end-column="27" />
-            <folding />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/internet/route.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
@@ -676,10 +633,21 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/internet/ping.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="773">
+            <caret line="51" column="27" lean-forward="false" selection-start-line="51" selection-start-column="27" selection-end-line="51" selection-end-column="27" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/book.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="604">
-          <caret line="49" column="22" lean-forward="false" selection-start-line="49" selection-start-column="22" selection-end-line="49" selection-end-column="22" />
+        <state relative-caret-position="572">
+          <caret line="22" column="24" lean-forward="false" selection-start-line="22" selection-start-column="24" selection-end-line="22" selection-end-column="24" />
           <folding />
         </state>
       </provider>
