@@ -9,7 +9,12 @@
 
   "plugins": [
     "theme-comscore",
-    "disqus"
+    "disqus",
+    "prism",
+    "-highlight",
+    "baidu",
+    "tbfed-pagefooter",
+    "github-buttons"
   ],
 
   "pluginsConfig": {
@@ -23,6 +28,27 @@
     },
     "theme-default": {
       "showLevel": true
+    },
+    "prism": {
+      "css": [
+        "prismjs/themes/prism-okaidia.css"
+      ]
+    },
+    "baidu": {
+      "token": "c47c7dbbbbb8b1bd7729048f358cd896"
+    },
+    "tbfed-pagefooter": {
+      "copyright":"Copyright ©2008 JalanJiang",
+      "modify_label": "该文件修订时间：",
+      "modify_format": "YYYY-MM-DD HH:mm:ss"
+    },
+    "github-buttons": {
+      "buttons": [{
+        "user": "JalanJiang",
+        "repo": "Notes-On-Linux-Shell-Scripting-Cookbook",
+        "type": "star",
+        "size": "small"
+      }]
     }
   },
 
