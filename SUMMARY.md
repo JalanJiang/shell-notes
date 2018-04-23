@@ -14,3 +14,6 @@
     * [nslookup](internet/nslookup.md)
     * [route](internet/route.md)
     * [ping](internet/ping.md)
+    * [sh](internet/sh.md)
+    * 小试牛刀
+        * [找到网络上的活跃主机](internet/exercise/find_alive_ip.md)

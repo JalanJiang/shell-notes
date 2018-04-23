@@ -4,7 +4,7 @@
     <head>
         <meta charset="UTF-8">
         <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
-        <title>ifconfig · Shell 脚本学习笔记</title>
+        <title>sh · Shell 脚本学习笔记</title>
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="description" content="">
         <meta name="generator" content="GitBook 3.2.3">
@@ -70,8 +70,8 @@
     <link rel="shortcut icon" href="../gitbook/images/favicon.ico" type="image/x-icon">
 
     
-    <link rel="next" href="host.html" />
     
+    <link rel="prev" href="ping.html" />
     
 
     <style>
@@ -283,7 +283,7 @@
             <ul class="articles">
                 
     
-        <li class="chapter active" data-level="1.4.1" data-path="ifconfig.html">
+        <li class="chapter " data-level="1.4.1" data-path="ifconfig.html">
             
                 <a href="ifconfig.html">
             
@@ -358,7 +358,7 @@
             
         </li>
     
-        <li class="chapter " data-level="1.4.6" data-path="sh.html">
+        <li class="chapter active" data-level="1.4.6" data-path="sh.html">
             
                 <a href="sh.html">
             
@@ -444,7 +444,7 @@
     <!-- Title -->
     <h1>
         <i class="fa fa-circle-o-notch fa-spin"></i>
-        <a href=".." >ifconfig</a>
+        <a href=".." >sh</a>
     </h1>
 </div>
 
@@ -459,43 +459,67 @@
     
                                 <section class="normal markdown-section">
                                 
-                                <h1 id="ifconfig">ifconfig</h1>
-<h2 id="&#x5217;&#x51FA;&#x5F53;&#x524D;&#x7F51;&#x7EDC;&#x63A5;&#x53E3;&#x914D;&#x7F6E;">&#x5217;&#x51FA;&#x5F53;&#x524D;&#x7F51;&#x7EDC;&#x63A5;&#x53E3;&#x914D;&#x7F6E;</h2>
-<pre class="language-"><code>ifconfig
-lo0: flags=8049<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>UP,LOOPBACK,RUNNING,MULTICAST</span><span class="token punctuation">&gt;</span></span> mtu 16384
-    options=1203<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>RXCSUM,TXCSUM,TXSTATUS,SW_TIMESTAMP</span><span class="token punctuation">&gt;</span></span>
-    inet 127.0.0.1 netmask 0xff000000
-    inet6 ::1 prefixlen 128
-    inet6 fe80::1%lo0 prefixlen 64 scopeid 0x1
-    nd6 options=201<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>PERFORMNUD,DAD</span><span class="token punctuation">&gt;</span></span>
-gif0: flags=8010<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>POINTOPOINT,MULTICAST</span><span class="token punctuation">&gt;</span></span> mtu 1280
-stf0: flags=0&lt;&gt; mtu 1280
-&#x2026;&#x2026;
-</code></pre><h3 id="&#x6253;&#x5370;&#x7F51;&#x7EDC;&#x63A5;&#x53E3;&#x5217;&#x8868;">&#x6253;&#x5370;&#x7F51;&#x7EDC;&#x63A5;&#x53E3;&#x5217;&#x8868;</h3>
-<pre class="language-"><code>ifconfig | cut -c-10 | tr -d &apos; &apos; | tr -s &apos;\n&apos;
-</code></pre><ul>
-<li><code>ifconfig</code> &#x8F93;&#x51FA;&#x7684;&#x524D; 10 &#x4E2A;&#x5B57;&#x7B26;&#x662F;&#x7528;&#x4E8E;&#x4FDD;&#x7559;&#x6253;&#x5370;&#x7F51;&#x7EDC;&#x63A5;&#x53E3;&#x7684;&#x540D;&#x79F0;</li>
-<li><code>cut -c-10</code> &#x53D6;&#x51FA;&#x6BCF;&#x884C;&#x524D; 10 &#x4E2A;&#x5B57;&#x7B26;</li>
-<li><code>tr -d &apos; &apos;</code> &#x5220;&#x9664;&#x6BCF;&#x4E00;&#x884C;&#x6240;&#x6709;&#x7A7A;&#x683C;</li>
-<li><code>tr -s &apos;\n&apos;</code> &#x538B;&#x7F29;&#x91CD;&#x590D;&#x7684;&#x6362;&#x884C;&#x7B26;</li>
+                                <h1 id="sh">sh</h1>
+<ul>
+<li>&#x7CFB;&#x7EDF;&#x7BA1;&#x7406;&#x5DE5;&#x5177;</li>
+<li>&#x7528;&#x4E8E;&#x8BBF;&#x95EE;&#x8FDC;&#x7A0B;&#x8BA1;&#x7B97;&#x673A;&#x4E0A;&#x7684; shell</li>
+<li>&#x4F7F;&#x7528;&#x52A0;&#x5BC6;&#x901A;&#x9053;&#x4F20;&#x8F93;&#x7F51;&#x7EDC;&#x6570;&#x636E;</li>
+<li>&#x9ED8;&#x8BA4;&#x8FD0;&#x884C;&#x5728; 22 &#x7AEF;&#x53E3;</li>
 </ul>
-<h3 id="&#x663E;&#x793A;&#x67D0;&#x4E2A;&#x7279;&#x5B9A;&#x7684;&#x63A5;&#x53E3;&#x4FE1;&#x606F;">&#x663E;&#x793A;&#x67D0;&#x4E2A;&#x7279;&#x5B9A;&#x7684;&#x63A5;&#x53E3;&#x4FE1;&#x606F;</h3>
-<pre class="language-"><code>ifconfig lo0
-lo0: flags=8049<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>UP,LOOPBACK,RUNNING,MULTICAST</span><span class="token punctuation">&gt;</span></span> mtu 16384
-    options=1203<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>RXCSUM,TXCSUM,TXSTATUS,SW_TIMESTAMP</span><span class="token punctuation">&gt;</span></span>
-    inet 127.0.0.1 netmask 0xff000000
-    inet6 ::1 prefixlen 128
-    inet6 fe80::1%lo0 prefixlen 64 scopeid 0x1
-    nd6 options=201<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>PERFORMNUD,DAD</span><span class="token punctuation">&gt;</span></span>
-</code></pre><h2 id="&#x8BBE;&#x7F6E;-ip-&#x5730;&#x5740;">&#x8BBE;&#x7F6E; IP &#x5730;&#x5740;</h2>
-<p>&#x8BBE;&#x7F6E; IP &#x5730;&#x5740;</p>
-<pre class="language-"><code>ifconfig wlan0 192.168.0.80
-</code></pre><p>&#x8BBE;&#x7F6E; IP &#x5730;&#x5740;&#x7684;&#x5B50;&#x7F51;&#x63A9;&#x7801;</p>
-<pre class="language-"><code>ifconfig wlan0 192.168.0.80 nwtmask 255.255.252.0
-</code></pre><h2 id="&#x81EA;&#x52A8;&#x914D;&#x7F6E;&#x7F51;&#x7EDC;&#x63A5;&#x53E3;">&#x81EA;&#x52A8;&#x914D;&#x7F6E;&#x7F51;&#x7EDC;&#x63A5;&#x53E3;</h2>
-<pre class="language-"><code>dhclient eth0
+<h2 id="&#x57FA;&#x672C;&#x8BED;&#x6CD5;">&#x57FA;&#x672C;&#x8BED;&#x6CD5;</h2>
+<h3 id="&#x8FDE;&#x63A5;&#x8FD0;&#x884C;-ssh-&#x670D;&#x52A1;&#x7684;&#x8FDC;&#x7A0B;&#x4E3B;&#x673A;">&#x8FDE;&#x63A5;&#x8FD0;&#x884C; SSH &#x670D;&#x52A1;&#x7684;&#x8FDC;&#x7A0B;&#x4E3B;&#x673A;</h3>
+<pre class="language-"><code>$ ssh -p port username@remote_host
+</code></pre><h3 id="&#x5728;&#x8FDC;&#x7A0B;&#x4E3B;&#x673A;&#x4E2D;&#x6267;&#x884C;&#x547D;&#x4EE4;&#x5E76;&#x5C06;&#x547D;&#x4EE4;&#x663E;&#x793A;&#x5728;&#x672C;&#x5730;-shell-&#x4E2D;">&#x5728;&#x8FDC;&#x7A0B;&#x4E3B;&#x673A;&#x4E2D;&#x6267;&#x884C;&#x547D;&#x4EE4;&#x5E76;&#x5C06;&#x547D;&#x4EE4;&#x663E;&#x793A;&#x5728;&#x672C;&#x5730; shell &#x4E2D;</h3>
+<pre class="language-"><code>$ ssh user@host &apos;COMMANDS1; COMMANDS2, COMMANDS3&apos;
+</code></pre><h3 id="&#x6570;&#x636E;&#x538B;&#x7F29;&#x4F20;&#x8F93;">&#x6570;&#x636E;&#x538B;&#x7F29;&#x4F20;&#x8F93;</h3>
+<pre class="language-"><code>$ ssh -C user@hostname COMMANDS
+</code></pre><h3 id="&#x91CD;&#x5B9A;&#x5411;&#x81F3;&#x8FDC;&#x7A0B;-shell-&#x7684;-stdin">&#x91CD;&#x5B9A;&#x5411;&#x81F3;&#x8FDC;&#x7A0B; shell &#x7684; stdin</h3>
+<pre class="language-"><code>$ echo &apos;text&apos; | ssh user@remote_root &apos;echo&apos;
+</code></pre><hr>
+<h2 id="&#x5B9E;&#x73B0;&#x65E0;&#x5BC6;&#x7801;&#x81EA;&#x52A8;&#x767B;&#x5F55;">&#x5B9E;&#x73B0;&#x65E0;&#x5BC6;&#x7801;&#x81EA;&#x52A8;&#x767B;&#x5F55;</h2>
+<p>SSH &#x91C7;&#x7528;&#x4E86;<strong>&#x975E;&#x5BF9;&#x79F0;&#x52A0;&#x5BC6;&#x6280;&#x672F;</strong>&#xFF0C;&#x8BA4;&#x8BC1;&#x5BC6;&#x94A5;&#x5305;&#x62EC;&#x4E24;&#x4E2A;&#x90E8;&#x5206;&#xFF1A;</p>
+<ul>
+<li>&#x516C;&#x94A5;</li>
+<li>&#x79C1;&#x94A5;</li>
+</ul>
+<h3 id="&#x521B;&#x5EFA;-ssh-&#x5BC6;&#x94A5;">&#x521B;&#x5EFA; SSH &#x5BC6;&#x94A5;</h3>
+<pre class="language-"><code># &#x6307;&#x5B9A;&#x52A0;&#x5BC6;&#x7B97;&#x6CD5;&#x7C7B;&#x578B;&#x4E3A;RSA
+$ ssh-keygen -t rsa
+</code></pre><p>&#x8F93;&#x5165;&#x53E3;&#x4EE4;&#x540E;&#x751F;&#x6210;&#xFF1A;</p>
+<ul>
+<li>&#x516C;&#x94A5; <code>id_rsa.pub</code></li>
+<li>&#x79C1;&#x94A5; <code>id_rsa</code></li>
+</ul>
+<h3 id="&#x5C06;&#x516C;&#x94A5;&#x6DFB;&#x52A0;&#x5230;&#x8FDC;&#x7A0B;&#x670D;&#x52A1;&#x5668;&#x4E2D;">&#x5C06;&#x516C;&#x94A5;&#x6DFB;&#x52A0;&#x5230;&#x8FDC;&#x7A0B;&#x670D;&#x52A1;&#x5668;&#x4E2D;</h3>
+<p>&#x5C06;&#x516C;&#x94A5;&#x4F20;&#x7ED9;&#x8FDC;&#x7A0B;&#x4E3B;&#x673A;&#xFF0C;&#x5E76;&#x5C06;&#x5176;&#x52A0;&#x5165;&#x6587;&#x4EF6; ~/.ssh/authorized_keys &#x4E2D;&#x3002;</p>
+<pre class="language-"><code>$ ssh user@remote_root &quot;cat &gt;&gt; ~/.ssh/authorized_keys&quot; &lt; ~/.ssh/id_rsa.pub
+</code></pre><hr>
+<h2 id="&#x7AEF;&#x53E3;&#x8F6C;&#x53D1;">&#x7AEF;&#x53E3;&#x8F6C;&#x53D1;</h2>
+<p>&#x7AEF;&#x53E3;&#x8F6C;&#x53D1;&#x5141;&#x8BB8;&#x5176;&#x4ED6;&#x8BA1;&#x7B97;&#x673A;&#x5229;&#x7528;&#x4F60;&#x7684;&#x4E3B;&#x673A;&#x6765;&#x8FDE;&#x63A5;&#x5230;&#x8FDC;&#x7A0B;&#x670D;&#x52A1;&#x5668;&#x4E0A;&#x7684;&#x7279;&#x5B9A;&#x670D;&#x52A1;&#x3002;</p>
+<p><strong>&#x8F6C;&#x53D1;&#x672C;&#x5730;&#x4E3B;&#x673A;&#x7684;&#x6D41;&#x91CF;&#xFF1A;</strong></p>
+<p>&#x5C06;&#x672C;&#x5730;&#x4E3B;&#x673A;&#x7AEF;&#x53E3; 8000 &#x4E0A;&#x7684;&#x6D41;&#x91CF; <strong>&#x8F6C;&#x53D1;&#x5230;</strong> www.kernel.org&#x7684; 80 &#x7AEF;&#x53E3;&#x4E0A;&#x3002;</p>
+<p>&#x5F53;&#x7528;&#x6237;&#x8BBF;&#x95EE;&#x672C;&#x5730;&#x4E3B;&#x673A;&#x65F6;&#x4ED6;&#x5C06;&#x8BBF;&#x95EE;&#x5230; www.kernel.org:80 &#x7684;&#x670D;&#x52A1;&#x3002;</p>
+<pre class="language-"><code>$ ssh -L 8000:www.kernel.org:80 user@localhost
+</code></pre><p><strong>&#x8F6C;&#x53D1;&#x8FDC;&#x7A0B;&#x4E3B;&#x673A;&#x4E0A;&#x7684;&#x6D41;&#x91CF;&#xFF1A;</strong></p>
+<p>&#x5C06;&#x8FDC;&#x7A0B;&#x4E3B;&#x673A;&#x7AEF;&#x53E3; 8000 &#x4E0A;&#x7684;&#x6D41;&#x91CF; <strong>&#x8F6C;&#x53D1;&#x5230;</strong> www.kernel.org&#x7684; 80 &#x7AEF;&#x53E3;&#x4E0A;&#x3002;</p>
+<pre class="language-"><code>$ ssh -L 8000:www.kernel.org:80 user@remote_root
+</code></pre><h3 id="&#x975E;&#x4EA4;&#x4E92;&#x5F0F;&#x7AEF;&#x53E3;&#x8F6C;&#x53D1;">&#x975E;&#x4EA4;&#x4E92;&#x5F0F;&#x7AEF;&#x53E3;&#x8F6C;&#x53D1;</h3>
+<ul>
+<li>&#x8F6C;&#x53D1;&#x7AEF;&#x53E3;</li>
+<li>&#x4E0D;&#x9700;&#x8981;&#x4FDD;&#x6301;&#x4E00;&#x4E2A;&#x6253;&#x5F00;&#x72B6;&#x6001;&#x7684; Shell</li>
+</ul>
+<pre class="language-"><code>$ ssh -fL 8000:www.kernel.org:80 user@localhost -N
+</code></pre><ul>
+<li><code>-f</code> &#x6307;&#x5B9A; ssh &#x5728;&#x6267;&#x884C;&#x547D;&#x4EE4;&#x524D;&#x8F6C;&#x5165;&#x540E;&#x53F0;&#x8FD0;&#x884C;</li>
+<li><code>-L</code> &#x6307;&#x5B9A;&#x4E3B;&#x673A;&#x767B;&#x5F55;&#x540D;</li>
+<li><code>-N</code> &#x65E0;&#x9700;&#x6267;&#x884C;&#x547D;&#x4EE4;&#xFF0C;&#x53EA;&#x6267;&#x884C;&#x7AEF;&#x53E3;&#x8F6C;&#x53D1;</li>
+</ul>
+<h3 id="&#x53CD;&#x5411;&#x7AEF;&#x53E3;&#x8F6C;&#x53D1;&#xFF08;&#x8FDC;&#x7A0B;----&#x672C;&#x5730;&#xFF09;">&#x53CD;&#x5411;&#x7AEF;&#x53E3;&#x8F6C;&#x53D1;&#xFF08;&#x8FDC;&#x7A0B; --&gt; &#x672C;&#x5730;&#xFF09;</h3>
+<p>&#x9002;&#x7528;&#x573A;&#x666F;&#xFF1A;&#x8BA9;&#x7528;&#x6237;&#x8BBF;&#x95EE;&#x672A;&#x8054;&#x7F51;&#x4E3B;&#x673A;&#x4E0A;&#x7684;&#x670D;&#x52A1;&#x3002;</p>
+<p>&#x5C06;&#x8FDC;&#x7A0B;&#x4E3B;&#x673A;&#x7AEF;&#x53E3; 8000 &#x4E0A;&#x7684;&#x6D41;&#x91CF;&#x8F6C;&#x53D1;&#x5230;&#x672C;&#x5730;&#x4E3B;&#x673A;&#x7684; 80 &#x7AEF;&#x53E3;&#x4E0A;&#xFF1A;</p>
+<pre class="language-"><code>$ ssh -R 8000:localhost:80 user@remote_root
 </code></pre><footer class="page-footer"><span class="copyright">Copyright &#xA9;2008 JalanJiang all right reserved&#xFF0C;powered by Gitbook</span><span class="footer-modification">&#x8BE5;&#x6587;&#x4EF6;&#x4FEE;&#x8BA2;&#x65F6;&#x95F4;&#xFF1A;
-2018-04-23 10:11:26
+2018-04-23 21:08:46
 </span></footer>
                                 
                                 </section>
@@ -523,10 +547,10 @@ lo0: flags=8049<span class="token tag"><span class="token tag"><span class="toke
 
             
                 
-                
-                <a href="host.html" class="navigation navigation-next navigation-unique" aria-label="Next page: host">
-                    <i class="fa fa-angle-right"></i>
+                <a href="ping.html" class="navigation navigation-prev navigation-unique" aria-label="Previous page: ping">
+                    <i class="fa fa-angle-left"></i>
                 </a>
+                
                 
             
         
@@ -535,7 +559,7 @@ lo0: flags=8049<span class="token tag"><span class="token tag"><span class="toke
     <script>
         var gitbook = gitbook || [];
         gitbook.push(function() {
-            gitbook.page.hasChanged({"page":{"title":"ifconfig","level":"1.4.1","depth":2,"next":{"title":"host","level":"1.4.2","depth":2,"path":"internet/host.md","ref":"internet/host.md","articles":[]},"previous":{"title":"无网不利","level":"1.4","depth":1,"ref":"","articles":[{"title":"ifconfig","level":"1.4.1","depth":2,"path":"internet/ifconfig.md","ref":"internet/ifconfig.md","articles":[]},{"title":"host","level":"1.4.2","depth":2,"path":"internet/host.md","ref":"internet/host.md","articles":[]},{"title":"nslookup","level":"1.4.3","depth":2,"path":"internet/nslookup.md","ref":"internet/nslookup.md","articles":[]},{"title":"route","level":"1.4.4","depth":2,"path":"internet/route.md","ref":"internet/route.md","articles":[]},{"title":"ping","level":"1.4.5","depth":2,"path":"internet/ping.md","ref":"internet/ping.md","articles":[]},{"title":"sh","level":"1.4.6","depth":2,"path":"internet/sh.md","ref":"internet/sh.md","articles":[]},{"title":"小试牛刀","level":"1.4.7","depth":2,"ref":"","articles":[{"title":"找到网络上的活跃主机","level":"1.4.7.1","depth":3,"path":"internet/exercise/find_alive_ip.md","ref":"internet/exercise/find_alive_ip.md","articles":[]}]}]},"dir":"ltr"},"config":{"plugins":["theme-comscore","disqus","prism","-highlight","baidu","tbfed-pagefooter","github-buttons"],"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"pluginsConfig":{"tbfed-pagefooter":{"copyright":"Copyright ©2008 JalanJiang","modify_label":"该文件修订时间：","modify_format":"YYYY-MM-DD HH:mm:ss"},"prism":{"css":["prismjs/themes/prism-okaidia.css"]},"disqus":{"useIdentifier":false,"shortName":"jalanjiang"},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"fontsettings":{"theme":"white","family":"sans","size":2},"fontSettings":{"theme":"sepia","family":"serif","size":4},"theme-comscore":{},"github-buttons":{"buttons":[{"user":"JalanJiang","repo":"Notes-On-Linux-Shell-Scripting-Cookbook","type":"star","size":"small"}]},"baidu":{"token":"c47c7dbbbbb8b1bd7729048f358cd896"},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":true}},"theme":"default","author":"JalanJiang.江子抑 <jjy@meitu.com>","pdf":{"pageBreaksBefore":"/","headerTemplate":null,"paperSize":"a4","margin":{"right":62,"left":62,"top":36,"bottom":36},"fontSize":12,"fontFamily":"Arial","footerTemplate":null,"chapterMark":"pagebreak","pageNumbers":false},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"isbn":"","variables":{},"title":"Shell 脚本学习笔记","links":{"sidebar":{"我的博客":"http://jalan.space"},"sharing":{"google":null,"facebook":null,"twitter":null,"weibo":null,"all":null}},"gitbook":"*","description":"《Linux Shell 脚本攻略（第2版）》学习笔记","extension":""},"file":{"path":"internet/ifconfig.md","mtime":"2018-04-23T02:11:26.752Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2018-04-23T13:25:48.629Z"},"basePath":"..","book":{"language":""}});
+            gitbook.page.hasChanged({"page":{"title":"sh","level":"1.4.6","depth":2,"next":{"title":"小试牛刀","level":"1.4.7","depth":2,"ref":"","articles":[{"title":"找到网络上的活跃主机","level":"1.4.7.1","depth":3,"path":"internet/exercise/find_alive_ip.md","ref":"internet/exercise/find_alive_ip.md","articles":[]}]},"previous":{"title":"ping","level":"1.4.5","depth":2,"path":"internet/ping.md","ref":"internet/ping.md","articles":[]},"dir":"ltr"},"config":{"plugins":["theme-comscore","disqus","prism","-highlight","baidu","tbfed-pagefooter","github-buttons"],"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"pluginsConfig":{"tbfed-pagefooter":{"copyright":"Copyright ©2008 JalanJiang","modify_label":"该文件修订时间：","modify_format":"YYYY-MM-DD HH:mm:ss"},"prism":{"css":["prismjs/themes/prism-okaidia.css"]},"disqus":{"useIdentifier":false,"shortName":"jalanjiang"},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"fontsettings":{"theme":"white","family":"sans","size":2},"fontSettings":{"theme":"sepia","family":"serif","size":4},"theme-comscore":{},"github-buttons":{"buttons":[{"user":"JalanJiang","repo":"Notes-On-Linux-Shell-Scripting-Cookbook","type":"star","size":"small"}]},"baidu":{"token":"c47c7dbbbbb8b1bd7729048f358cd896"},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":true}},"theme":"default","author":"JalanJiang.江子抑 <jjy@meitu.com>","pdf":{"pageBreaksBefore":"/","headerTemplate":null,"paperSize":"a4","margin":{"right":62,"left":62,"top":36,"bottom":36},"fontSize":12,"fontFamily":"Arial","footerTemplate":null,"chapterMark":"pagebreak","pageNumbers":false},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"isbn":"","variables":{},"title":"Shell 脚本学习笔记","links":{"sidebar":{"我的博客":"http://jalan.space"},"sharing":{"google":null,"facebook":null,"twitter":null,"weibo":null,"all":null}},"gitbook":"*","description":"《Linux Shell 脚本攻略（第2版）》学习笔记","extension":""},"file":{"path":"internet/sh.md","mtime":"2018-04-23T13:08:46.092Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2018-04-23T13:25:48.629Z"},"basePath":"..","book":{"language":""}});
         });
     </script>
 </div>
