@@ -2,8 +2,8 @@
   "output": "",
   "generator": "site",
   "title": "Shell 脚本学习笔记",
-  "author": "Jalan Jiang <jjy@meitu.com>",
-  "description": "",
+  "author": "JalanJiang.江子抑 <jjy@meitu.com>",
+  "description": "《Linux Shell 脚本攻略（第2版）》学习笔记",
   "isbn": "",
   "extension": "",
 
@@ -19,7 +19,7 @@
       "size": 4
     },
     "disqus": {
-      "shortName": "Jalan"
+      "shortName": "jalanjiang"
     },
     "theme-default": {
       "showLevel": true
