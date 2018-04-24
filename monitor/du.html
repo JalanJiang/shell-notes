@@ -4,7 +4,7 @@
     <head>
         <meta charset="UTF-8">
         <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
-        <title>grep · Shell 脚本学习笔记</title>
+        <title>du · Shell 脚本学习笔记</title>
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="description" content="">
         <meta name="generator" content="GitBook 3.2.3">
@@ -70,7 +70,7 @@
     <link rel="shortcut icon" href="../gitbook/images/favicon.ico" type="image/x-icon">
 
     
-    <link rel="next" href="cut.html" />
+    <link rel="next" href="df.html" />
     
     
 
@@ -463,9 +463,9 @@
             <ul class="articles">
                 
     
-        <li class="chapter active" data-level="1.4.1" data-path="grep.html">
+        <li class="chapter " data-level="1.4.1" data-path="../filter_and_find/grep.html">
             
-                <a href="grep.html">
+                <a href="../filter_and_find/grep.html">
             
                     
                         <b>1.4.1.</b>
@@ -478,9 +478,9 @@
             
         </li>
     
-        <li class="chapter " data-level="1.4.2" data-path="cut.html">
+        <li class="chapter " data-level="1.4.2" data-path="../filter_and_find/cut.html">
             
-                <a href="cut.html">
+                <a href="../filter_and_find/cut.html">
             
                     
                         <b>1.4.2.</b>
@@ -493,9 +493,9 @@
             
         </li>
     
-        <li class="chapter " data-level="1.4.3" data-path="sed.html">
+        <li class="chapter " data-level="1.4.3" data-path="../filter_and_find/sed.html">
             
-                <a href="sed.html">
+                <a href="../filter_and_find/sed.html">
             
                     
                         <b>1.4.3.</b>
@@ -508,9 +508,9 @@
             
         </li>
     
-        <li class="chapter " data-level="1.4.4" data-path="awk.html">
+        <li class="chapter " data-level="1.4.4" data-path="../filter_and_find/awk.html">
             
-                <a href="awk.html">
+                <a href="../filter_and_find/awk.html">
             
                     
                         <b>1.4.4.</b>
@@ -523,9 +523,9 @@
             
         </li>
     
-        <li class="chapter " data-level="1.4.5" data-path="exercise.html">
+        <li class="chapter " data-level="1.4.5" data-path="../filter_and_find/exercise.html">
             
-                <a href="exercise.html">
+                <a href="../filter_and_find/exercise.html">
             
                     
                         <b>1.4.5.</b>
@@ -539,9 +539,9 @@
             <ul class="articles">
                 
     
-        <li class="chapter " data-level="1.4.5.1" data-path="exercise/word_freq.html">
+        <li class="chapter " data-level="1.4.5.1" data-path="../filter_and_find/exercise/word_freq.html">
             
-                <a href="exercise/word_freq.html">
+                <a href="../filter_and_find/exercise/word_freq.html">
             
                     
                         <b>1.4.5.1.</b>
@@ -772,9 +772,9 @@
             <ul class="articles">
                 
     
-        <li class="chapter " data-level="1.6.1" data-path="../monitor/du.html">
+        <li class="chapter active" data-level="1.6.1" data-path="du.html">
             
-                <a href="../monitor/du.html">
+                <a href="du.html">
             
                     
                         <b>1.6.1.</b>
@@ -787,9 +787,9 @@
             
         </li>
     
-        <li class="chapter " data-level="1.6.2" data-path="../monitor/df.html">
+        <li class="chapter " data-level="1.6.2" data-path="df.html">
             
-                <a href="../monitor/df.html">
+                <a href="df.html">
             
                     
                         <b>1.6.2.</b>
@@ -837,7 +837,7 @@
     <!-- Title -->
     <h1>
         <i class="fa fa-circle-o-notch fa-spin"></i>
-        <a href=".." >grep</a>
+        <a href=".." >du</a>
     </h1>
 </div>
 
@@ -852,11 +852,11 @@
     
                                 <section class="normal markdown-section">
                                 
-                                <h1 id="&#x7528;-grep-&#x5728;&#x6587;&#x4EF6;&#x4E2D;&#x641C;&#x7D22;&#x6587;&#x672C;">&#x7528; grep &#x5728;&#x6587;&#x4EF6;&#x4E2D;&#x641C;&#x7D22;&#x6587;&#x672C;</h1>
-<pre class="language-"><code>grep [-acinv] [--color=auto] &apos;&#x641C;&#x7D22;&#x5B57;&#x7B26;&#x4E32;&apos; filename
-</code></pre><h2 id="&#x4F7F;&#x7528;&#x573A;&#x666F;">&#x4F7F;&#x7528;&#x573A;&#x666F;</h2>
-<p>&#x53D6;&#x51FA;&#x7B26;&#x5408;&#x67E5;&#x627E;&#x6761;&#x4EF6;&#x7684;&#x4E00;&#x884C;&#x4FE1;&#x606F;</p>
-<h2 id="&#x9009;&#x9879;&#x4E0E;&#x53C2;&#x6570;">&#x9009;&#x9879;&#x4E0E;&#x53C2;&#x6570;</h2>
+                                <h1 id="du">du</h1>
+<p><code>disk usage</code></p>
+<p>&#x663E;&#x793A;&#x6BCF;&#x4E2A;&#x6587;&#x4EF6;&#x548C;&#x76EE;&#x5F55;&#x7684;&#x78C1;&#x76D8;&#x4F7F;&#x7528;&#x7A7A;&#x95F4;&#x3002;</p>
+<pre class="language-"><code>du [&#x9009;&#x9879;][&#x6587;&#x4EF6;]
+</code></pre><h2 id="&#x9009;&#x9879;&#x4E0E;&#x53C2;&#x6570;">&#x9009;&#x9879;&#x4E0E;&#x53C2;&#x6570;</h2>
 <table>
 <thead>
 <tr>
@@ -866,118 +866,140 @@
 </thead>
 <tbody>
 <tr>
-<td>-a</td>
-<td>&#x5C06; binary &#x6587;&#x4EF6;&#x4EE5; text &#x6587;&#x4EF6;&#x7684;&#x65B9;&#x5F0F;&#x641C;&#x5BFB;&#x6570;&#x636E;</td>
+<td>-a/-all</td>
+<td>&#x9012;&#x5F52;&#x663E;&#x793A;&#x76EE;&#x5F55;&#x4E2D;&#x6587;&#x4EF6;&#x7684;&#x5927;&#x5C0F;</td>
 </tr>
 <tr>
-<td>-c</td>
-<td>&#x8BA1;&#x7B97;&#x627E;&#x5230;&#x201C;&#x641C;&#x5BFB;&#x5B57;&#x7B26;&#x4E32;&#x201D;&#x7684;&#x6B21;&#x6570;</td>
+<td>-b/-bytes</td>
+<td>&#x663E;&#x793A;&#x76EE;&#x5F55;&#x6216;&#x6587;&#x4EF6;&#x5927;&#x5C0F;&#x65F6;&#xFF0C;&#x4EE5;byte&#x4E3A;&#x5355;&#x4F4D;</td>
 </tr>
 <tr>
-<td>-i</td>
-<td>&#x5FFD;&#x7565;&#x5927;&#x5C0F;&#x5199;&#x7684;&#x4E0D;&#x540C;&#xFF08;&#x5927;&#x5C0F;&#x5199;&#x89C6;&#x4E3A;&#x76F8;&#x540C;&#xFF09;</td>
+<td>-c/--total</td>
+<td>&#x9664;&#x4E86;&#x663E;&#x793A;&#x4E2A;&#x522B;&#x76EE;&#x5F55;&#x6216;&#x6587;&#x4EF6;&#x7684;&#x5927;&#x5C0F;&#x5916;&#xFF0C;&#x540C;&#x65F6;&#x4E5F;&#x663E;&#x793A;&#x6240;&#x6709;&#x76EE;&#x5F55;&#x6216;&#x6587;&#x4EF6;&#x7684;&#x603B;&#x548C;</td>
 </tr>
 <tr>
-<td>-n</td>
-<td>&#x987A;&#x4FBF;&#x8F93;&#x51FA;&#x884C;&#x53F7;</td>
+<td>-k/--kilobytes</td>
+<td>&#x4EE5;KB(1024bytes)&#x4E3A;&#x5355;&#x4F4D;&#x8F93;&#x51FA;</td>
 </tr>
 <tr>
-<td>-v</td>
-<td>&#x53CD;&#x5411;&#x9009;&#x62E9;&#xFF08;&#x663E;&#x793A;&#x51FA;&#x6CA1;&#x6709;&#x201C;&#x641C;&#x5BFB;&#x5B57;&#x7B26;&#x4E32;&#x201D;&#x7684;&#x90A3;&#x884C;&#xFF09;</td>
+<td>-m/-megabytes</td>
+<td>&#x4EE5;MB&#x4E3A;&#x5355;&#x4F4D;&#x8F93;&#x51FA;</td>
 </tr>
 <tr>
-<td>-E</td>
-<td>&#x4F7F;&#x7528;&#x6B63;&#x5219;&#x8868;&#x8FBE;&#x5F0F;</td>
+<td>-s/--summarize</td>
+<td>&#x4EC5;&#x663E;&#x793A;&#x603B;&#x8BA1;&#xFF0C;&#x53EA;&#x5217;&#x51FA;&#x6700;&#x540E;&#x52A0;&#x603B;&#x7684;&#x503C;</td>
 </tr>
 <tr>
-<td>-o</td>
-<td>&#x4EC5;&#x8F93;&#x51FA;&#x5339;&#x914D;&#x5230;&#x7684;&#x6587;&#x672C;</td>
+<td>-h/--human-readable</td>
+<td>&#x4EE5;K&#xFF0C;M&#xFF0C;G&#x4E3A;&#x5355;&#x4F4D;&#xFF0C;&#x63D0;&#x9AD8;&#x4FE1;&#x606F;&#x7684;&#x53EF;&#x8BFB;&#x6027;</td>
 </tr>
 <tr>
-<td>-b</td>
-<td>&#x6253;&#x5370;&#x6A21;&#x5F0F;&#x5339;&#x914D;&#x6240;&#x4F4D;&#x4E8E;&#x7684;&#x5B57;&#x7B26;&#x6216;&#x5B57;&#x8282;&#x504F;&#x79FB;</td>
+<td>-x/--one-file-xystem</td>
+<td>&#x4EE5;&#x4E00;&#x5F00;&#x59CB;&#x5904;&#x7406;&#x65F6;&#x7684;&#x6587;&#x4EF6;&#x7CFB;&#x7EDF;&#x4E3A;&#x51C6;&#xFF0C;&#x82E5;&#x9047;&#x4E0A;&#x5176;&#x5B83;&#x4E0D;&#x540C;&#x7684;&#x6587;&#x4EF6;&#x7CFB;&#x7EDF;&#x76EE;&#x5F55;&#x5219;&#x7565;&#x8FC7;</td>
 </tr>
 <tr>
-<td>-l/-L</td>
-<td>&#x5728;&#x591A;&#x4E2A;&#x6587;&#x4EF6;&#x4E2D;&#x5BFB;&#x627E;&#x5339;&#x914D;</td>
+<td>-L&lt;&#x7B26;&#x53F7;&#x94FE;&#x63A5;&gt;/--dereference&lt;&#x7B26;&#x53F7;&#x94FE;&#x63A5;&gt;</td>
+<td>&#x4EE5;&#x4E00;&#x5F00;&#x59CB;&#x5904;&#x7406;&#x65F6;&#x7684;&#x6587;&#x4EF6;&#x7CFB;&#x7EDF;&#x4E3A;&#x51C6;&#xFF0C;&#x82E5;&#x9047;&#x4E0A;&#x5176;&#x5B83;&#x4E0D;&#x540C;&#x7684;&#x6587;&#x4EF6;&#x7CFB;&#x7EDF;&#x76EE;&#x5F55;&#x5219;&#x7565;&#x8FC7;</td>
 </tr>
 <tr>
-<td>--include</td>
-<td>&#x6307;&#x5B9A;&#x5305;&#x542B;&#x6587;&#x4EF6;</td>
+<td>-S/--separate-dirs</td>
+<td>&#x663E;&#x793A;&#x4E2A;&#x522B;&#x76EE;&#x5F55;&#x7684;&#x5927;&#x5C0F;&#x65F6;&#xFF0C;&#x5E76;&#x4E0D;&#x542B;&#x5176;&#x5B50;&#x76EE;&#x5F55;&#x7684;&#x5927;&#x5C0F;</td>
 </tr>
 <tr>
-<td>--exclude</td>
-<td>&#x6392;&#x9664;&#x6587;&#x4EF6;</td>
+<td>-X&lt;&#x6587;&#x4EF6;&gt;/--exclude-from=&lt;&#x6587;&#x4EF6;&gt;</td>
+<td>&#x5728;&lt;&#x6587;&#x4EF6;&gt;&#x6307;&#x5B9A;&#x76EE;&#x5F55;&#x6216;&#x6587;&#x4EF6;</td>
 </tr>
 <tr>
-<td>--exclude-dir</td>
-<td>&#x6392;&#x9664;&#x6587;&#x4EF6;&#x5939;</td>
+<td>--exclude=&lt;&#x76EE;&#x5F55;&#x6216;&#x6587;&#x4EF6;&gt;</td>
+<td>&#x7565;&#x8FC7;&#x6307;&#x5B9A;&#x7684;&#x76EE;&#x5F55;&#x6216;&#x6587;&#x4EF6;</td>
 </tr>
 <tr>
-<td>-A</td>
-<td>&#x6587;&#x672C;&#x524D;x&#x884C;</td>
+<td>-D/--dereference-args</td>
+<td>&#x663E;&#x793A;&#x6307;&#x5B9A;&#x7B26;&#x53F7;&#x94FE;&#x63A5;&#x7684;&#x6E90;&#x6587;&#x4EF6;&#x5927;&#x5C0F;</td>
 </tr>
 <tr>
-<td>-B</td>
-<td>&#x6587;&#x672C;&#x540E;x&#x884C;</td>
+<td>-H/--si</td>
+<td>&#x4E0E;-h&#x53C2;&#x6570;&#x76F8;&#x540C;&#xFF0C;&#x4F46;&#x662F;K&#xFF0C;M&#xFF0C;G&#x662F;&#x4EE5;1000&#x4E3A;&#x6362;&#x7B97;&#x5355;&#x4F4D;</td>
+</tr>
+<tr>
+<td>-l/--count-links</td>
+<td>&#x91CD;&#x590D;&#x8BA1;&#x7B97;&#x786C;&#x4EF6;&#x94FE;&#x63A5;&#x7684;&#x6587;&#x4EF6;</td>
 </tr>
 </tbody>
 </table>
-<h2 id="&#x4E3E;&#x4E2A;&#x6817;&#x5B50;">&#x4E3E;&#x4E2A;&#x6817;&#x5B50;</h2>
-<h3 id="&#x641C;&#x7D22;&#x5305;&#x542B;&#x7279;&#x5B9A;&#x6A21;&#x5F0F;&#x7684;&#x6587;&#x672C;&#x884C;">&#x641C;&#x7D22;&#x5305;&#x542B;&#x7279;&#x5B9A;&#x6A21;&#x5F0F;&#x7684;&#x6587;&#x672C;&#x884C;</h3>
-<pre class="language-"><code>grep pattern filename
-grep pattern file1 file2 file3 ...
-</code></pre><p>&#x53D6;&#x51FA;&#x51FA;&#x73B0; <code>root</code> &#x7684;&#x4E00;&#x884C;&#x3002;</p>
-<pre class="language-"><code>&#x279C;  / last | grep &quot;root&quot;
+<h2 id="&#x663E;&#x793A;&#x76EE;&#x5F55;&#x6240;&#x5360;&#x7A7A;&#x95F4;&#x3002;">&#x663E;&#x793A;&#x76EE;&#x5F55;&#x6240;&#x5360;&#x7A7A;&#x95F4;&#x3002;</h2>
+<pre class="language-"><code>&#x279C;  [curl] du
 
-root      console                   Mon Oct  2 13:29 - shutdown  (00:02)
-root      console                   Tue Aug 29 10:47 - shutdown  (00:00)
-root      console                   Thu Jun 15 13:31 - 13:31  (00:00)
-root      console                   Tue Jun  6 12:10 - 12:10  (00:00)
-</code></pre><p>&#x53D6;&#x51FA;&#x672A;&#x51FA;&#x73B0; <code>root</code> &#x7684;&#x4E00;&#x884C;&#x3002;</p>
-<pre class="language-"><code>&#x279C;  / last | grep -v &quot;root&quot;
+88    ./vendor/composer
+16    ./vendor/php-curl-class/php-curl-class/.github
+8    ./vendor/php-curl-class/php-curl-class/docs
+560    ./vendor/php-curl-class/php-curl-class/examples
+40    ./vendor/php-curl-class/php-curl-class/scripts
+160    ./vendor/php-curl-class/php-curl-class/src/Curl
+160    ./vendor/php-curl-class/php-curl-class/src
+584    ./vendor/php-curl-class/php-curl-class/tests/PHPCurlClass
+640    ./vendor/php-curl-class/php-curl-class/tests
+288    ./vendor/php-curl-class/php-curl-class/www/img
+328    ./vendor/php-curl-class/php-curl-class/www
+1816    ./vendor/php-curl-class/php-curl-class
+1816    ./vendor/php-curl-class
+1912    ./vendor
+1992    .
+</code></pre><p>&#x53EA;&#x663E;&#x793A;&#x5F53;&#x524D;&#x76EE;&#x5F55;&#x4E0B;&#x5B50;&#x76EE;&#x5F55;&#x7684;&#x5927;&#x5C0F;&#x548C;&#x5F53;&#x524D;&#x76EE;&#x5F55;&#x7684;&#x5927;&#x5C0F;&#x603B;&#x548C;&#x3002;1992&#x4E3A;&#x5F53;&#x524D;&#x76EE;&#x5F55;&#x7684;&#x5927;&#x5C0F;&#x603B;&#x548C;&#x3002;</p>
+<p>&#x663E;&#x793A;&#x6587;&#x4EF6;+&#x76EE;&#x5F55;&#x3002;</p>
+<pre class="language-"><code>&#x279C;  [curl] du -a
 
-zj-db0908  ttys008                   Thu Dec 14 17:13   still logged in
-zj-db0908  ttys007                   Thu Dec 14 15:48   still logged in
-zj-db0908  ttys001                   Thu Dec 14 13:50   still logged in
-</code></pre><h3 id="&#x6B63;&#x5219;&#x5339;&#x914D;">&#x6B63;&#x5219;&#x5339;&#x914D;</h3>
-<pre class="language-"><code>grep -E &quot;[a-z]+&quot; filename
-egrep &quot;[a-z]+&quot; filename
-</code></pre><h3 id="&#x641C;&#x7D22;&#x591A;&#x4E2A;&#x6587;&#x4EF6;">&#x641C;&#x7D22;&#x591A;&#x4E2A;&#x6587;&#x4EF6;</h3>
-<pre class="language-"><code>#&#x8F93;&#x51FA;&#x6709;&#x5339;&#x914D;&#x7ED3;&#x679C;&#x7684;&#x6587;&#x4EF6;&#x5217;&#x8868;
-grep -l linux file1 file2 file3
-</code></pre><p><code>-L</code> &#x4E0E; <code>-l</code> &#x76F8;&#x53CD;&#xFF0C;&#x4F1A;&#x8FD4;&#x56DE;&#x4E00;&#x4E2A;&#x4E0D;&#x5339;&#x914D;&#x6587;&#x672C;&#x7684;&#x6587;&#x4EF6;&#x5217;&#x8868;&#x3002;</p>
-<h3 id="&#x9012;&#x5F52;&#x641C;&#x7D22;&#x6587;&#x4EF6;">&#x9012;&#x5F52;&#x641C;&#x7D22;&#x6587;&#x4EF6;</h3>
-<pre class="language-"><code>grep &quot;text&quot; . -R -n
-</code></pre><h3 id="&#x591A;-pattern-&#x5339;&#x914D;">&#x591A; pattern &#x5339;&#x914D;</h3>
-<p>&#x4F7F;&#x7528; <code>-e</code> &#x6307;&#x5B9A;&#x591A;&#x4E2A;&#x5339;&#x914D;&#x6837;&#x5F0F;&#x3002;</p>
-<pre class="language-"><code>grep -e pattern1 -e pattern2
-</code></pre><p>&#x63D0;&#x4F9B;&#x4E00;&#x4E2A;&#x6837;&#x5F0F;&#x6587;&#x4EF6;&#xFF0C;&#x5728;&#x6837;&#x5F0F;&#x6587;&#x4EF6;&#x4E2D;&#x6307;&#x5B9A;&#x591A;&#x4E2A;&#x6837;&#x5F0F;&#x3002;</p>
-<pre class="language-"><code>grep -f path_file
-</code></pre><p>path_file &#x6587;&#x4EF6;&#x5185;&#x5BB9;&#xFF08;&#x4E00;&#x884C;&#x4E00;&#x4E2A;&#x5339;&#x914D;&#x6837;&#x5F0F;&#xFF09;&#xFF1A;</p>
-<pre class="language-"><code>hello
-world
-</code></pre><h3 id="&#x4E0E;-cut-&#x914D;&#x5408;&#x4F7F;&#x7528;">&#x4E0E; cut &#x914D;&#x5408;&#x4F7F;&#x7528;</h3>
-<p>&#x53D6;&#x51FA;&#x5E26; <code>root</code> &#x7684;&#x4FE1;&#x606F;&#x8FDB;&#x884C;&#x5206;&#x9694;&#xFF0C;&#x5E76;&#x53EA;&#x53D6;&#x51FA;&#x5206;&#x9694;&#x7ED3;&#x679C;&#x7684;&#x7B2C;&#x4E00;&#x680F;&#x3002;</p>
-<pre class="language-"><code>&#x279C;  / last | grep &quot;root&quot; | cut -d &quot; &quot; -f 1
+8    ./composer.json
+8    ./composer.lock
+8    ./index.php
+16    ./test.jpeg
+32    ./test1.jpg
+8    ./vendor/autoload.php
+8    ./vendor/composer/autoload_classmap.php
+8    ./vendor/composer/autoload_namespaces.php
+8    ./vendor/composer/autoload_psr4.php
+8    ./vendor/composer/autoload_real.php
+8    ./vendor/composer/autoload_static.php
+32    ./vendor/composer/ClassLoader.php
+8    ./vendor/composer/installed.json
+8    ./vendor/composer/LICENSE
+88    ./vendor/composer
+&#x2026;&#x2026;&#x2026;&#x2026;&#x2026;&#x2026;&#x2026;&#x2026;&#x2026;&#x2026;&#x2026;&#x2026;&#x2026;&#x2026;&#x2026;&#x2026;&#x2026;&#x2026;&#x2026;&#x2026;&#x2026;&#x2026;&#x2026;&#x2026;&#x2026;&#x2026;&#x2026;&#x2026;&#x2026;&#x2026;
+1912    ./vendor
+8    ./weixin.php
+1992    .
+</code></pre><h2 id="&#x663E;&#x793A;&#x6307;&#x5B9A;&#x6587;&#x4EF6;&#x6216;&#x76EE;&#x5F55;&#x6240;&#x5360;&#x7A7A;&#x95F4;">&#x663E;&#x793A;&#x6307;&#x5B9A;&#x6587;&#x4EF6;&#x6216;&#x76EE;&#x5F55;&#x6240;&#x5360;&#x7A7A;&#x95F4;</h2>
+<pre class="language-"><code>&#x279C;  [curl] du index.php
 
-root
-root
-root
-root
-</code></pre><h3 id="&#x5173;&#x952E;&#x8BCD;&#x4E0A;&#x8272;">&#x5173;&#x952E;&#x8BCD;&#x4E0A;&#x8272;</h3>
-<p>&#x53D6;&#x51FA; <code>/etc/asl.conf</code> &#x6587;&#x4EF6;&#x4E2D;&#x5E26; <code>Faci</code> &#x7684;&#x884C;&#xFF0C;&#x5E76;&#x5BF9;&#x5173;&#x952E;&#x8BCD;&#x4E0A;&#x8272;&#x3002;</p>
-<pre class="language-"><code>&#x279C;  / grep --color=auto &quot;Faci&quot; /etc/asl.conf
+8    index.php
+</code></pre><p><code>du</code> &#x547D;&#x4EE4;&#x540E;&#x53EF;&#x8DDF;&#xFF08;&#x591A;&#x4E2A;&#xFF09;&#x6587;&#x4EF6;&#x540D;&#x3001;&#xFF08;&#x591A;&#x4E2A;&#xFF09;&#x6587;&#x4EF6;&#x5939;&#x540D;&#x3002;</p>
+<h3 id="&#x663E;&#x793A;&#x603B;&#x548C;&#x5927;&#x5C0F;">&#x663E;&#x793A;&#x603B;&#x548C;&#x5927;&#x5C0F;</h3>
+<pre class="language-"><code>&#x279C;  [curl] du -s
 
-? [= Facility authpriv] access 0 80
-? [= Facility remoteauth] [&lt;= Level critical] access 0 80
-? [= Facility internal] ignore
-? [= Facility auth] [&lt;= Level info] file system.log
-? [= Facility authpriv] [&lt;= Level info] file system.log
-# Facility com.apple.alf.logging gets saved in appfirewall.log
-? [= Facility com.apple.alf.logging] file appfirewall.log file_max=5M all_max=50M
+1992    .
+</code></pre><p>&#x5E76;&#x589E;&#x5F3A;&#x53EF;&#x8BFB;&#x6027;&#x3002;</p>
+<pre class="language-"><code>&#x279C;  [curl] du -hs
+
+996K    .
+</code></pre><h3 id="&#x6309;&#x7A7A;&#x95F4;&#x5927;&#x5C0F;&#x6392;&#x5E8F;">&#x6309;&#x7A7A;&#x95F4;&#x5927;&#x5C0F;&#x6392;&#x5E8F;</h3>
+<pre class="language-"><code>&#x279C;  [curl] du | sort -nr | more
+1992    .
+1912    ./vendor
+1816    ./vendor/php-curl-class/php-curl-class
+1816    ./vendor/php-curl-class
+640     ./vendor/php-curl-class/php-curl-class/tests
+584     ./vendor/php-curl-class/php-curl-class/tests/PHPCurlClass
+560     ./vendor/php-curl-class/php-curl-class/examples
+328     ./vendor/php-curl-class/php-curl-class/www
+288     ./vendor/php-curl-class/php-curl-class/www/img
+160     ./vendor/php-curl-class/php-curl-class/src/Curl
+160     ./vendor/php-curl-class/php-curl-class/src
+88      ./vendor/composer
+40      ./vendor/php-curl-class/php-curl-class/scripts
+16      ./vendor/php-curl-class/php-curl-class/.github
+8       ./vendor/php-curl-class/php-curl-class/docs
 </code></pre><footer class="page-footer"><span class="copyright">JalanJiang.&#x6C5F;&#x5B50;&#x6291; all right reserved&#xFF0C;powered by Gitbook</span><span class="footer-modification">&#x8BE5;&#x6587;&#x4EF6;&#x4FEE;&#x8BA2;&#x65F6;&#x95F4;&#xFF1A;
-2018-04-21 12:49:16
+2018-04-24 20:15:51
 </span></footer>
                                 
                                 </section>
@@ -1006,7 +1028,7 @@ root
             
                 
                 
-                <a href="cut.html" class="navigation navigation-next navigation-unique" aria-label="Next page: cut">
+                <a href="df.html" class="navigation navigation-next navigation-unique" aria-label="Next page: df">
                     <i class="fa fa-angle-right"></i>
                 </a>
                 
@@ -1017,7 +1039,7 @@ root
     <script>
         var gitbook = gitbook || [];
         gitbook.push(function() {
-            gitbook.page.hasChanged({"page":{"title":"grep","level":"1.4.1","depth":2,"next":{"title":"cut","level":"1.4.2","depth":2,"path":"filter_and_find/cut.md","ref":"filter_and_find/cut.md","articles":[]},"previous":{"title":"过滤查询","level":"1.4","depth":1,"ref":"","articles":[{"title":"grep","level":"1.4.1","depth":2,"path":"filter_and_find/grep.md","ref":"filter_and_find/grep.md","articles":[]},{"title":"cut","level":"1.4.2","depth":2,"path":"filter_and_find/cut.md","ref":"filter_and_find/cut.md","articles":[]},{"title":"sed","level":"1.4.3","depth":2,"path":"filter_and_find/sed.md","ref":"filter_and_find/sed.md","articles":[]},{"title":"awk","level":"1.4.4","depth":2,"path":"filter_and_find/awk.md","ref":"filter_and_find/awk.md","articles":[]},{"title":"小试牛刀","level":"1.4.5","depth":2,"path":"filter_and_find/exercise.md","ref":"filter_and_find/exercise.md","articles":[{"title":"统计特定文件中的词频","level":"1.4.5.1","depth":3,"path":"filter_and_find/exercise/word_freq.md","ref":"filter_and_find/exercise/word_freq.md","articles":[]}]}]},"dir":"ltr"},"config":{"plugins":["theme-comscore","disqus","prism","-highlight","baidu","tbfed-pagefooter","github-buttons"],"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"pluginsConfig":{"tbfed-pagefooter":{"copyright":"JalanJiang.江子抑","modify_label":"该文件修订时间：","modify_format":"YYYY-MM-DD HH:mm:ss"},"prism":{"css":["prismjs/themes/prism-okaidia.css"]},"disqus":{"useIdentifier":false,"shortName":"jalanjiang"},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"fontsettings":{"theme":"white","family":"sans","size":2},"fontSettings":{"theme":"sepia","family":"serif","size":2},"theme-comscore":{},"github-buttons":{"buttons":[{"user":"JalanJiang","repo":"Notes-On-Linux-Shell-Scripting-Cookbook","type":"star","size":"small"}]},"baidu":{"token":"c47c7dbbbbb8b1bd7729048f358cd896"},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":true}},"theme":"default","author":"JalanJiang.江子抑 <jjy@meitu.com>","pdf":{"pageBreaksBefore":"/","headerTemplate":null,"paperSize":"a4","margin":{"right":62,"left":62,"top":36,"bottom":36},"fontSize":12,"fontFamily":"Arial","footerTemplate":null,"chapterMark":"pagebreak","pageNumbers":false},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"isbn":"","variables":{},"title":"Shell 脚本学习笔记","links":{"sidebar":{"我的博客":"http://jalan.space"},"sharing":{"google":null,"facebook":null,"twitter":null,"weibo":null,"all":null}},"gitbook":"*","description":"《Linux Shell 脚本攻略（第2版）》学习笔记","extension":""},"file":{"path":"filter_and_find/grep.md","mtime":"2018-04-21T04:49:16.000Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2018-04-24T13:24:39.770Z"},"basePath":"..","book":{"language":""}});
+            gitbook.page.hasChanged({"page":{"title":"du","level":"1.6.1","depth":2,"next":{"title":"df","level":"1.6.2","depth":2,"path":"monitor/df.md","ref":"monitor/df.md","articles":[]},"previous":{"title":"监视系统活动","level":"1.6","depth":1,"ref":"","articles":[{"title":"du","level":"1.6.1","depth":2,"path":"monitor/du.md","ref":"monitor/du.md","articles":[]},{"title":"df","level":"1.6.2","depth":2,"path":"monitor/df.md","ref":"monitor/df.md","articles":[]}]},"dir":"ltr"},"config":{"plugins":["theme-comscore","disqus","prism","-highlight","baidu","tbfed-pagefooter","github-buttons"],"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"pluginsConfig":{"tbfed-pagefooter":{"copyright":"JalanJiang.江子抑","modify_label":"该文件修订时间：","modify_format":"YYYY-MM-DD HH:mm:ss"},"prism":{"css":["prismjs/themes/prism-okaidia.css"]},"disqus":{"useIdentifier":false,"shortName":"jalanjiang"},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"fontsettings":{"theme":"white","family":"sans","size":2},"fontSettings":{"theme":"sepia","family":"serif","size":2},"theme-comscore":{},"github-buttons":{"buttons":[{"user":"JalanJiang","repo":"Notes-On-Linux-Shell-Scripting-Cookbook","type":"star","size":"small"}]},"baidu":{"token":"c47c7dbbbbb8b1bd7729048f358cd896"},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":true}},"theme":"default","author":"JalanJiang.江子抑 <jjy@meitu.com>","pdf":{"pageBreaksBefore":"/","headerTemplate":null,"paperSize":"a4","margin":{"right":62,"left":62,"top":36,"bottom":36},"fontSize":12,"fontFamily":"Arial","footerTemplate":null,"chapterMark":"pagebreak","pageNumbers":false},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"isbn":"","variables":{},"title":"Shell 脚本学习笔记","links":{"sidebar":{"我的博客":"http://jalan.space"},"sharing":{"google":null,"facebook":null,"twitter":null,"weibo":null,"all":null}},"gitbook":"*","description":"《Linux Shell 脚本攻略（第2版）》学习笔记","extension":""},"file":{"path":"monitor/du.md","mtime":"2018-04-24T12:15:51.865Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2018-04-24T13:24:39.770Z"},"basePath":"..","book":{"language":""}});
         });
     </script>
 </div>
