@@ -4,7 +4,7 @@
     <head>
         <meta charset="UTF-8">
         <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
-        <title>grep · Shell 脚本学习笔记</title>
+        <title>函数 · Shell 脚本学习笔记</title>
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="description" content="">
         <meta name="generator" content="GitBook 3.2.3">
@@ -70,8 +70,10 @@
     <link rel="shortcut icon" href="../gitbook/images/favicon.ico" type="image/x-icon">
 
     
-    <link rel="next" href="cut.html" />
+    <link rel="next" href="loop.html" />
     
+    
+    <link rel="prev" href="array.html" />
     
 
     <style>
@@ -151,9 +153,9 @@
             <ul class="articles">
                 
     
-        <li class="chapter " data-level="1.2.1" data-path="../basic/math.html">
+        <li class="chapter " data-level="1.2.1" data-path="math.html">
             
-                <a href="../basic/math.html">
+                <a href="math.html">
             
                     
                         <b>1.2.1.</b>
@@ -166,9 +168,9 @@
             
         </li>
     
-        <li class="chapter " data-level="1.2.2" data-path="../basic/redirect.html">
+        <li class="chapter " data-level="1.2.2" data-path="redirect.html">
             
-                <a href="../basic/redirect.html">
+                <a href="redirect.html">
             
                     
                         <b>1.2.2.</b>
@@ -181,9 +183,9 @@
             
         </li>
     
-        <li class="chapter " data-level="1.2.3" data-path="../basic/piping.html">
+        <li class="chapter " data-level="1.2.3" data-path="piping.html">
             
-                <a href="../basic/piping.html">
+                <a href="piping.html">
             
                     
                         <b>1.2.3.</b>
@@ -196,9 +198,9 @@
             
         </li>
     
-        <li class="chapter " data-level="1.2.4" data-path="../basic/array.html">
+        <li class="chapter " data-level="1.2.4" data-path="array.html">
             
-                <a href="../basic/array.html">
+                <a href="array.html">
             
                     
                         <b>1.2.4.</b>
@@ -211,9 +213,9 @@
             
         </li>
     
-        <li class="chapter " data-level="1.2.5" data-path="../basic/function.html">
+        <li class="chapter active" data-level="1.2.5" data-path="function.html">
             
-                <a href="../basic/function.html">
+                <a href="function.html">
             
                     
                         <b>1.2.5.</b>
@@ -226,9 +228,9 @@
             
         </li>
     
-        <li class="chapter " data-level="1.2.6" data-path="../basic/loop.html">
+        <li class="chapter " data-level="1.2.6" data-path="loop.html">
             
-                <a href="../basic/loop.html">
+                <a href="loop.html">
             
                     
                         <b>1.2.6.</b>
@@ -241,9 +243,9 @@
             
         </li>
     
-        <li class="chapter " data-level="1.2.7" data-path="../basic/eq.html">
+        <li class="chapter " data-level="1.2.7" data-path="eq.html">
             
-                <a href="../basic/eq.html">
+                <a href="eq.html">
             
                     
                         <b>1.2.7.</b>
@@ -256,9 +258,9 @@
             
         </li>
     
-        <li class="chapter " data-level="1.2.8" data-path="../basic/debug.html">
+        <li class="chapter " data-level="1.2.8" data-path="debug.html">
             
-                <a href="../basic/debug.html">
+                <a href="debug.html">
             
                     
                         <b>1.2.8.</b>
@@ -463,9 +465,9 @@
             <ul class="articles">
                 
     
-        <li class="chapter active" data-level="1.4.1" data-path="grep.html">
+        <li class="chapter " data-level="1.4.1" data-path="../filter_and_find/grep.html">
             
-                <a href="grep.html">
+                <a href="../filter_and_find/grep.html">
             
                     
                         <b>1.4.1.</b>
@@ -478,9 +480,9 @@
             
         </li>
     
-        <li class="chapter " data-level="1.4.2" data-path="cut.html">
+        <li class="chapter " data-level="1.4.2" data-path="../filter_and_find/cut.html">
             
-                <a href="cut.html">
+                <a href="../filter_and_find/cut.html">
             
                     
                         <b>1.4.2.</b>
@@ -493,9 +495,9 @@
             
         </li>
     
-        <li class="chapter " data-level="1.4.3" data-path="sed.html">
+        <li class="chapter " data-level="1.4.3" data-path="../filter_and_find/sed.html">
             
-                <a href="sed.html">
+                <a href="../filter_and_find/sed.html">
             
                     
                         <b>1.4.3.</b>
@@ -508,9 +510,9 @@
             
         </li>
     
-        <li class="chapter " data-level="1.4.4" data-path="awk.html">
+        <li class="chapter " data-level="1.4.4" data-path="../filter_and_find/awk.html">
             
-                <a href="awk.html">
+                <a href="../filter_and_find/awk.html">
             
                     
                         <b>1.4.4.</b>
@@ -523,9 +525,9 @@
             
         </li>
     
-        <li class="chapter " data-level="1.4.5" data-path="exercise.html">
+        <li class="chapter " data-level="1.4.5" data-path="../filter_and_find/exercise.html">
             
-                <a href="exercise.html">
+                <a href="../filter_and_find/exercise.html">
             
                     
                         <b>1.4.5.</b>
@@ -539,9 +541,9 @@
             <ul class="articles">
                 
     
-        <li class="chapter " data-level="1.4.5.1" data-path="exercise/word_freq.html">
+        <li class="chapter " data-level="1.4.5.1" data-path="../filter_and_find/exercise/word_freq.html">
             
-                <a href="exercise/word_freq.html">
+                <a href="../filter_and_find/exercise/word_freq.html">
             
                     
                         <b>1.4.5.1.</b>
@@ -837,7 +839,7 @@
     <!-- Title -->
     <h1>
         <i class="fa fa-circle-o-notch fa-spin"></i>
-        <a href=".." >grep</a>
+        <a href=".." >函数</a>
     </h1>
 </div>
 
@@ -852,132 +854,33 @@
     
                                 <section class="normal markdown-section">
                                 
-                                <h1 id="&#x7528;-grep-&#x5728;&#x6587;&#x4EF6;&#x4E2D;&#x641C;&#x7D22;&#x6587;&#x672C;">&#x7528; grep &#x5728;&#x6587;&#x4EF6;&#x4E2D;&#x641C;&#x7D22;&#x6587;&#x672C;</h1>
-<pre class="language-"><code>grep [-acinv] [--color=auto] &apos;&#x641C;&#x7D22;&#x5B57;&#x7B26;&#x4E32;&apos; filename
-</code></pre><h2 id="&#x4F7F;&#x7528;&#x573A;&#x666F;">&#x4F7F;&#x7528;&#x573A;&#x666F;</h2>
-<p>&#x53D6;&#x51FA;&#x7B26;&#x5408;&#x67E5;&#x627E;&#x6761;&#x4EF6;&#x7684;&#x4E00;&#x884C;&#x4FE1;&#x606F;</p>
-<h2 id="&#x9009;&#x9879;&#x4E0E;&#x53C2;&#x6570;">&#x9009;&#x9879;&#x4E0E;&#x53C2;&#x6570;</h2>
-<table>
-<thead>
-<tr>
-<th>&#x9009;&#x9879;&#x53C2;&#x6570;</th>
-<th>&#x8BF4;&#x660E;</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>-a</td>
-<td>&#x5C06; binary &#x6587;&#x4EF6;&#x4EE5; text &#x6587;&#x4EF6;&#x7684;&#x65B9;&#x5F0F;&#x641C;&#x5BFB;&#x6570;&#x636E;</td>
-</tr>
-<tr>
-<td>-c</td>
-<td>&#x8BA1;&#x7B97;&#x627E;&#x5230;&#x201C;&#x641C;&#x5BFB;&#x5B57;&#x7B26;&#x4E32;&#x201D;&#x7684;&#x6B21;&#x6570;</td>
-</tr>
-<tr>
-<td>-i</td>
-<td>&#x5FFD;&#x7565;&#x5927;&#x5C0F;&#x5199;&#x7684;&#x4E0D;&#x540C;&#xFF08;&#x5927;&#x5C0F;&#x5199;&#x89C6;&#x4E3A;&#x76F8;&#x540C;&#xFF09;</td>
-</tr>
-<tr>
-<td>-n</td>
-<td>&#x987A;&#x4FBF;&#x8F93;&#x51FA;&#x884C;&#x53F7;</td>
-</tr>
-<tr>
-<td>-v</td>
-<td>&#x53CD;&#x5411;&#x9009;&#x62E9;&#xFF08;&#x663E;&#x793A;&#x51FA;&#x6CA1;&#x6709;&#x201C;&#x641C;&#x5BFB;&#x5B57;&#x7B26;&#x4E32;&#x201D;&#x7684;&#x90A3;&#x884C;&#xFF09;</td>
-</tr>
-<tr>
-<td>-E</td>
-<td>&#x4F7F;&#x7528;&#x6B63;&#x5219;&#x8868;&#x8FBE;&#x5F0F;</td>
-</tr>
-<tr>
-<td>-o</td>
-<td>&#x4EC5;&#x8F93;&#x51FA;&#x5339;&#x914D;&#x5230;&#x7684;&#x6587;&#x672C;</td>
-</tr>
-<tr>
-<td>-b</td>
-<td>&#x6253;&#x5370;&#x6A21;&#x5F0F;&#x5339;&#x914D;&#x6240;&#x4F4D;&#x4E8E;&#x7684;&#x5B57;&#x7B26;&#x6216;&#x5B57;&#x8282;&#x504F;&#x79FB;</td>
-</tr>
-<tr>
-<td>-l/-L</td>
-<td>&#x5728;&#x591A;&#x4E2A;&#x6587;&#x4EF6;&#x4E2D;&#x5BFB;&#x627E;&#x5339;&#x914D;</td>
-</tr>
-<tr>
-<td>--include</td>
-<td>&#x6307;&#x5B9A;&#x5305;&#x542B;&#x6587;&#x4EF6;</td>
-</tr>
-<tr>
-<td>--exclude</td>
-<td>&#x6392;&#x9664;&#x6587;&#x4EF6;</td>
-</tr>
-<tr>
-<td>--exclude-dir</td>
-<td>&#x6392;&#x9664;&#x6587;&#x4EF6;&#x5939;</td>
-</tr>
-<tr>
-<td>-A</td>
-<td>&#x6587;&#x672C;&#x524D;x&#x884C;</td>
-</tr>
-<tr>
-<td>-B</td>
-<td>&#x6587;&#x672C;&#x540E;x&#x884C;</td>
-</tr>
-</tbody>
-</table>
-<h2 id="&#x4E3E;&#x4E2A;&#x6817;&#x5B50;">&#x4E3E;&#x4E2A;&#x6817;&#x5B50;</h2>
-<h3 id="&#x641C;&#x7D22;&#x5305;&#x542B;&#x7279;&#x5B9A;&#x6A21;&#x5F0F;&#x7684;&#x6587;&#x672C;&#x884C;">&#x641C;&#x7D22;&#x5305;&#x542B;&#x7279;&#x5B9A;&#x6A21;&#x5F0F;&#x7684;&#x6587;&#x672C;&#x884C;</h3>
-<pre class="language-"><code>grep pattern filename
-grep pattern file1 file2 file3 ...
-</code></pre><p>&#x53D6;&#x51FA;&#x51FA;&#x73B0; <code>root</code> &#x7684;&#x4E00;&#x884C;&#x3002;</p>
-<pre class="language-"><code>&#x279C;  / last | grep &quot;root&quot;
+                                <h1 id="&#x51FD;&#x6570;&#x548C;&#x53C2;&#x6570;">&#x51FD;&#x6570;&#x548C;&#x53C2;&#x6570;</h1>
+<h2 id="&#x5B9A;&#x4E49;&#x51FD;&#x6570;">&#x5B9A;&#x4E49;&#x51FD;&#x6570;</h2>
+<pre class="language-"><code>function fname()
+{
+    statements;
+}
 
-root      console                   Mon Oct  2 13:29 - shutdown  (00:02)
-root      console                   Tue Aug 29 10:47 - shutdown  (00:00)
-root      console                   Thu Jun 15 13:31 - 13:31  (00:00)
-root      console                   Tue Jun  6 12:10 - 12:10  (00:00)
-</code></pre><p>&#x53D6;&#x51FA;&#x672A;&#x51FA;&#x73B0; <code>root</code> &#x7684;&#x4E00;&#x884C;&#x3002;</p>
-<pre class="language-"><code>&#x279C;  / last | grep -v &quot;root&quot;
-
-zj-db0908  ttys008                   Thu Dec 14 17:13   still logged in
-zj-db0908  ttys007                   Thu Dec 14 15:48   still logged in
-zj-db0908  ttys001                   Thu Dec 14 13:50   still logged in
-</code></pre><h3 id="&#x6B63;&#x5219;&#x5339;&#x914D;">&#x6B63;&#x5219;&#x5339;&#x914D;</h3>
-<pre class="language-"><code>grep -E &quot;[a-z]+&quot; filename
-egrep &quot;[a-z]+&quot; filename
-</code></pre><h3 id="&#x641C;&#x7D22;&#x591A;&#x4E2A;&#x6587;&#x4EF6;">&#x641C;&#x7D22;&#x591A;&#x4E2A;&#x6587;&#x4EF6;</h3>
-<pre class="language-"><code>#&#x8F93;&#x51FA;&#x6709;&#x5339;&#x914D;&#x7ED3;&#x679C;&#x7684;&#x6587;&#x4EF6;&#x5217;&#x8868;
-grep -l linux file1 file2 file3
-</code></pre><p><code>-L</code> &#x4E0E; <code>-l</code> &#x76F8;&#x53CD;&#xFF0C;&#x4F1A;&#x8FD4;&#x56DE;&#x4E00;&#x4E2A;&#x4E0D;&#x5339;&#x914D;&#x6587;&#x672C;&#x7684;&#x6587;&#x4EF6;&#x5217;&#x8868;&#x3002;</p>
-<h3 id="&#x9012;&#x5F52;&#x641C;&#x7D22;&#x6587;&#x4EF6;">&#x9012;&#x5F52;&#x641C;&#x7D22;&#x6587;&#x4EF6;</h3>
-<pre class="language-"><code>grep &quot;text&quot; . -R -n
-</code></pre><h3 id="&#x591A;-pattern-&#x5339;&#x914D;">&#x591A; pattern &#x5339;&#x914D;</h3>
-<p>&#x4F7F;&#x7528; <code>-e</code> &#x6307;&#x5B9A;&#x591A;&#x4E2A;&#x5339;&#x914D;&#x6837;&#x5F0F;&#x3002;</p>
-<pre class="language-"><code>grep -e pattern1 -e pattern2
-</code></pre><p>&#x63D0;&#x4F9B;&#x4E00;&#x4E2A;&#x6837;&#x5F0F;&#x6587;&#x4EF6;&#xFF0C;&#x5728;&#x6837;&#x5F0F;&#x6587;&#x4EF6;&#x4E2D;&#x6307;&#x5B9A;&#x591A;&#x4E2A;&#x6837;&#x5F0F;&#x3002;</p>
-<pre class="language-"><code>grep -f path_file
-</code></pre><p>path_file &#x6587;&#x4EF6;&#x5185;&#x5BB9;&#xFF08;&#x4E00;&#x884C;&#x4E00;&#x4E2A;&#x5339;&#x914D;&#x6837;&#x5F0F;&#xFF09;&#xFF1A;</p>
-<pre class="language-"><code>hello
-world
-</code></pre><h3 id="&#x4E0E;-cut-&#x914D;&#x5408;&#x4F7F;&#x7528;">&#x4E0E; cut &#x914D;&#x5408;&#x4F7F;&#x7528;</h3>
-<p>&#x53D6;&#x51FA;&#x5E26; <code>root</code> &#x7684;&#x4FE1;&#x606F;&#x8FDB;&#x884C;&#x5206;&#x9694;&#xFF0C;&#x5E76;&#x53EA;&#x53D6;&#x51FA;&#x5206;&#x9694;&#x7ED3;&#x679C;&#x7684;&#x7B2C;&#x4E00;&#x680F;&#x3002;</p>
-<pre class="language-"><code>&#x279C;  / last | grep &quot;root&quot; | cut -d &quot; &quot; -f 1
-
-root
-root
-root
-root
-</code></pre><h3 id="&#x5173;&#x952E;&#x8BCD;&#x4E0A;&#x8272;">&#x5173;&#x952E;&#x8BCD;&#x4E0A;&#x8272;</h3>
-<p>&#x53D6;&#x51FA; <code>/etc/asl.conf</code> &#x6587;&#x4EF6;&#x4E2D;&#x5E26; <code>Faci</code> &#x7684;&#x884C;&#xFF0C;&#x5E76;&#x5BF9;&#x5173;&#x952E;&#x8BCD;&#x4E0A;&#x8272;&#x3002;</p>
-<pre class="language-"><code>&#x279C;  / grep --color=auto &quot;Faci&quot; /etc/asl.conf
-
-? [= Facility authpriv] access 0 80
-? [= Facility remoteauth] [&lt;= Level critical] access 0 80
-? [= Facility internal] ignore
-? [= Facility auth] [&lt;= Level info] file system.log
-? [= Facility authpriv] [&lt;= Level info] file system.log
-# Facility com.apple.alf.logging gets saved in appfirewall.log
-? [= Facility com.apple.alf.logging] file appfirewall.log file_max=5M all_max=50M
+fname()
+{
+    statements;
+}
+</code></pre><h2 id="&#x6267;&#x884C;&#x51FD;&#x6570;">&#x6267;&#x884C;&#x51FD;&#x6570;</h2>
+<pre class="language-"><code>fname;
+</code></pre><h2 id="&#x53C2;&#x6570;&#x4F20;&#x9012;">&#x53C2;&#x6570;&#x4F20;&#x9012;</h2>
+<pre class="language-"><code>fname arg1 arg2;
+</code></pre><h2 id="&#x53C2;&#x6570;&#x8868;&#x793A;">&#x53C2;&#x6570;&#x8868;&#x793A;</h2>
+<ul>
+<li>$1 &#x7B2C;&#x4E00;&#x4E2A;&#x53C2;&#x6570;</li>
+<li>$2 &#x7B2C;&#x4E8C;&#x4E2A;&#x53C2;&#x6570;</li>
+<li>$n &#x7B2C;n&#x4E2A;&#x53C2;&#x6570;</li>
+<li>$@ &#x4EE5;&#x5217;&#x8868;&#x5F62;&#x5F0F;&#x4E00;&#x6B21;&#x6027;&#x6253;&#x5370;&#x6240;&#x6709;&#x53C2;&#x6570;</li>
+</ul>
+<h2 id="&#x83B7;&#x53D6;&#x51FD;&#x6570;&#x8FD4;&#x56DE;&#x503C;">&#x83B7;&#x53D6;&#x51FD;&#x6570;&#x8FD4;&#x56DE;&#x503C;</h2>
+<pre class="language-"><code>cmd;
+echo $?; #&#x83B7;&#x53D6;&#x51FD;&#x6570;&#x8FD4;&#x56DE;&#x503C;
 </code></pre><footer class="page-footer"><span class="copyright">JalanJiang.&#x6C5F;&#x5B50;&#x6291; all right reserved&#xFF0C;powered by Gitbook</span><span class="footer-modification">&#x8BE5;&#x6587;&#x4EF6;&#x4FEE;&#x8BA2;&#x65F6;&#x95F4;&#xFF1A;
-2018-04-21 12:49:16
+2018-04-24 16:25:18
 </span></footer>
                                 
                                 </section>
@@ -1005,8 +908,12 @@ root
 
             
                 
+                <a href="array.html" class="navigation navigation-prev " aria-label="Previous page: 数组">
+                    <i class="fa fa-angle-left"></i>
+                </a>
                 
-                <a href="cut.html" class="navigation navigation-next navigation-unique" aria-label="Next page: cut">
+                
+                <a href="loop.html" class="navigation navigation-next " aria-label="Next page: 迭代器">
                     <i class="fa fa-angle-right"></i>
                 </a>
                 
@@ -1017,7 +924,7 @@ root
     <script>
         var gitbook = gitbook || [];
         gitbook.push(function() {
-            gitbook.page.hasChanged({"page":{"title":"grep","level":"1.4.1","depth":2,"next":{"title":"cut","level":"1.4.2","depth":2,"path":"filter_and_find/cut.md","ref":"filter_and_find/cut.md","articles":[]},"previous":{"title":"过滤查询","level":"1.4","depth":1,"ref":"","articles":[{"title":"grep","level":"1.4.1","depth":2,"path":"filter_and_find/grep.md","ref":"filter_and_find/grep.md","articles":[]},{"title":"cut","level":"1.4.2","depth":2,"path":"filter_and_find/cut.md","ref":"filter_and_find/cut.md","articles":[]},{"title":"sed","level":"1.4.3","depth":2,"path":"filter_and_find/sed.md","ref":"filter_and_find/sed.md","articles":[]},{"title":"awk","level":"1.4.4","depth":2,"path":"filter_and_find/awk.md","ref":"filter_and_find/awk.md","articles":[]},{"title":"小试牛刀","level":"1.4.5","depth":2,"path":"filter_and_find/exercise.md","ref":"filter_and_find/exercise.md","articles":[{"title":"统计特定文件中的词频","level":"1.4.5.1","depth":3,"path":"filter_and_find/exercise/word_freq.md","ref":"filter_and_find/exercise/word_freq.md","articles":[]}]}]},"dir":"ltr"},"config":{"plugins":["theme-comscore","disqus","prism","-highlight","baidu","tbfed-pagefooter","github-buttons"],"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"pluginsConfig":{"tbfed-pagefooter":{"copyright":"JalanJiang.江子抑","modify_label":"该文件修订时间：","modify_format":"YYYY-MM-DD HH:mm:ss"},"prism":{"css":["prismjs/themes/prism-okaidia.css"]},"disqus":{"useIdentifier":false,"shortName":"jalanjiang"},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"fontsettings":{"theme":"white","family":"sans","size":2},"fontSettings":{"theme":"sepia","family":"serif","size":2},"theme-comscore":{},"github-buttons":{"buttons":[{"user":"JalanJiang","repo":"Notes-On-Linux-Shell-Scripting-Cookbook","type":"star","size":"small"}]},"baidu":{"token":"c47c7dbbbbb8b1bd7729048f358cd896"},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":true}},"theme":"default","author":"JalanJiang.江子抑 <jjy@meitu.com>","pdf":{"pageBreaksBefore":"/","headerTemplate":null,"paperSize":"a4","margin":{"right":62,"left":62,"top":36,"bottom":36},"fontSize":12,"fontFamily":"Arial","footerTemplate":null,"chapterMark":"pagebreak","pageNumbers":false},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"isbn":"","variables":{},"title":"Shell 脚本学习笔记","links":{"sidebar":{"我的博客":"http://jalan.space"},"sharing":{"google":null,"facebook":null,"twitter":null,"weibo":null,"all":null}},"gitbook":"*","description":"《Linux Shell 脚本攻略（第2版）》学习笔记","extension":""},"file":{"path":"filter_and_find/grep.md","mtime":"2018-04-21T04:49:16.000Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2018-04-24T13:24:39.770Z"},"basePath":"..","book":{"language":""}});
+            gitbook.page.hasChanged({"page":{"title":"函数","level":"1.2.5","depth":2,"next":{"title":"迭代器","level":"1.2.6","depth":2,"path":"basic/loop.md","ref":"basic/loop.md","articles":[]},"previous":{"title":"数组","level":"1.2.4","depth":2,"path":"basic/array.md","ref":"basic/array.md","articles":[]},"dir":"ltr"},"config":{"plugins":["theme-comscore","disqus","prism","-highlight","baidu","tbfed-pagefooter","github-buttons"],"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"pluginsConfig":{"tbfed-pagefooter":{"copyright":"JalanJiang.江子抑","modify_label":"该文件修订时间：","modify_format":"YYYY-MM-DD HH:mm:ss"},"prism":{"css":["prismjs/themes/prism-okaidia.css"]},"disqus":{"useIdentifier":false,"shortName":"jalanjiang"},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"fontsettings":{"theme":"white","family":"sans","size":2},"fontSettings":{"theme":"sepia","family":"serif","size":2},"theme-comscore":{},"github-buttons":{"buttons":[{"user":"JalanJiang","repo":"Notes-On-Linux-Shell-Scripting-Cookbook","type":"star","size":"small"}]},"baidu":{"token":"c47c7dbbbbb8b1bd7729048f358cd896"},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":true}},"theme":"default","author":"JalanJiang.江子抑 <jjy@meitu.com>","pdf":{"pageBreaksBefore":"/","headerTemplate":null,"paperSize":"a4","margin":{"right":62,"left":62,"top":36,"bottom":36},"fontSize":12,"fontFamily":"Arial","footerTemplate":null,"chapterMark":"pagebreak","pageNumbers":false},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"isbn":"","variables":{},"title":"Shell 脚本学习笔记","links":{"sidebar":{"我的博客":"http://jalan.space"},"sharing":{"google":null,"facebook":null,"twitter":null,"weibo":null,"all":null}},"gitbook":"*","description":"《Linux Shell 脚本攻略（第2版）》学习笔记","extension":""},"file":{"path":"basic/function.md","mtime":"2018-04-24T08:25:18.266Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2018-04-24T13:24:39.770Z"},"basePath":"..","book":{"language":""}});
         });
     </script>
 </div>

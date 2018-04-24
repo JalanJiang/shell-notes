@@ -1,6 +1,25 @@
 # Summary
 * [简介](README.md)
-* [文件目录](chapter1/file_and_dir.md)
+* 基本语法
+    * [数学运算](basic/math.md)
+    * [文件描述符与重定向](basic/redirect.md)
+    * [管道](basic/piping.md)
+    * [数组](basic/array.md)
+    * [函数](basic/function.md)
+    * [迭代器](basic/loop.md)
+    * [比较](basic/eq.md)
+    * [调试脚本](basic/debug.md)
+* 常用命令
+    * cat
+    * find
+    * xargs
+    * tr
+    * sort
+    * uniq
+    * [mktemp](common/mktemp.md)
+    * [split](common/split.md)
+    * [csplit](common/csplit.md)
+    * 根据扩展名切分文件
 * 过滤查询
     * [grep](filter_and_find/grep.md)
     * [cut](filter_and_find/cut.md)
@@ -20,3 +39,6 @@
     * [nc](internet/nc.md)
     * 小试牛刀
         * [找到网络上的活跃主机](internet/exercise/find_alive_ip.md)
+* 监视系统活动
+    * [du](monitor/du.md)
+    * [df](monitor/df.md)
