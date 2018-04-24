@@ -2,9 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e80ccebb-5b25-4adf-a936-0063f75af4cc" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/internet/nc.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/internet/netstat.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SUMMARY.md" afterPath="$PROJECT_DIR$/SUMMARY.md" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_book/.idea/workspace.xml" afterPath="$PROJECT_DIR$/_book/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_book/chapter1/file_and_dir.html" afterPath="$PROJECT_DIR$/_book/chapter1/file_and_dir.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_book/filter_and_find/awk.html" afterPath="$PROJECT_DIR$/_book/filter_and_find/awk.html" />
@@ -17,11 +14,15 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_book/internet/exercise/find_alive_ip.html" afterPath="$PROJECT_DIR$/_book/internet/exercise/find_alive_ip.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_book/internet/host.html" afterPath="$PROJECT_DIR$/_book/internet/host.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_book/internet/ifconfig.html" afterPath="$PROJECT_DIR$/_book/internet/ifconfig.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_book/internet/lsof.html" afterPath="$PROJECT_DIR$/_book/internet/lsof.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_book/internet/nc.html" afterPath="$PROJECT_DIR$/_book/internet/nc.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_book/internet/netstat.html" afterPath="$PROJECT_DIR$/_book/internet/netstat.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_book/internet/nslookup.html" afterPath="$PROJECT_DIR$/_book/internet/nslookup.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_book/internet/ping.html" afterPath="$PROJECT_DIR$/_book/internet/ping.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_book/internet/route.html" afterPath="$PROJECT_DIR$/_book/internet/route.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_book/internet/sh.html" afterPath="$PROJECT_DIR$/_book/internet/sh.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_book/search_index.json" afterPath="$PROJECT_DIR$/_book/search_index.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/book.json" afterPath="$PROJECT_DIR$/book.json" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -59,15 +60,25 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="nc.md" pinned="false" current-in-tab="true">
+      <file leaf-file-name="nc.md" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/internet/nc.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="422">
-                <caret line="26" column="4" lean-forward="false" selection-start-line="26" selection-start-column="4" selection-end-line="26" selection-end-column="4" />
+              <first_editor relative-caret-position="648">
+                <caret line="25" column="0" lean-forward="false" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
                 <folding />
               </first_editor>
               <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="book.json" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/book.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="207">
+              <caret line="31" column="14" lean-forward="false" selection-start-line="31" selection-start-column="14" selection-end-line="31" selection-end-column="14" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -97,7 +108,6 @@
         <option value="$PROJECT_DIR$/internet/host.md" />
         <option value="$PROJECT_DIR$/internet/nslookup.md" />
         <option value="$PROJECT_DIR$/internet/ifconfig.md" />
-        <option value="$PROJECT_DIR$/book.json" />
         <option value="$PROJECT_DIR$/internet/exercise/find_alive_ip.md" />
         <option value="$PROJECT_DIR$/internet/sh.md" />
         <option value="$PROJECT_DIR$/internet/lsof.sh" />
@@ -105,6 +115,7 @@
         <option value="$PROJECT_DIR$/internet/netstat.md" />
         <option value="$PROJECT_DIR$/SUMMARY.md" />
         <option value="$PROJECT_DIR$/internet/nc.md" />
+        <option value="$PROJECT_DIR$/book.json" />
       </list>
     </option>
   </component>
@@ -268,15 +279,15 @@
       <workItem from="1524236726341" duration="55000" />
       <workItem from="1524236803020" duration="13380000" />
       <workItem from="1524325612119" duration="9000" />
-      <workItem from="1524377560591" duration="12742000" />
+      <workItem from="1524377560591" duration="14697000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="26835000" />
+    <option name="totallyTimeSpent" value="28790000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-1919" y="23" width="1919" height="976" extended-state="6" />
+    <frame x="-1919" y="23" width="1919" height="976" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.13965607" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -579,14 +590,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/book.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="546">
-          <caret line="21" column="23" lean-forward="true" selection-start-line="21" selection-start-column="23" selection-end-line="21" selection-end-column="23" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/internet/nslookup.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
@@ -691,11 +694,19 @@
     <entry file="file://$PROJECT_DIR$/internet/nc.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="422">
-            <caret line="26" column="4" lean-forward="false" selection-start-line="26" selection-start-column="4" selection-end-line="26" selection-end-column="4" />
+          <first_editor relative-caret-position="648">
+            <caret line="25" column="0" lean-forward="false" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
             <folding />
           </first_editor>
           <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/book.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="31" column="14" lean-forward="false" selection-start-line="31" selection-start-column="14" selection-end-line="31" selection-end-column="14" />
+          <folding />
         </state>
       </provider>
     </entry>
