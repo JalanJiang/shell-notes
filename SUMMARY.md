@@ -10,12 +10,12 @@
     * [比较](basic/eq.md)
     * [调试脚本](basic/debug.md)
 * 常用命令
-    * cat
-    * find
-    * xargs
+    * [cat](common/cat.md)
+    * [find](common/find.md)
+    * [xargs](common/xargs.md)
     * tr
-    * sort
-    * uniq
+    * [sort](common/sort.md)
+    * [uniq](common/uniq.md)
     * [mktemp](common/mktemp.md)
     * [split](common/split.md)
     * [csplit](common/csplit.md)
