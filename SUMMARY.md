@@ -20,6 +20,8 @@
     * [split](common/split.md)
     * [csplit](common/csplit.md)
     * 根据扩展名切分文件
+* 以文件之名
+    * [comm](text_file/comm.md)
 * 过滤查询
     * [grep](filter_and_find/grep.md)
     * [cut](filter_and_find/cut.md)
