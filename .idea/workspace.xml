@@ -2,44 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e80ccebb-5b25-4adf-a936-0063f75af4cc" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/common/cat.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/common/find.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/common/sort.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/common/uniq.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/common/xargs.md" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SUMMARY.md" afterPath="$PROJECT_DIR$/SUMMARY.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_book/.idea/workspace.xml" afterPath="$PROJECT_DIR$/_book/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_book/basic/array.html" afterPath="$PROJECT_DIR$/_book/basic/array.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_book/basic/debug.html" afterPath="$PROJECT_DIR$/_book/basic/debug.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_book/basic/eq.html" afterPath="$PROJECT_DIR$/_book/basic/eq.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_book/basic/function.html" afterPath="$PROJECT_DIR$/_book/basic/function.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_book/basic/loop.html" afterPath="$PROJECT_DIR$/_book/basic/loop.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_book/basic/math.html" afterPath="$PROJECT_DIR$/_book/basic/math.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_book/basic/piping.html" afterPath="$PROJECT_DIR$/_book/basic/piping.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_book/basic/redirect.html" afterPath="$PROJECT_DIR$/_book/basic/redirect.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_book/common/csplit.html" afterPath="$PROJECT_DIR$/_book/common/csplit.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_book/common/mktemp.html" afterPath="$PROJECT_DIR$/_book/common/mktemp.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_book/common/split.html" afterPath="$PROJECT_DIR$/_book/common/split.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_book/filter_and_find/awk.html" afterPath="$PROJECT_DIR$/_book/filter_and_find/awk.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_book/filter_and_find/cut.html" afterPath="$PROJECT_DIR$/_book/filter_and_find/cut.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_book/filter_and_find/exercise.html" afterPath="$PROJECT_DIR$/_book/filter_and_find/exercise.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_book/filter_and_find/exercise/word_freq.html" afterPath="$PROJECT_DIR$/_book/filter_and_find/exercise/word_freq.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_book/filter_and_find/grep.html" afterPath="$PROJECT_DIR$/_book/filter_and_find/grep.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_book/filter_and_find/sed.html" afterPath="$PROJECT_DIR$/_book/filter_and_find/sed.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_book/index.html" afterPath="$PROJECT_DIR$/_book/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_book/internet/exercise/find_alive_ip.html" afterPath="$PROJECT_DIR$/_book/internet/exercise/find_alive_ip.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_book/internet/host.html" afterPath="$PROJECT_DIR$/_book/internet/host.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_book/internet/ifconfig.html" afterPath="$PROJECT_DIR$/_book/internet/ifconfig.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_book/internet/lsof.html" afterPath="$PROJECT_DIR$/_book/internet/lsof.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_book/internet/nc.html" afterPath="$PROJECT_DIR$/_book/internet/nc.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_book/internet/netstat.html" afterPath="$PROJECT_DIR$/_book/internet/netstat.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_book/internet/nslookup.html" afterPath="$PROJECT_DIR$/_book/internet/nslookup.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_book/internet/ping.html" afterPath="$PROJECT_DIR$/_book/internet/ping.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_book/internet/route.html" afterPath="$PROJECT_DIR$/_book/internet/route.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_book/internet/sh.html" afterPath="$PROJECT_DIR$/_book/internet/sh.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_book/monitor/df.html" afterPath="$PROJECT_DIR$/_book/monitor/df.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_book/monitor/du.html" afterPath="$PROJECT_DIR$/_book/monitor/du.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_book/search_index.json" afterPath="$PROJECT_DIR$/_book/search_index.json" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -55,8 +18,21 @@
         <entry file="file://$PROJECT_DIR$/SUMMARY.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="26">
-                <caret line="17" column="27" lean-forward="false" selection-start-line="17" selection-start-column="27" selection-end-line="17" selection-end-column="27" />
+              <first_editor relative-caret-position="458">
+                <caret line="31" column="6" lean-forward="false" selection-start-line="31" selection-start-column="6" selection-end-line="31" selection-end-column="6" />
+                <folding />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ifconfig.md" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/internet/ifconfig.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="173">
+                <caret line="41" column="0" lean-forward="false" selection-start-line="41" selection-start-column="0" selection-end-line="41" selection-end-column="0" />
                 <folding />
               </first_editor>
               <second_editor />
@@ -90,11 +66,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="book.json" pinned="false" current-in-tab="true">
+      <file leaf-file-name="book.json" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/book.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="171">
-              <caret line="23" column="15" lean-forward="true" selection-start-line="23" selection-start-column="15" selection-end-line="23" selection-end-column="15" />
+            <state relative-caret-position="565">
+              <caret line="63" column="21" lean-forward="false" selection-start-line="63" selection-start-column="21" selection-end-line="63" selection-end-column="21" />
               <folding />
             </state>
           </provider>
@@ -205,10 +181,10 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="-1919" />
-    <option name="y" value="23" />
-    <option name="width" value="1919" />
-    <option name="height" value="977" />
+    <option name="x" value="-1400" />
+    <option name="y" value="609" />
+    <option name="width" value="1440" />
+    <option name="height" value="810" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -249,20 +225,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="monitor" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="linux_shell" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="linux_shell" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="common" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
@@ -384,18 +346,18 @@
       <workItem from="1524325612119" duration="9000" />
       <workItem from="1524377560591" duration="14697000" />
       <workItem from="1524551026227" duration="10919000" />
-      <workItem from="1524639271393" duration="684000" />
+      <workItem from="1524639271393" duration="6542000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="40393000" />
+    <option name="totallyTimeSpent" value="46251000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-1919" y="23" width="1919" height="977" extended-state="6" />
+    <frame x="-1400" y="609" width="1440" height="810" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.13965607" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18611111" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -550,16 +512,6 @@
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="52">
             <caret line="2" column="10" lean-forward="false" selection-start-line="2" selection-start-column="10" selection-end-line="2" selection-end-column="10" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/internet/ifconfig.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="328">
-            <caret line="16" column="0" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
           </first_editor>
           <second_editor />
         </state>
@@ -845,22 +797,33 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/book.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="565">
+          <caret line="63" column="21" lean-forward="false" selection-start-line="63" selection-start-column="21" selection-end-line="63" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/SUMMARY.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="26">
-            <caret line="17" column="27" lean-forward="false" selection-start-line="17" selection-start-column="27" selection-end-line="17" selection-end-column="27" />
+          <first_editor relative-caret-position="458">
+            <caret line="31" column="6" lean-forward="false" selection-start-line="31" selection-start-column="6" selection-end-line="31" selection-end-column="6" />
             <folding />
           </first_editor>
           <second_editor />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/book.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="23" column="15" lean-forward="true" selection-start-line="23" selection-start-column="15" selection-end-line="23" selection-end-column="15" />
-          <folding />
+    <entry file="file://$PROJECT_DIR$/internet/ifconfig.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="173">
+            <caret line="41" column="0" lean-forward="false" selection-start-line="41" selection-start-column="0" selection-end-line="41" selection-end-column="0" />
+            <folding />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>

@@ -4,7 +4,7 @@
     <head>
         <meta charset="UTF-8">
         <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
-        <title>调试脚本 · Shell 脚本学习笔记</title>
+        <title>comm · Shell 脚本学习笔记</title>
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="description" content="">
         <meta name="generator" content="GitBook 3.2.3">
@@ -70,8 +70,6 @@
     <link rel="shortcut icon" href="../gitbook/images/favicon.ico" type="image/x-icon">
 
     
-    
-    <link rel="prev" href="eq.html" />
     
 
     <style>
@@ -151,9 +149,9 @@
             <ul class="articles">
                 
     
-        <li class="chapter " data-level="1.2.1" data-path="math.html">
+        <li class="chapter " data-level="1.2.1" data-path="../basic/math.html">
             
-                <a href="math.html">
+                <a href="../basic/math.html">
             
                     
                         <b>1.2.1.</b>
@@ -166,9 +164,9 @@
             
         </li>
     
-        <li class="chapter " data-level="1.2.2" data-path="redirect.html">
+        <li class="chapter " data-level="1.2.2" data-path="../basic/redirect.html">
             
-                <a href="redirect.html">
+                <a href="../basic/redirect.html">
             
                     
                         <b>1.2.2.</b>
@@ -181,9 +179,9 @@
             
         </li>
     
-        <li class="chapter " data-level="1.2.3" data-path="piping.html">
+        <li class="chapter " data-level="1.2.3" data-path="../basic/piping.html">
             
-                <a href="piping.html">
+                <a href="../basic/piping.html">
             
                     
                         <b>1.2.3.</b>
@@ -196,9 +194,9 @@
             
         </li>
     
-        <li class="chapter " data-level="1.2.4" data-path="array.html">
+        <li class="chapter " data-level="1.2.4" data-path="../basic/array.html">
             
-                <a href="array.html">
+                <a href="../basic/array.html">
             
                     
                         <b>1.2.4.</b>
@@ -211,9 +209,9 @@
             
         </li>
     
-        <li class="chapter " data-level="1.2.5" data-path="function.html">
+        <li class="chapter " data-level="1.2.5" data-path="../basic/function.html">
             
-                <a href="function.html">
+                <a href="../basic/function.html">
             
                     
                         <b>1.2.5.</b>
@@ -226,9 +224,9 @@
             
         </li>
     
-        <li class="chapter " data-level="1.2.6" data-path="loop.html">
+        <li class="chapter " data-level="1.2.6" data-path="../basic/loop.html">
             
-                <a href="loop.html">
+                <a href="../basic/loop.html">
             
                     
                         <b>1.2.6.</b>
@@ -241,9 +239,9 @@
             
         </li>
     
-        <li class="chapter " data-level="1.2.7" data-path="eq.html">
+        <li class="chapter " data-level="1.2.7" data-path="../basic/eq.html">
             
-                <a href="eq.html">
+                <a href="../basic/eq.html">
             
                     
                         <b>1.2.7.</b>
@@ -256,9 +254,9 @@
             
         </li>
     
-        <li class="chapter active" data-level="1.2.8" data-path="debug.html">
+        <li class="chapter " data-level="1.2.8" data-path="../basic/debug.html">
             
-                <a href="debug.html">
+                <a href="../basic/debug.html">
             
                     
                         <b>1.2.8.</b>
@@ -463,9 +461,9 @@
             <ul class="articles">
                 
     
-        <li class="chapter " data-level="1.4.1" data-path="../text_file/comm.html">
+        <li class="chapter active" data-level="1.4.1" data-path="comm.html">
             
-                <a href="../text_file/comm.html">
+                <a href="comm.html">
             
                     
                         <b>1.4.1.</b>
@@ -873,7 +871,7 @@
     <!-- Title -->
     <h1>
         <i class="fa fa-circle-o-notch fa-spin"></i>
-        <a href=".." >调试脚本</a>
+        <a href=".." >comm</a>
     </h1>
 </div>
 
@@ -888,26 +886,56 @@
     
                                 <section class="normal markdown-section">
                                 
-                                <h1 id="&#x8C03;&#x8BD5;&#x811A;&#x672C;">&#x8C03;&#x8BD5;&#x811A;&#x672C;</h1>
-<h2 id="&#x4F7F;&#x7528;--x-&#x9009;&#x9879;&#xFF1A;">&#x4F7F;&#x7528; <code>-x</code> &#x9009;&#x9879;&#xFF1A;</h2>
-<pre class="language-"><code>bash -x script.sh
-sh -x script.sh
-</code></pre><h2 id="&#x90E8;&#x5206;&#x8C03;&#x8BD5;">&#x90E8;&#x5206;&#x8C03;&#x8BD5;</h2>
-<pre class="language-"><code>#!/bin/bash
-
-for i in {1..6};
-do 
-    set -x
-    echo $i #&#x53EA;&#x4F1A;&#x6253;&#x5370;&#x51FA;&#x6B64;&#x884C;&#x8C03;&#x8BD5;&#x4FE1;&#x606F;
-    set +x
-done
-echo &quot;Script executed&quot;
-</code></pre><ul>
-<li>&#x52A0;&#x4E0A; <code>DEBUG</code> &#x6253;&#x5370;&#x8C03;&#x8BD5;&#x4FE1;&#x606F;</li>
-<li>&#x628A; <code>#!/bin/bash</code> &#x6539;&#x4E3A; <code>#!/bin/bash -xv</code>&#xFF0C;&#x4E0D;&#x7528;&#x5176;&#x4ED6;&#x9009;&#x9879;&#x5C31;&#x80FD;&#x542F;&#x7528;&#x8C03;&#x8BD5;&#x529F;&#x80FD;&#x4E86; </li>
+                                <h1 id="comm">comm</h1>
+<ul>
+<li>&#x7528;&#x4E8E;&#x4E24;&#x4E2A;&#x6587;&#x4EF6;&#x4E4B;&#x95F4;&#x7684;&#x6BD4;&#x8F83;</li>
+<li>&#x5FC5;&#x987B;&#x4F7F;&#x7528;&#x6392;&#x5E8F;&#x8FC7;&#x7684;&#x6587;&#x4EF6;&#x4F5C;&#x4E3A;&#x8F93;&#x5165;</li>
+<li>&#x6309;&#x7167;&#x9700;&#x6C42;&#x5BF9;&#x8F93;&#x51FA;&#x8FDB;&#x884C;&#x683C;&#x5F0F;&#x5316;<ul>
+<li><code>-1</code> &#x4ECE;&#x8F93;&#x51FA;&#x4E2D;&#x5220;&#x9664;&#x7B2C;&#x4E00;&#x5217;</li>
+<li><code>-2</code> &#x4ECE;&#x8F93;&#x51FA;&#x4E2D;&#x5220;&#x9664;&#x7B2C;&#x4E8C;&#x5217;</li>
+<li><code>-3</code> &#x4ECE;&#x8F93;&#x51FA;&#x4E2D;&#x5220;&#x9664;&#x7B2C;&#x4E09;&#x5217;</li>
 </ul>
-<footer class="page-footer"><span class="copyright">JalanJiang.&#x6C5F;&#x5B50;&#x6291; all right reserved&#xFF0C;powered by Gitbook</span><span class="footer-modification">&#x8BE5;&#x6587;&#x4EF6;&#x4FEE;&#x8BA2;&#x65F6;&#x95F4;&#xFF1A;
-2018-04-24 16:43:12
+</li>
+</ul>
+<h2 id="&#x4E0D;&#x5E26;&#x53C2;&#x6570;&#x9009;&#x9879;">&#x4E0D;&#x5E26;&#x53C2;&#x6570;&#x9009;&#x9879;</h2>
+<pre class="language-"><code>$ comm A.txt B.txt
+apple
+        carrot
+        cookies
+                 gold
+iron
+                 orange
+silver
+steel
+</code></pre><ul>
+<li>&#x7B2C;&#x4E00;&#x5217;&#x5305;&#x542B;&#x4EC5;&#x5728; A.txt &#x4E2D;&#x51FA;&#x73B0;&#x7684;&#x884C;</li>
+<li>&#x7B2C;&#x4E8C;&#x5217;&#x5305;&#x542B;&#x53EA;&#x5728; B.txt &#x4E2D;&#x51FA;&#x73B0;&#x7684;&#x884C;</li>
+<li>&#x7B2C;&#x4E09;&#x5217;&#x5305;&#x542B; A.txt &#x548C; B.txt &#x4E2D;&#x76F8;&#x540C;&#x7684;&#x884C;</li>
+<li>&#x5404;&#x5217;&#x4EE5; <code>\t</code> &#x4F5C;&#x4E3A;&#x5B9A;&#x754C;&#x7B26;</li>
+</ul>
+<h2 id="&#x6253;&#x5370;&#x4EA4;&#x96C6;">&#x6253;&#x5370;&#x4EA4;&#x96C6;</h2>
+<p>&#x5220;&#x9664;&#x7B2C;&#x4E00;&#x5217;&#x548C;&#x7B2C;&#x4E8C;&#x5217;</p>
+<pre class="language-"><code>$ comm -1 -2 A.txt B.txt
+gold
+orange
+</code></pre><h2 id="&#x6253;&#x5370;&#x4E0D;&#x540C;&#x884C;">&#x6253;&#x5370;&#x4E0D;&#x540C;&#x884C;</h2>
+<pre class="language-"><code>$ comm -3 A.txt B.txt
+apple
+        carrot
+        cookies             
+iron             
+silver
+steel
+</code></pre><h2 id="&#x751F;&#x6210;&#x89C4;&#x8303;&#x6027;&#x8F93;&#x51FA;">&#x751F;&#x6210;&#x89C4;&#x8303;&#x6027;&#x8F93;&#x51FA;</h2>
+<p>&#x5C06;&#x4E24;&#x5217;&#x5408;&#x5E76;&#x6210;&#x4E00;&#x5217;&#x3002;</p>
+<pre class="language-"><code>$ comm -3 A.txt B.txt | sed &apos;s/^\t//&apos;
+</code></pre><h2 id="&#x6253;&#x5370;&#x5DEE;&#x96C6;">&#x6253;&#x5370;&#x5DEE;&#x96C6;</h2>
+<p>A&#x7684;&#x5DEE;&#x96C6;&#xFF1A;</p>
+<pre class="language-"><code>$ comm -2 -3 A.txt B.txt
+</code></pre><p>B&#x7684;&#x5DEE;&#x96C6;&#xFF1A;</p>
+<pre class="language-"><code>$ comm -1 -3 A.txt B.txt
+</code></pre><footer class="page-footer"><span class="copyright">JalanJiang.&#x6C5F;&#x5B50;&#x6291; all right reserved&#xFF0C;powered by Gitbook</span><span class="footer-modification">&#x8BE5;&#x6587;&#x4EF6;&#x4FEE;&#x8BA2;&#x65F6;&#x95F4;&#xFF1A;
+2018-05-02 20:57:21
 </span></footer>
                                 
                                 </section>
@@ -935,10 +963,6 @@ echo &quot;Script executed&quot;
 
             
                 
-                <a href="eq.html" class="navigation navigation-prev navigation-unique" aria-label="Previous page: 比较">
-                    <i class="fa fa-angle-left"></i>
-                </a>
-                
                 
             
         
@@ -947,7 +971,7 @@ echo &quot;Script executed&quot;
     <script>
         var gitbook = gitbook || [];
         gitbook.push(function() {
-            gitbook.page.hasChanged({"page":{"title":"调试脚本","level":"1.2.8","depth":2,"next":{"title":"常用命令","level":"1.3","depth":1,"ref":"","articles":[{"title":"cat","level":"1.3.1","depth":2,"path":"common/cat.md","ref":"common/cat.md","articles":[]},{"title":"find","level":"1.3.2","depth":2,"path":"common/find.md","ref":"common/find.md","articles":[]},{"title":"xargs","level":"1.3.3","depth":2,"path":"common/xargs.md","ref":"common/xargs.md","articles":[]},{"title":"tr","level":"1.3.4","depth":2,"ref":"","articles":[]},{"title":"sort","level":"1.3.5","depth":2,"path":"common/sort.md","ref":"common/sort.md","articles":[]},{"title":"uniq","level":"1.3.6","depth":2,"path":"common/uniq.md","ref":"common/uniq.md","articles":[]},{"title":"mktemp","level":"1.3.7","depth":2,"path":"common/mktemp.md","ref":"common/mktemp.md","articles":[]},{"title":"split","level":"1.3.8","depth":2,"path":"common/split.md","ref":"common/split.md","articles":[]},{"title":"csplit","level":"1.3.9","depth":2,"path":"common/csplit.md","ref":"common/csplit.md","articles":[]},{"title":"根据扩展名切分文件","level":"1.3.10","depth":2,"ref":"","articles":[]}]},"previous":{"title":"比较","level":"1.2.7","depth":2,"path":"basic/eq.md","ref":"basic/eq.md","articles":[]},"dir":"ltr"},"config":{"plugins":["theme-comscore","disqus","prism","-highlight","baidu","tbfed-pagefooter","github-buttons","livereload"],"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"pluginsConfig":{"tbfed-pagefooter":{"copyright":"JalanJiang.江子抑","modify_label":"该文件修订时间：","modify_format":"YYYY-MM-DD HH:mm:ss"},"prism":{"css":["prismjs/themes/prism-okaidia.css"]},"disqus":{"useIdentifier":false,"shortName":"jalanjiang"},"livereload":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"fontsettings":{"theme":"white","family":"sans","size":2},"fontSettings":{"theme":"sepia","family":"serif","size":2},"theme-comscore":{},"github-buttons":{"buttons":[{"user":"JalanJiang","repo":"Notes-On-Linux-Shell-Scripting-Cookbook","type":"star","size":"small"}]},"baidu":{"token":"c47c7dbbbbb8b1bd7729048f358cd896"},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":true}},"theme":"default","author":"JalanJiang.江子抑 <jjy@meitu.com>","pdf":{"pageBreaksBefore":"/","headerTemplate":null,"paperSize":"a4","margin":{"right":62,"left":62,"top":36,"bottom":36},"fontSize":12,"fontFamily":"Arial","footerTemplate":null,"chapterMark":"pagebreak","pageNumbers":false},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"isbn":"","variables":{},"title":"Shell 脚本学习笔记","links":{"sidebar":{"我的博客":"http://jalan.space"},"sharing":{"google":null,"facebook":null,"twitter":null,"weibo":null,"all":null}},"gitbook":"*","description":"《Linux Shell 脚本攻略（第2版）》学习笔记","extension":""},"file":{"path":"basic/debug.md","mtime":"2018-04-24T08:43:12.759Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2018-05-03T01:34:02.021Z"},"basePath":"..","book":{"language":""}});
+            gitbook.page.hasChanged({"page":{"title":"comm","level":"1.4.1","depth":2,"next":{"title":"过滤查询","level":"1.5","depth":1,"ref":"","articles":[{"title":"grep","level":"1.5.1","depth":2,"path":"filter_and_find/grep.md","ref":"filter_and_find/grep.md","articles":[]},{"title":"cut","level":"1.5.2","depth":2,"path":"filter_and_find/cut.md","ref":"filter_and_find/cut.md","articles":[]},{"title":"sed","level":"1.5.3","depth":2,"path":"filter_and_find/sed.md","ref":"filter_and_find/sed.md","articles":[]},{"title":"awk","level":"1.5.4","depth":2,"path":"filter_and_find/awk.md","ref":"filter_and_find/awk.md","articles":[]},{"title":"小试牛刀","level":"1.5.5","depth":2,"path":"filter_and_find/exercise.md","ref":"filter_and_find/exercise.md","articles":[{"title":"统计特定文件中的词频","level":"1.5.5.1","depth":3,"path":"filter_and_find/exercise/word_freq.md","ref":"filter_and_find/exercise/word_freq.md","articles":[]}]}]},"previous":{"title":"以文件之名","level":"1.4","depth":1,"ref":"","articles":[{"title":"comm","level":"1.4.1","depth":2,"path":"text_file/comm.md","ref":"text_file/comm.md","articles":[]}]},"dir":"ltr"},"config":{"plugins":["theme-comscore","disqus","prism","-highlight","baidu","tbfed-pagefooter","github-buttons","livereload"],"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"pluginsConfig":{"tbfed-pagefooter":{"copyright":"JalanJiang.江子抑","modify_label":"该文件修订时间：","modify_format":"YYYY-MM-DD HH:mm:ss"},"prism":{"css":["prismjs/themes/prism-okaidia.css"]},"disqus":{"useIdentifier":false,"shortName":"jalanjiang"},"livereload":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"fontsettings":{"theme":"white","family":"sans","size":2},"fontSettings":{"theme":"sepia","family":"serif","size":2},"theme-comscore":{},"github-buttons":{"buttons":[{"user":"JalanJiang","repo":"Notes-On-Linux-Shell-Scripting-Cookbook","type":"star","size":"small"}]},"baidu":{"token":"c47c7dbbbbb8b1bd7729048f358cd896"},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":true}},"theme":"default","author":"JalanJiang.江子抑 <jjy@meitu.com>","pdf":{"pageBreaksBefore":"/","headerTemplate":null,"paperSize":"a4","margin":{"right":62,"left":62,"top":36,"bottom":36},"fontSize":12,"fontFamily":"Arial","footerTemplate":null,"chapterMark":"pagebreak","pageNumbers":false},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"isbn":"","variables":{},"title":"Shell 脚本学习笔记","links":{"sidebar":{"我的博客":"http://jalan.space"},"sharing":{"google":null,"facebook":null,"twitter":null,"weibo":null,"all":null}},"gitbook":"*","description":"《Linux Shell 脚本攻略（第2版）》学习笔记","extension":""},"file":{"path":"text_file/comm.md","mtime":"2018-05-02T12:57:21.976Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2018-05-03T01:34:02.021Z"},"basePath":"..","book":{"language":""}});
         });
     </script>
 </div>
