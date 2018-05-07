@@ -22,6 +22,10 @@
     * 根据扩展名切分文件
 * 以文件之名
     * [comm](text_file/comm.md)
+    * [chmod](text_file/chmod.md)
+    * [chown](text_file/chown.md)
+    * [chartr](text_file/chartr.md)
+    * [touch](text_file/touch.md)
 * 过滤查询
     * [grep](filter_and_find/grep.md)
     * [cut](filter_and_find/cut.md)
