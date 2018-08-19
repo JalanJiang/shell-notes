@@ -4,7 +4,7 @@
     <head>
         <meta charset="UTF-8">
         <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
-        <title>uniq · Shell 脚本学习笔记</title>
+        <title>$ 的使用方法 · Shell 脚本学习笔记</title>
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="description" content="">
         <meta name="generator" content="GitBook 3.2.3">
@@ -79,10 +79,8 @@
     <link rel="shortcut icon" href="../gitbook/images/favicon.ico" type="image/x-icon">
 
     
-    <link rel="next" href="mktemp.html" />
     
-    
-    <link rel="prev" href="sort.html" />
+    <link rel="prev" href="csplit.html" />
     
 
     
@@ -364,7 +362,7 @@
             
         </li>
     
-        <li class="chapter active" data-level="3.6" data-path="uniq.html">
+        <li class="chapter " data-level="3.6" data-path="uniq.html">
             
                 <a href="uniq.html">
             
@@ -424,7 +422,7 @@
             
         </li>
     
-        <li class="chapter " data-level="3.10" data-path="dollar.html">
+        <li class="chapter active" data-level="3.10" data-path="dollar.html">
             
                 <a href="dollar.html">
             
@@ -884,7 +882,7 @@
     <!-- Title -->
     <h1>
         <i class="fa fa-circle-o-notch fa-spin"></i>
-        <a href=".." >uniq</a>
+        <a href=".." >$ 的使用方法</a>
     </h1>
 </div>
 
@@ -899,54 +897,55 @@
     
                                 <section class="normal markdown-section">
                                 
-                                <h1 id="uniq">uniq</h1>
-<pre class="language-"><code>uniq [-ic]
-</code></pre><h2 id="&#x9009;&#x9879;&#x4E0E;&#x53C2;&#x6570;">&#x9009;&#x9879;&#x4E0E;&#x53C2;&#x6570;</h2>
+                                <h1 id="&#x7684;&#x7528;&#x6CD5;"><code>$</code> &#x7684;&#x7528;&#x6CD5;</h1>
 <table>
 <thead>
 <tr>
-<th>&#x9009;&#x9879;&#x53C2;&#x6570;</th>
+<th>&#x7B26;&#x53F7;</th>
 <th>&#x8BF4;&#x660E;</th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td>-i</td>
-<td>&#x5FFD;&#x7565;&#x5927;&#x5C0F;&#x5199;</td>
+<td>$0</td>
+<td>&#x6267;&#x884C;&#x811A;&#x672C;&#x540D;&#x79F0;</td>
 </tr>
 <tr>
-<td>-c</td>
-<td>&#x8FDB;&#x884C;&#x8BA1;&#x6570;</td>
+<td>$n</td>
+<td>&#x4F20;&#x5165;&#x7684;&#x7B2C; n &#x4E2A;&#x53C2;&#x6570;&#xFF0C;n = 0&#xFF5E;9</td>
+</tr>
+<tr>
+<td>$*</td>
+<td>&#x4F20;&#x5165;&#x7684;&#x6240;&#x6709;&#x53C2;&#x6570;</td>
+</tr>
+<tr>
+<td>$@</td>
+<td>&#x8DDF; $* &#x7C7B;&#x4F3C;&#xFF0C;&#x4F46;&#x662F;&#x53EF;&#x4EE5;&#x5F53;&#x4F5C;&#x6570;&#x7EC4;&#x7528;</td>
+</tr>
+<tr>
+<td>$#</td>
+<td>&#x53C2;&#x6570;&#x4E2A;&#x6570;</td>
+</tr>
+<tr>
+<td>$$</td>
+<td>&#x8FDB;&#x7A0B;PID</td>
+</tr>
+<tr>
+<td>$!</td>
+<td>&#x6267;&#x884C;&#x4E0A;&#x4E00;&#x4E2A;&#x80CC;&#x666F;&#x6307;&#x4EE4;&#x7684;PID(&#x540E;&#x53F0;&#x8FD0;&#x884C;&#x7684;&#x6700;&#x540E;&#x4E00;&#x4E2A;&#x8FDB;&#x7A0B;&#x7684;&#x8FDB;&#x7A0B;ID&#x53F7;)</td>
+</tr>
+<tr>
+<td>$?</td>
+<td>&#x6267;&#x884C;&#x4E0A;&#x4E00;&#x4E2A;&#x6307;&#x4EE4;&#x7684;&#x8FD4;&#x56DE;&#x503C; (&#x663E;&#x793A;&#x6700;&#x540E;&#x547D;&#x4EE4;&#x7684;&#x9000;&#x51FA;&#x72B6;&#x6001;&#x3002;0&#x8868;&#x793A;&#x6CA1;&#x6709;&#x9519;&#x8BEF;&#xFF0C;&#x5176;&#x4ED6;&#x4EFB;&#x4F55;&#x503C;&#x8868;&#x660E;&#x6709;&#x9519;&#x8BEF;)</td>
+</tr>
+<tr>
+<td>$-</td>
+<td>&#x663E;&#x793A;shell&#x4F7F;&#x7528;&#x7684;&#x5F53;&#x524D;&#x9009;&#x9879;&#xFF0C;&#x4E0E;set&#x547D;&#x4EE4;&#x529F;&#x80FD;&#x76F8;&#x540C;</td>
 </tr>
 </tbody>
 </table>
-<h2 id="&#x4F7F;&#x7528;&#x573A;&#x666F;">&#x4F7F;&#x7528;&#x573A;&#x666F;</h2>
-<p>&#x6392;&#x5E8F;&#x540E;&#x5C06;&#x91CD;&#x590D;&#x7684;&#x6570;&#x636E;&#x4EC5;&#x5217;&#x51FA;&#x4E00;&#x4E2A;&#x663E;&#x793A;&#x3002;</p>
-<h2 id="&#x6817;&#x5B50;&#x4E00;">&#x6817;&#x5B50;&#x4E00;</h2>
-<p>&#x4F7F;&#x7528; last &#x5C06;&#x8D26;&#x53F7;&#x5217;&#x51FA;&#xFF0C;&#x4EC5;&#x53D6;&#x51FA;&#x8D26;&#x53F7;&#x680F;&#xFF0C;&#x8FDB;&#x884C;&#x6392;&#x5E8F;&#x540E;&#x4EC5;&#x53D6;&#x51FA;&#x4E00;&#x4F4D;&#x3002;</p>
-<pre class="language-"><code>&#x279C;  / last | cut -d &apos; &apos; -f 1 | sort | uniq
-
-
-_mbsetupuser
-reboot
-root
-shutdown
-wtmp
-zj-db0908
-</code></pre><h2 id="&#x6817;&#x5B50;&#x4E8C;">&#x6817;&#x5B50;&#x4E8C;</h2>
-<p>&#x8BA1;&#x7B97;&#x6BCF;&#x4E2A;&#x7528;&#x6237;&#x7684;&#x767B;&#x5F55;&#x6B21;&#x6570;&#x3002;</p>
-<pre class="language-"><code>last | cut -d &apos; &apos; -f 1 | sort | uniq -c
-
-   1
-   3 _mbsetupuser
-  38 reboot
-   4 root
-  30 shutdown
-   1 wtmp
- 340 zj-db0908
-</code></pre><p>&#x6CE8;&#xFF1A;wtmp &#x4E0E;&#x7B2C;&#x4E00;&#x884C;&#x7684;&#x7A7A;&#x767D;&#x90FD;&#x662F; last &#x7684;&#x9ED8;&#x8BA4;&#x5B57;&#x7B26;&#xFF0C;&#x53EF;&#x4EE5;&#x5FFD;&#x7565;</p>
 <footer class="page-footer"><span class="copyright">JalanJiang.&#x6C5F;&#x5B50;&#x6291; all right reserved&#xFF0C;powered by Gitbook</span><span class="footer-modification">&#x8BE5;&#x6587;&#x4EF6;&#x4FEE;&#x8BA2;&#x65F6;&#x95F4;&#xFF1A;
-2018-04-25 15:04:37
+2018-05-08 21:33:25
 </span></footer>
                                 
                                 </section>
@@ -974,14 +973,10 @@ zj-db0908
 
             
                 
-                <a href="sort.html" class="navigation navigation-prev " aria-label="Previous page: sort">
+                <a href="csplit.html" class="navigation navigation-prev navigation-unique" aria-label="Previous page: csplit">
                     <i class="fa fa-angle-left"></i>
                 </a>
                 
-                
-                <a href="mktemp.html" class="navigation navigation-next " aria-label="Next page: mktemp">
-                    <i class="fa fa-angle-right"></i>
-                </a>
                 
             
         
@@ -990,7 +985,7 @@ zj-db0908
     <script>
         var gitbook = gitbook || [];
         gitbook.push(function() {
-            gitbook.page.hasChanged({"page":{"title":"uniq","level":"3.6","depth":1,"next":{"title":"mktemp","level":"3.7","depth":1,"path":"common/mktemp.md","ref":"common/mktemp.md","articles":[]},"previous":{"title":"sort","level":"3.5","depth":1,"path":"common/sort.md","ref":"common/sort.md","articles":[]},"dir":"ltr"},"config":{"plugins":["theme-default","disqus","prism","-highlight","baidu","tbfed-pagefooter","github-buttons","page-toc-button","back-to-top-button","sitemap-general","favicon@^0.0.2","splitter","livereload"],"styles":{"ebook":"styles/ebook.css","epub":"styles/epub.css","mobi":"styles/mobi.css","pdf":"styles/pdf.css","print":"styles/print.css","website":"styles/website.css"},"pluginsConfig":{"tbfed-pagefooter":{"copyright":"JalanJiang.江子抑","modify_label":"该文件修订时间：","modify_format":"YYYY-MM-DD HH:mm:ss"},"prism":{"css":["prismjs/themes/prism.css"]},"disqus":{"useIdentifier":false,"shortName":"jalanjiang"},"livereload":{},"splitter":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sitemap-general":{"prefix":"http://jalan.space/laravel5.6-notes/"},"fontsettings":{"theme":"white","family":"sans","size":2},"fontSettings":{"theme":"sepia","family":"serif","size":2},"favicon":{"shortcut":"favicon.ico","bookmark":"favicon.ico"},"page-toc-button":{},"back-to-top-button":{},"github-buttons":{"buttons":[{"user":"JalanJiang","repo":"laravel5.6-notes","type":"star","size":"small"}]},"baidu":{"token":"c47c7dbbbbb8b1bd7729048f358cd896"},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"theme-default":{"showLevel":true,"styles":{"ebook":"styles/ebook.css","epub":"styles/epub.css","mobi":"styles/mobi.css","pdf":"styles/pdf.css","print":"styles/print.css","website":"styles/website.css"}}},"theme":"default","author":"JalanJiang.江子抑 <jjy@meitu.com>","pdf":{"pageBreaksBefore":"/","headerTemplate":null,"paperSize":"a4","margin":{"right":62,"left":62,"top":36,"bottom":36},"fontSize":12,"fontFamily":"Arial","footerTemplate":null,"chapterMark":"pagebreak","pageNumbers":false},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"isbn":"","variables":{},"title":"Shell 脚本学习笔记","links":{"sidebar":{"我的博客":"http://jalan.space"},"sharing":{"google":null,"facebook":null,"twitter":null,"weibo":null,"all":null}},"gitbook":"*","description":"《Linux Shell 脚本攻略（第2版）》学习笔记","extension":""},"file":{"path":"common/uniq.md","mtime":"2018-04-25T07:04:37.378Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2018-08-19T09:14:49.612Z"},"basePath":"..","book":{"language":""}});
+            gitbook.page.hasChanged({"page":{"title":"$ 的使用方法","level":"3.10","depth":1,"next":{"title":"根据扩展名切分文件","level":"3.11","depth":1,"ref":"","articles":[]},"previous":{"title":"csplit","level":"3.9","depth":1,"path":"common/csplit.md","ref":"common/csplit.md","articles":[]},"dir":"ltr"},"config":{"plugins":["theme-default","disqus","prism","-highlight","baidu","tbfed-pagefooter","github-buttons","page-toc-button","back-to-top-button","sitemap-general","favicon@^0.0.2","splitter","livereload"],"styles":{"ebook":"styles/ebook.css","epub":"styles/epub.css","mobi":"styles/mobi.css","pdf":"styles/pdf.css","print":"styles/print.css","website":"styles/website.css"},"pluginsConfig":{"tbfed-pagefooter":{"copyright":"JalanJiang.江子抑","modify_label":"该文件修订时间：","modify_format":"YYYY-MM-DD HH:mm:ss"},"prism":{"css":["prismjs/themes/prism.css"]},"disqus":{"useIdentifier":false,"shortName":"jalanjiang"},"livereload":{},"splitter":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sitemap-general":{"prefix":"http://jalan.space/laravel5.6-notes/"},"fontsettings":{"theme":"white","family":"sans","size":2},"fontSettings":{"theme":"sepia","family":"serif","size":2},"favicon":{"shortcut":"favicon.ico","bookmark":"favicon.ico"},"page-toc-button":{},"back-to-top-button":{},"github-buttons":{"buttons":[{"user":"JalanJiang","repo":"laravel5.6-notes","type":"star","size":"small"}]},"baidu":{"token":"c47c7dbbbbb8b1bd7729048f358cd896"},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"theme-default":{"showLevel":true,"styles":{"ebook":"styles/ebook.css","epub":"styles/epub.css","mobi":"styles/mobi.css","pdf":"styles/pdf.css","print":"styles/print.css","website":"styles/website.css"}}},"theme":"default","author":"JalanJiang.江子抑 <jjy@meitu.com>","pdf":{"pageBreaksBefore":"/","headerTemplate":null,"paperSize":"a4","margin":{"right":62,"left":62,"top":36,"bottom":36},"fontSize":12,"fontFamily":"Arial","footerTemplate":null,"chapterMark":"pagebreak","pageNumbers":false},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"isbn":"","variables":{},"title":"Shell 脚本学习笔记","links":{"sidebar":{"我的博客":"http://jalan.space"},"sharing":{"google":null,"facebook":null,"twitter":null,"weibo":null,"all":null}},"gitbook":"*","description":"《Linux Shell 脚本攻略（第2版）》学习笔记","extension":""},"file":{"path":"common/dollar.md","mtime":"2018-05-08T13:33:25.715Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2018-08-19T09:14:49.612Z"},"basePath":"..","book":{"language":""}});
         });
     </script>
 </div>
