@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:news="http://www.google.com/schemas/sitemap-news/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:mobile="http://www.google.com/schemas/sitemap-mobile/1.0" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+<url> <loc>http://jalan.space/laravel5.6-notes/</loc> <changefreq>weekly</changefreq> <priority>0.5</priority> </url>
+<url> <loc>http://jalan.space/laravel5.6-notes/basic/math.html</loc> <changefreq>weekly</changefreq> <priority>0.5</priority> </url>
+<url> <loc>http://jalan.space/laravel5.6-notes/basic/redirect.html</loc> <changefreq>weekly</changefreq> <priority>0.5</priority> </url>
+<url> <loc>http://jalan.space/laravel5.6-notes/basic/piping.html</loc> <changefreq>weekly</changefreq> <priority>0.5</priority> </url>
+<url> <loc>http://jalan.space/laravel5.6-notes/basic/array.html</loc> <changefreq>weekly</changefreq> <priority>0.5</priority> </url>
+<url> <loc>http://jalan.space/laravel5.6-notes/basic/function.html</loc> <changefreq>weekly</changefreq> <priority>0.5</priority> </url>
+<url> <loc>http://jalan.space/laravel5.6-notes/basic/loop.html</loc> <changefreq>weekly</changefreq> <priority>0.5</priority> </url>
+<url> <loc>http://jalan.space/laravel5.6-notes/basic/eq.html</loc> <changefreq>weekly</changefreq> <priority>0.5</priority> </url>
+<url> <loc>http://jalan.space/laravel5.6-notes/basic/debug.html</loc> <changefreq>weekly</changefreq> <priority>0.5</priority> </url>
+<url> <loc>http://jalan.space/laravel5.6-notes/common/cat.html</loc> <changefreq>weekly</changefreq> <priority>0.5</priority> </url>
+<url> <loc>http://jalan.space/laravel5.6-notes/common/find.html</loc> <changefreq>weekly</changefreq> <priority>0.5</priority> </url>
+<url> <loc>http://jalan.space/laravel5.6-notes/common/xargs.html</loc> <changefreq>weekly</changefreq> <priority>0.5</priority> </url>
+<url> <loc>http://jalan.space/laravel5.6-notes/common/sort.html</loc> <changefreq>weekly</changefreq> <priority>0.5</priority> </url>
+<url> <loc>http://jalan.space/laravel5.6-notes/common/uniq.html</loc> <changefreq>weekly</changefreq> <priority>0.5</priority> </url>
+<url> <loc>http://jalan.space/laravel5.6-notes/common/mktemp.html</loc> <changefreq>weekly</changefreq> <priority>0.5</priority> </url>
+<url> <loc>http://jalan.space/laravel5.6-notes/common/split.html</loc> <changefreq>weekly</changefreq> <priority>0.5</priority> </url>
+<url> <loc>http://jalan.space/laravel5.6-notes/common/csplit.html</loc> <changefreq>weekly</changefreq> <priority>0.5</priority> </url>
+<url> <loc>http://jalan.space/laravel5.6-notes/common/dollar.html</loc> <changefreq>weekly</changefreq> <priority>0.5</priority> </url>
+<url> <loc>http://jalan.space/laravel5.6-notes/text_file/comm.html</loc> <changefreq>weekly</changefreq> <priority>0.5</priority> </url>
+<url> <loc>http://jalan.space/laravel5.6-notes/text_file/chmod.html</loc> <changefreq>weekly</changefreq> <priority>0.5</priority> </url>
+<url> <loc>http://jalan.space/laravel5.6-notes/text_file/chown.html</loc> <changefreq>weekly</changefreq> <priority>0.5</priority> </url>
+<url> <loc>http://jalan.space/laravel5.6-notes/text_file/chartr.html</loc> <changefreq>weekly</changefreq> <priority>0.5</priority> </url>
+<url> <loc>http://jalan.space/laravel5.6-notes/text_file/touch.html</loc> <changefreq>weekly</changefreq> <priority>0.5</priority> </url>
+<url> <loc>http://jalan.space/laravel5.6-notes/filter_and_find/grep.html</loc> <changefreq>weekly</changefreq> <priority>0.5</priority> </url>
+<url> <loc>http://jalan.space/laravel5.6-notes/filter_and_find/cut.html</loc> <changefreq>weekly</changefreq> <priority>0.5</priority> </url>
+<url> <loc>http://jalan.space/laravel5.6-notes/filter_and_find/sed.html</loc> <changefreq>weekly</changefreq> <priority>0.5</priority> </url>
+<url> <loc>http://jalan.space/laravel5.6-notes/filter_and_find/awk.html</loc> <changefreq>weekly</changefreq> <priority>0.5</priority> </url>
+<url> <loc>http://jalan.space/laravel5.6-notes/filter_and_find/exercise.html</loc> <changefreq>weekly</changefreq> <priority>0.5</priority> </url>
+<url> <loc>http://jalan.space/laravel5.6-notes/filter_and_find/exercise/word_freq.html</loc> <changefreq>weekly</changefreq> <priority>0.5</priority> </url>
+<url> <loc>http://jalan.space/laravel5.6-notes/internet/ifconfig.html</loc> <changefreq>weekly</changefreq> <priority>0.5</priority> </url>
+<url> <loc>http://jalan.space/laravel5.6-notes/internet/host.html</loc> <changefreq>weekly</changefreq> <priority>0.5</priority> </url>
+<url> <loc>http://jalan.space/laravel5.6-notes/internet/nslookup.html</loc> <changefreq>weekly</changefreq> <priority>0.5</priority> </url>
+<url> <loc>http://jalan.space/laravel5.6-notes/internet/route.html</loc> <changefreq>weekly</changefreq> <priority>0.5</priority> </url>
+<url> <loc>http://jalan.space/laravel5.6-notes/internet/ping.html</loc> <changefreq>weekly</changefreq> <priority>0.5</priority> </url>
+<url> <loc>http://jalan.space/laravel5.6-notes/internet/sh.html</loc> <changefreq>weekly</changefreq> <priority>0.5</priority> </url>
+<url> <loc>http://jalan.space/laravel5.6-notes/internet/lsof.html</loc> <changefreq>weekly</changefreq> <priority>0.5</priority> </url>
+<url> <loc>http://jalan.space/laravel5.6-notes/internet/netstat.html</loc> <changefreq>weekly</changefreq> <priority>0.5</priority> </url>
+<url> <loc>http://jalan.space/laravel5.6-notes/internet/nc.html</loc> <changefreq>weekly</changefreq> <priority>0.5</priority> </url>
+<url> <loc>http://jalan.space/laravel5.6-notes/internet/exercise/find_alive_ip.html</loc> <changefreq>weekly</changefreq> <priority>0.5</priority> </url>
+<url> <loc>http://jalan.space/laravel5.6-notes/monitor/du.html</loc> <changefreq>weekly</changefreq> <priority>0.5</priority> </url>
+<url> <loc>http://jalan.space/laravel5.6-notes/monitor/df.html</loc> <changefreq>weekly</changefreq> <priority>0.5</priority> </url>
+</urlset>

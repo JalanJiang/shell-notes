@@ -1,7 +1,961 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e80ccebb-5b25-4adf-a936-0063f75af4cc" name="Default" comment="" />
+    <list default="true" id="e80ccebb-5b25-4adf-a936-0063f75af4cc" name="Default" comment="">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/clipboard/lib/clipboard-action.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/clipboard/lib/clipboard.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/gitbook-plugin-prism/.npmignore" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/gitbook-plugin-prism/yarn.lock" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/.editorconfig" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/.gitattributes" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/.npmignore" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/.travis.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/bower.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/examples.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/gulpfile.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/prism.esproj/Project.espressostorage" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/prism.esproj/user.leaverou.espressostorage" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/helper/prism-loader.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/helper/test-case.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/helper/test-discovery.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/helper/token-stream-transformer.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/abap/comment_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/abap/eol-comment_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/abap/keyword_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/abap/number_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/abap/operator_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/abap/string-template_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/abap/string_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/actionscript/keyword_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/actionscript/operator_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/ada/attr-name_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/ada/boolean_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/ada/char_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/ada/comment_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/ada/keyword_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/ada/number_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/ada/operator_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/ada/string_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/ada/variable_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/apacheconf/comment_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/apacheconf/directive-block_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/apacheconf/directive-flags_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/apacheconf/directive-inline_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/apacheconf/regex_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/apacheconf/string_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/apacheconf/variable_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/apl/assignment_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/apl/comment_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/apl/constant_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/apl/dfn_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/apl/dyadic-operator_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/apl/function_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/apl/monadic-operator_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/apl/number_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/apl/statement_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/apl/string_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/apl/system-function_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/applescript/class_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/applescript/comment_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/applescript/keyword_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/applescript/number_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/applescript/operator_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/applescript/string_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/asciidoc/admonition_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/asciidoc/attribute-entry_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/asciidoc/attributes_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/asciidoc/callout_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/asciidoc/comment-block_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/asciidoc/comment_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/asciidoc/entity_feature.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/asciidoc/entity_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/asciidoc/hr_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/asciidoc/indented-block_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/asciidoc/inline_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/asciidoc/line-continuation_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/asciidoc/list-label_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/asciidoc/list-punctuation_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/asciidoc/literal-block_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/asciidoc/macro_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/asciidoc/other-block_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/asciidoc/page-break_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/asciidoc/passthrough-block_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/asciidoc/replacement_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/asciidoc/table_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/asciidoc/title_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/aspnet/comment_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/aspnet/page-directive_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/autohotkey/boolean_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/autohotkey/builtin_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/autohotkey/comment_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/autohotkey/constant_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/autohotkey/function_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/autohotkey/important_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/autohotkey/keyword_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/autohotkey/number_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/autohotkey/operator_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/autohotkey/selector_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/autohotkey/string_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/autohotkey/symbol_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/autohotkey/tag_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/autohotkey/variable_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/autoit/boolean_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/autoit/comment_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/autoit/directive_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/autoit/function_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/autoit/keyword_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/autoit/number_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/autoit/operator_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/autoit/string_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/autoit/url_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/autoit/variable_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/bash/arithmetic_environment_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/bash/command_substitution_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/bash/comment_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/bash/function_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/bash/keyword_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/bash/shebang_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/bash/string_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/bash/variable_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/basic/comment_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/basic/function_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/basic/keyword_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/basic/number_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/basic/operator_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/basic/string_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/batch/command_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/batch/comment_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/batch/label_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/bison/c_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/bison/comment_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/bison/keyword_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/bison/number_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/bison/property_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/bison/string_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/brainfuck/all_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/bro/builtin_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/bro/comment_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/bro/function_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/bro/keyword_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/bro/string_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/bro/variable_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/c+pure/c_inclusion.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/c/keyword_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/c/macro_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/c/number_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/c/operator_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/clike/boolean_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/clike/class-name_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/clike/comment_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/clike/function_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/clike/keyword_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/clike/number_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/clike/operator_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/clike/string_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/coffeescript+haml/coffeescript_inclusion.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/coffeescript+jade/coffeescript_inclusion.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/coffeescript/block-regex_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/coffeescript/class-member_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/coffeescript/comment_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/coffeescript/inline-javascript_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/coffeescript/keyword_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/coffeescript/property_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/coffeescript/string_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/cpp+pure/cpp_inclusion.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/cpp/boolean_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/cpp/class-name_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/cpp/keyword_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/crystal/attribute_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/crystal/expansion_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/crystal/keyword_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/crystal/number_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/csharp+aspnet/directive_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/csharp/generic_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/csharp/issue806.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/csharp/keyword_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/csharp/number_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/csharp/preprocessor_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/csharp/string_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/css!+css-extras/entity_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/css!+css-extras/hexcode_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/css!+css-extras/number_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/css!+css-extras/selector_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/css+haml/css+haml_usage.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/css+textile/css_inclusion.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/css/atrule_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/css/comment_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/css/function_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/css/important_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/css/property_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/css/selector_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/css/string_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/css/url_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/d/comment_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/d/keyword_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/d/number_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/d/operator_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/d/property_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/d/register_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/d/string_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/d/token-string_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/dart/keyword_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/dart/metadata_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/dart/operator_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/dart/string_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/diff/coord_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/diff/diff_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/docker/comment_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/docker/keyword_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/docker/string_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/eiffel/boolean_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/eiffel/char_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/eiffel/comment_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/eiffel/keyword_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/eiffel/number_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/eiffel/operator_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/eiffel/string_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/elixir/atom_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/elixir/attr-name_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/elixir/attribute_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/elixir/boolean_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/elixir/capture_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/elixir/comment_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/elixir/issue775.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/elixir/keyword_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/elixir/number_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/elixir/operator_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/elixir/regex_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/elixir/string_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/erlang/atom_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/erlang/boolean_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/erlang/comment_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/erlang/function_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/erlang/keyword_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/erlang/number_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/erlang/operator_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/erlang/string_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/erlang/variable_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/fortran+pure/fortran_inclusion.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/fortran/boolean_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/fortran/comment_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/fortran/keyword_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/fortran/number_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/fortran/operator_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/fortran/string_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/fsharp/comment_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/fsharp/keyword_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/fsharp/number_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/fsharp/preprocessor_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/fsharp/string_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/gherkin/atrule_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/gherkin/comment_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/gherkin/feature_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/gherkin/outline_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/gherkin/pystring_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/gherkin/scenario_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/gherkin/string_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/gherkin/table_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/gherkin/tag_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/git/command_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/git/comment_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/git/commit_sha1_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/git/coord_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/git/diff_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/git/string_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/glsl/comment_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/glsl/keyword_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/glsl/number_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/glsl/preprocessor_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/go/boolean_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/go/builtin_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/go/keyword_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/go/number_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/go/operator_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/go/string_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/graphql/attr-name_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/graphql/boolean_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/graphql/comment_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/graphql/directive_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/graphql/keyword_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/graphql/number_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/graphql/string_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/graphql/variable_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/groovy/annotation_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/groovy/issue1049.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/groovy/keyword_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/groovy/number_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/groovy/operator_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/groovy/shebang_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/groovy/spock-block_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/groovy/string-interpolation_feature.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/groovy/string_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/haml/code_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/haml/doctype_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/haml/interpolation_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/haml/multiline-code_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/haml/multiline-comment_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/haml/tag_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/handlebars+jade/handlebars_inclusion.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/handlebars/block_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/handlebars/boolean_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/handlebars/comment_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/handlebars/handlebars_in_markup_feature.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/handlebars/number_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/handlebars/string_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/haskell/builtin_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/haskell/char_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/haskell/comment_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/haskell/constant_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/haskell/hvariable_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/haskell/import_statement_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/haskell/keyword_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/haskell/number_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/haskell/operator_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/haskell/string_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/haxe/keyword_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/haxe/metadata_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/haxe/operator_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/haxe/preprocessor_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/haxe/regex_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/haxe/reification_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/haxe/string_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/http/header-name_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/http/request-line_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/http/response-status_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/icon/builtin-keyword_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/icon/comment_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/icon/directive_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/icon/function_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/icon/keyword_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/icon/number_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/icon/operator_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/icon/string_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/inform7/comment_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/inform7/keyword_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/inform7/number_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/inform7/position_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/inform7/property_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/inform7/string_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/inform7/title_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/inform7/variable_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/inform7/verb_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/ini/comment_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/ini/key_value_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/ini/selector_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/j/adverb_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/j/comment_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/j/conjunction_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/j/keyword_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/j/number_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/j/string_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/j/verb_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/jade/code_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/jade/comment_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/jade/doctype_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/jade/flow-control_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/jade/keyword_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/jade/mixin_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/jade/multiline-plain-text_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/jade/multiline-script_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/jade/plain-text_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/jade/script_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/jade/tag_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/java/keyword_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/java/number_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/java/operator_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/javascript+haml/javascript_inclusion.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/javascript+http/javascript_inclusion.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/javascript/boolean_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/javascript/function_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/javascript/keyword_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/javascript/number_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/javascript/operator_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/javascript/regex_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/javascript/template-string_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/jolie/deployment_features.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/jolie/keyword_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/jolie/number_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/jolie/operator_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/json/boolean_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/json/null_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/json/number_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/json/property_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/json/string_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/jsx/tag_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/julia/boolean_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/julia/comment_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/julia/keyword_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/julia/number_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/julia/operator_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/julia/string_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/keyman/atrule_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/keyman/bold_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/keyman/comment_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/keyman/function_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/keyman/keyword_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/keyman/number_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/keyman/operator_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/keyman/string_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/keyman/tag_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/kotlin/annotation_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/kotlin/function_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/kotlin/interpolation_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/kotlin/keyword_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/kotlin/label_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/kotlin/number_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/kotlin/operator_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/kotlin/raw-string_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/latex/cdata_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/latex/comment_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/latex/equation_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/latex/headline_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/latex/keyword_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/latex/url_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/less+haml/less_inclusion.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/less+jade/less_inclusion.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/less/atrule_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/less/comment_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/less/operator_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/less/property_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/less/selector_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/livescript/argument_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/livescript/boolean_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/livescript/comment_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/livescript/identifier_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/livescript/interpolated-string.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/livescript/keyword-operator_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/livescript/keyword_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/livescript/number_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/livescript/operator_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/livescript/regex_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/livescript/string_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/lolcode/boolean_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/lolcode/comment_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/lolcode/function_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/lolcode/keyword_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/lolcode/label_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/lolcode/number_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/lolcode/operator_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/lolcode/string_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/lolcode/symbol_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/lolcode/variable_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/lua/comment_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/lua/function_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/lua/keyword_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/lua/number_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/lua/operator_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/lua/string_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/makefile/builtin_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/makefile/comment_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/makefile/keyword_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/makefile/operator_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/makefile/string_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/makefile/symbol_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/makefile/variable_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/markdown+haml/markdown_inclusion.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/markdown+jade/markdown_inclusion.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/markdown/blockquote_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/markdown/bold_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/markdown/code_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/markdown/hr_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/markdown/italic_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/markdown/list_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/markdown/title_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/markdown/url-reference_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/markdown/url_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/markup!+css/css_inclusion.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/markup!+javascript/javascript_inclusion.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/markup+actionscript/xml_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/markup+css+wiki/table-tag_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/markup+haml/markup_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/markup+http/markup_inclusion.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/markup+jade/markup_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/markup+javascript+csharp+aspnet/script_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/markup+php/markup_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/markup+php/php_in_markup_feature.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/markup/cdata_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/markup/comment_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/markup/doctype_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/markup/entity_feature.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/markup/entity_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/markup/issue585.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/markup/issue888.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/markup/prolog_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/markup/tag_attribute_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/markup/tag_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/matlab/comment_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/matlab/function_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/matlab/keyword_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/matlab/number_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/matlab/operator_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/matlab/string_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/mel/code_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/mel/comment_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/mel/flag_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/mel/function_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/mel/keyword_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/mel/number_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/mel/operator_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/mel/string_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/mel/variable_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/mizar/comment_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/mizar/keyword_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/mizar/number_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/mizar/operator_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/mizar/parameter_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/mizar/variable_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/monkey/comment_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/monkey/function_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/monkey/keyword_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/monkey/number_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/monkey/operator_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/monkey/preprocessor_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/monkey/string_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/monkey/type-char_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/nasm/comment_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/nasm/keyword_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/nasm/label_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/nasm/number_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/nasm/operator_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/nasm/register_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/nasm/string_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/nginx/comment_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/nginx/keyword_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/nginx/variable_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/nim/comment_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/nim/function_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/nim/keyword_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/nim/number_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/nim/operator_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/nim/string_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/nix/antiquotation_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/nix/boolean_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/nix/comment_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/nix/function_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/nix/keyword_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/nix/number_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/nix/operator_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/nix/string_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/nix/url_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/nsis/comment_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/nsis/constant_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/nsis/important_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/nsis/keyword_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/nsis/number_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/nsis/operator_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/nsis/property_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/nsis/string_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/nsis/variable_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/objectivec/keyword_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/objectivec/operator_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/objectivec/string_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/ocaml/boolean_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/ocaml/comment_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/ocaml/directive_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/ocaml/keyword_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/ocaml/number_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/ocaml/operator_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/ocaml/string_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/ocaml/type_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/oz/atom_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/oz/attr-name_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/oz/comment_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/oz/function_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/oz/keyword_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/oz/number_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/oz/operator_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/oz/string_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/oz/variable_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/parigp/comment_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/parigp/function_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/parigp/keyword_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/parigp/number_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/parigp/operator_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/parigp/string_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/parser/boolean_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/parser/escape_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/parser/expression_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/parser/function_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/parser/keyword_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/parser/number_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/parser/operator_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/parser/parser-comment_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/parser/string_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/parser/variable_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/pascal/comment_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/pascal/keyword_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/pascal/number_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/pascal/operator_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/pascal/string_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/perl/comment_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/perl/filehandle_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/perl/function_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/perl/keyword_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/perl/number_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/perl/operator_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/perl/regex_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/perl/string_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/perl/variable_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/perl/vstring_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/php!+php-extras/global_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/php!+php-extras/scope_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/php!+php-extras/this_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/php/comment_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/php/constant_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/php/delimiter_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/php/keyword_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/php/package_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/php/property_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/php/shell-comment_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/php/variable_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/powershell/boolean_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/powershell/comment_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/powershell/function_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/powershell/keyword_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/powershell/namespace_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/powershell/operator_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/powershell/string_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/powershell/variable_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/processing/constant_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/processing/function_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/processing/keyword_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/processing/operator_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/processing/type_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/prolog/builtin_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/prolog/comment_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/prolog/function_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/prolog/number_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/prolog/operator_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/prolog/string_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/prolog/variable_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/properties/comment_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/properties/key_value_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/protobuf/keyword_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/protobuf/string_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/puppet/attr-name_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/puppet/boolean_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/puppet/comment_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/puppet/datatype_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/puppet/function_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/puppet/heredoc_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/puppet/interpolation_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/puppet/keyword_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/puppet/number_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/puppet/operator_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/puppet/regex_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/puppet/string_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/puppet/variable_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/pure/comment_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/pure/function_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/pure/keyword_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/pure/number_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/pure/operator_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/pure/special_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/pure/string_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/python/boolean_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/python/class-name_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/python/comment_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/python/function_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/python/keyword_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/python/number_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/python/operator_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/python/string_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/python/triple-quoted-string_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/q/adverb_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/q/comment_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/q/datetime_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/q/keyword_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/q/number_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/q/string_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/q/symbol_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/q/verb_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/qore/boolean_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/qore/comment_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/qore/function_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/qore/keyword_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/qore/number_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/qore/operator_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/qore/string_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/qore/variable_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/r/boolean_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/r/comment_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/r/ellipsis_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/r/keyword_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/r/number_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/r/operator_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/r/percent-operator_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/r/string_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/reason/character_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/reason/class-name_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/reason/comment_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/reason/constructor_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/reason/keyword_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/reason/label_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/reason/operator_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/reason/string_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/rest/command-line-option_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/rest/comment_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/rest/directive_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/rest/doctest-block_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/rest/field_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/rest/hr_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/rest/inline_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/rest/link-target_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/rest/link_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/rest/list-bullet_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/rest/literal-block_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/rest/quoted-literal-block_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/rest/substitution-def_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/rest/table_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/rest/title_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/rip/boolean_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/rip/builtin_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/rip/character_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/rip/comment_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/rip/date_time_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/rip/keyword_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/rip/number_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/rip/reference_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/rip/regex_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/rip/string_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/rip/symbol_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/roboconf/comment_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/roboconf/component_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/roboconf/keyword_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/roboconf/optional_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/roboconf/property_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/roboconf/value_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/roboconf/wildcard_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/ruby/builtin_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/ruby/comment_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/ruby/constant_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/ruby/keyword_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/ruby/regex_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/ruby/string_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/ruby/symbol_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/ruby/variable_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/rust/attribute_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/rust/closure-params_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/rust/comment_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/rust/function_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/rust/keyword_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/rust/macro-rules_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/rust/number_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/rust/operator_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/rust/string_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/sas/comment_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/sas/datalines_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/sas/datetime_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/sas/keyword_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/sas/number_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/sas/operator_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/sas/string_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/sass/atrule-line_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/sass/comment_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/sass/property-line_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/sass/selector_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/sass/variable-line_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/scala/builtin_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/scala/keyword_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/scala/number_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/scala/string_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/scala/symbol_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/scheme/boolean_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/scheme/builtin_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/scheme/comment_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/scheme/function_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/scheme/keyword_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/scheme/number_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/scheme/operator_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/scheme/string_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/scss+haml/scss_inclusion.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/scss+jade/scss_inclusion.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/scss/atrule_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/scss/boolean_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/scss/comment_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/scss/keyword_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/scss/null_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/scss/operator_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/scss/placeholder_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/scss/property_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/scss/selector_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/scss/statement_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/scss/url_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/scss/variable_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/smalltalk/block-arguments_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/smalltalk/character_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/smalltalk/comment_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/smalltalk/keyword_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/smalltalk/number_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/smalltalk/operator_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/smalltalk/string_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/smalltalk/symbol_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/smalltalk/temporary-variables_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/smarty/attr-name_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/smarty/function_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/smarty/keyword_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/smarty/number_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/smarty/operator_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/smarty/smarty-comment_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/smarty/smarty_in_markup_feature.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/smarty/string_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/smarty/variable_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/sql/boolean_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/sql/comment_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/sql/function_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/sql/keyword_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/sql/operator_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/sql/string_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/sql/variable_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/stylus+jade/stylus_inclusion.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/stylus/atrule-declaration_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/stylus/boolean_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/stylus/comment_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/stylus/func_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/stylus/hexcode_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/stylus/important_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/stylus/keyword_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/stylus/number_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/stylus/operator_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/stylus/property-declaration_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/stylus/selector_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/stylus/string_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/stylus/url_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/stylus/variable-declaration_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/swift/atrule_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/swift/builtin_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/swift/constant_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/swift/keyword_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/swift/number_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/swift/string_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/tcl/builtin_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/tcl/comment_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/tcl/function_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/tcl/keyword_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/tcl/operator_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/tcl/scope_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/tcl/string_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/tcl/variable_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/textile/acronym_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/textile/block-tag_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/textile/footnote_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/textile/image_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/textile/inline_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/textile/link-ref_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/textile/link_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/textile/list_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/textile/mark_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/textile/table_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/twig+jade/twig_inclusion.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/twig/boolean_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/twig/comment_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/twig/keyword_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/twig/number_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/twig/operator_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/twig/string_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/typescript/keyword_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/verilog/comment_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/verilog/constant_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/verilog/function_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/verilog/important_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/verilog/keyword_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/verilog/number_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/verilog/operator_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/verilog/property_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/verilog/string_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/vhdl/boolean_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/vhdl/comment_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/vhdl/constant_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/vhdl/function_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/vhdl/keyword_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/vhdl/number_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/vhdl/operator_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/vhdl/string_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/vhdl/vhdl-vectors_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/vim/builtin_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/vim/comment_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/vim/function_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/vim/keyword_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/vim/number_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/vim/operator_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/vim/string_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/wiki/block-comment_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/wiki/emphasis_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/wiki/heading_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/wiki/hr_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/wiki/nowiki_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/wiki/symbol_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/wiki/url_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/wiki/variable_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/xojo/comment_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/xojo/keyword_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/xojo/number_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/xojo/operator_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/xojo/string_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/xojo/symbol_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/yaml/boolean_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/yaml/comment_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/yaml/datetime_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/yaml/directive_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/yaml/important_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/yaml/key_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/yaml/null_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/yaml/number_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/yaml/scalar_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/yaml/string_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/languages/yaml/tag_feature.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/run-child.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/run.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/tests/testrunner-tests.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/vendor/FileSaver.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/vendor/jszip.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/prismjs/vendor/promise.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/safe-buffer/.travis.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/safe-buffer/test.js" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SUMMARY.md" afterPath="$PROJECT_DIR$/SUMMARY.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_book/basic/array.html" afterPath="$PROJECT_DIR$/_book/basic/array.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_book/basic/debug.html" afterPath="$PROJECT_DIR$/_book/basic/debug.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_book/basic/eq.html" afterPath="$PROJECT_DIR$/_book/basic/eq.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_book/basic/function.html" afterPath="$PROJECT_DIR$/_book/basic/function.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_book/basic/loop.html" afterPath="$PROJECT_DIR$/_book/basic/loop.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_book/basic/math.html" afterPath="$PROJECT_DIR$/_book/basic/math.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_book/basic/piping.html" afterPath="$PROJECT_DIR$/_book/basic/piping.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_book/basic/redirect.html" afterPath="$PROJECT_DIR$/_book/basic/redirect.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_book/common/cat.html" afterPath="$PROJECT_DIR$/_book/common/cat.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_book/common/csplit.html" afterPath="$PROJECT_DIR$/_book/common/csplit.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_book/common/find.html" afterPath="$PROJECT_DIR$/_book/common/find.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_book/common/mktemp.html" afterPath="$PROJECT_DIR$/_book/common/mktemp.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_book/common/sort.html" afterPath="$PROJECT_DIR$/_book/common/sort.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_book/common/split.html" afterPath="$PROJECT_DIR$/_book/common/split.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_book/common/uniq.html" afterPath="$PROJECT_DIR$/_book/common/uniq.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_book/common/xargs.html" afterPath="$PROJECT_DIR$/_book/common/xargs.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_book/filter_and_find/awk.html" afterPath="$PROJECT_DIR$/_book/filter_and_find/awk.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_book/filter_and_find/cut.html" afterPath="$PROJECT_DIR$/_book/filter_and_find/cut.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_book/filter_and_find/exercise.html" afterPath="$PROJECT_DIR$/_book/filter_and_find/exercise.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_book/filter_and_find/exercise/word_freq.html" afterPath="$PROJECT_DIR$/_book/filter_and_find/exercise/word_freq.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_book/filter_and_find/grep.html" afterPath="$PROJECT_DIR$/_book/filter_and_find/grep.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_book/filter_and_find/sed.html" afterPath="$PROJECT_DIR$/_book/filter_and_find/sed.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_book/index.html" afterPath="$PROJECT_DIR$/_book/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_book/internet/exercise/find_alive_ip.html" afterPath="$PROJECT_DIR$/_book/internet/exercise/find_alive_ip.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_book/internet/host.html" afterPath="$PROJECT_DIR$/_book/internet/host.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_book/internet/ifconfig.html" afterPath="$PROJECT_DIR$/_book/internet/ifconfig.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_book/internet/lsof.html" afterPath="$PROJECT_DIR$/_book/internet/lsof.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_book/internet/nc.html" afterPath="$PROJECT_DIR$/_book/internet/nc.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_book/internet/netstat.html" afterPath="$PROJECT_DIR$/_book/internet/netstat.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_book/internet/nslookup.html" afterPath="$PROJECT_DIR$/_book/internet/nslookup.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_book/internet/ping.html" afterPath="$PROJECT_DIR$/_book/internet/ping.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_book/internet/route.html" afterPath="$PROJECT_DIR$/_book/internet/route.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_book/internet/sh.html" afterPath="$PROJECT_DIR$/_book/internet/sh.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_book/monitor/df.html" afterPath="$PROJECT_DIR$/_book/monitor/df.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_book/monitor/du.html" afterPath="$PROJECT_DIR$/_book/monitor/du.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_book/text_file/chartr.html" afterPath="$PROJECT_DIR$/_book/text_file/chartr.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_book/text_file/chmod.html" afterPath="$PROJECT_DIR$/_book/text_file/chmod.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_book/text_file/chown.html" afterPath="$PROJECT_DIR$/_book/text_file/chown.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_book/text_file/comm.html" afterPath="$PROJECT_DIR$/_book/text_file/comm.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_book/text_file/touch.html" afterPath="$PROJECT_DIR$/_book/text_file/touch.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/book.json" afterPath="$PROJECT_DIR$/book.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/text_file/ln.md" afterPath="$PROJECT_DIR$/text_file/ln.md" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -12,12 +966,12 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="SUMMARY.md" pinned="false" current-in-tab="false">
+      <file leaf-file-name="SUMMARY.md" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/SUMMARY.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="806">
-                <caret line="31" column="6" lean-forward="false" selection-start-line="31" selection-start-column="6" selection-end-line="31" selection-end-column="6" />
+            <state split_layout="FIRST">
+              <first_editor relative-caret-position="690">
+                <caret line="60" column="0" lean-forward="true" selection-start-line="60" selection-start-column="0" selection-end-line="60" selection-end-column="0" />
                 <folding />
               </first_editor>
               <second_editor />
@@ -25,11 +979,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ifconfig.md" pinned="false" current-in-tab="true">
+      <file leaf-file-name="ifconfig.md" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/internet/ifconfig.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="173">
+              <first_editor relative-caret-position="1107">
                 <caret line="41" column="0" lean-forward="false" selection-start-line="41" selection-start-column="0" selection-end-line="41" selection-end-column="0" />
                 <folding />
               </first_editor>
@@ -42,7 +996,7 @@
         <entry file="file://$PROJECT_DIR$/common/uniq.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="286">
+              <first_editor relative-caret-position="297">
                 <caret line="11" column="13" lean-forward="false" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
                 <folding />
               </first_editor>
@@ -55,7 +1009,7 @@
         <entry file="file://$PROJECT_DIR$/common/sort.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="676">
+              <first_editor relative-caret-position="702">
                 <caret line="26" column="0" lean-forward="false" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
                 <folding />
               </first_editor>
@@ -67,8 +1021,8 @@
       <file leaf-file-name="book.json" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/book.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1638">
-              <caret line="63" column="21" lean-forward="false" selection-start-line="63" selection-start-column="21" selection-end-line="63" selection-end-column="21" />
+            <state relative-caret-position="1728">
+              <caret line="64" column="4" lean-forward="false" selection-start-line="64" selection-start-column="4" selection-end-line="64" selection-end-column="4" />
               <folding />
             </state>
           </provider>
@@ -78,7 +1032,7 @@
         <entry file="file://$PROJECT_DIR$/common/xargs.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="26">
+              <first_editor relative-caret-position="27">
                 <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
                 <folding />
               </first_editor>
@@ -91,7 +1045,7 @@
         <entry file="file://$PROJECT_DIR$/common/find.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="2444">
+              <first_editor relative-caret-position="2538">
                 <caret line="94" column="0" lean-forward="false" selection-start-line="94" selection-start-column="0" selection-end-line="94" selection-end-column="0" />
                 <folding />
               </first_editor>
@@ -104,7 +1058,7 @@
         <entry file="file://$PROJECT_DIR$/common/cat.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="FIRST">
-              <first_editor relative-caret-position="416">
+              <first_editor relative-caret-position="432">
                 <caret line="16" column="15" lean-forward="false" selection-start-line="16" selection-start-column="15" selection-end-line="16" selection-end-column="15" />
                 <folding />
               </first_editor>
@@ -158,12 +1112,12 @@
         <option value="$PROJECT_DIR$/common/mktemp.md" />
         <option value="$PROJECT_DIR$/common/split.md" />
         <option value="$PROJECT_DIR$/common/csplit.md" />
-        <option value="$PROJECT_DIR$/book.json" />
         <option value="$PROJECT_DIR$/common/cat.md" />
         <option value="$PROJECT_DIR$/common/find.md" />
         <option value="$PROJECT_DIR$/common/xargs.md" />
         <option value="$PROJECT_DIR$/common/sort.md" />
         <option value="$PROJECT_DIR$/common/uniq.md" />
+        <option value="$PROJECT_DIR$/book.json" />
         <option value="$PROJECT_DIR$/SUMMARY.md" />
       </list>
     </option>
@@ -179,10 +1133,10 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="212" />
-    <option name="y" value="-882" />
-    <option name="width" value="1440" />
-    <option name="height" value="810" />
+    <option name="x" value="731" />
+    <option name="y" value="-1080" />
+    <option name="width" value="976" />
+    <option name="height" value="1080" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -200,8 +1154,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -214,22 +1166,10 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="linux_shell" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="linux_shell" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="monitor" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -238,6 +1178,7 @@
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
     <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file:///Users/www/gitbook/linux_shell/SUMMARY.md" />
     <property name="nodejs_interpreter_path" value="/usr/local/bin/node" />
+    <property name="FullScreen" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -346,17 +1287,18 @@
       <workItem from="1524551026227" duration="10919000" />
       <workItem from="1524639271393" duration="6542000" />
       <workItem from="1525348154611" duration="1196000" />
+      <workItem from="1534669818997" duration="251000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="47447000" />
+    <option name="totallyTimeSpent" value="47698000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="212" y="-882" width="1440" height="810" extended-state="0" />
+    <frame x="731" y="-1080" width="976" height="1080" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18611111" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21413934" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -690,17 +1632,17 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/common/csplit.md">
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="494">
             <caret line="19" column="25" lean-forward="false" selection-start-line="19" selection-start-column="25" selection-end-line="19" selection-end-column="25" />
           </first_editor>
           <second_editor />
-        </state>
-      </provider>
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
@@ -727,7 +1669,7 @@
     <entry file="file://$PROJECT_DIR$/common/cat.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="FIRST">
-          <first_editor relative-caret-position="416">
+          <first_editor relative-caret-position="432">
             <caret line="16" column="15" lean-forward="false" selection-start-line="16" selection-start-column="15" selection-end-line="16" selection-end-column="15" />
             <folding />
           </first_editor>
@@ -739,7 +1681,7 @@
     <entry file="file://$PROJECT_DIR$/common/find.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="2444">
+          <first_editor relative-caret-position="2538">
             <caret line="94" column="0" lean-forward="false" selection-start-line="94" selection-start-column="0" selection-end-line="94" selection-end-column="0" />
             <folding />
           </first_editor>
@@ -750,7 +1692,7 @@
     <entry file="file://$PROJECT_DIR$/common/xargs.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="26">
+          <first_editor relative-caret-position="27">
             <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
             <folding />
           </first_editor>
@@ -761,7 +1703,7 @@
     <entry file="file://$PROJECT_DIR$/common/sort.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="676">
+          <first_editor relative-caret-position="702">
             <caret line="26" column="0" lean-forward="false" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
             <folding />
           </first_editor>
@@ -772,27 +1714,8 @@
     <entry file="file://$PROJECT_DIR$/common/uniq.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="286">
+          <first_editor relative-caret-position="297">
             <caret line="11" column="13" lean-forward="false" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-            <folding />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/book.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1638">
-          <caret line="63" column="21" lean-forward="false" selection-start-line="63" selection-start-column="21" selection-end-line="63" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SUMMARY.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="806">
-            <caret line="31" column="6" lean-forward="false" selection-start-line="31" selection-start-column="6" selection-end-line="31" selection-end-column="6" />
             <folding />
           </first_editor>
           <second_editor />
@@ -802,8 +1725,27 @@
     <entry file="file://$PROJECT_DIR$/internet/ifconfig.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="173">
+          <first_editor relative-caret-position="1107">
             <caret line="41" column="0" lean-forward="false" selection-start-line="41" selection-start-column="0" selection-end-line="41" selection-end-column="0" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/book.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1728">
+          <caret line="64" column="4" lean-forward="false" selection-start-line="64" selection-start-column="4" selection-end-line="64" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SUMMARY.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="690">
+            <caret line="60" column="0" lean-forward="true" selection-start-line="60" selection-start-column="0" selection-end-line="60" selection-end-column="0" />
             <folding />
           </first_editor>
           <second_editor />
